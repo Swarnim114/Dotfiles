@@ -1,0 +1,219 @@
+{
+  "about": {
+    "browser": "chrome",
+    "version": "20.4.2"
+  },
+  "showall": false,
+  "lang": "en",
+  "dark": "system",
+  "favicon": "",
+  "tabtitle": "",
+  "greeting": "",
+  "pagegap": 1,
+  "pagewidth": 1600,
+  "time": false,
+  "main": false,
+  "dateformat": "auto",
+  "background_blur": 40,
+  "background_bright": 0.21,
+  "background_type": "unsplash",
+  "quicklinks": true,
+  "textShadow": 0.2,
+  "announcements": "major",
+  "review": -1,
+  "css": "",
+  "hide": {
+    "greetings": true
+  },
+  "linkstyle": "medium",
+  "linktitles": true,
+  "linkbackgrounds": true,
+  "linknewtab": false,
+  "linksrow": 6,
+  "linkslrbdgc": {
+    "_id": "linkslrbdgc",
+    "icon": "https://services.bonjourr.fr/favicon/blob/https://www.hotstar.com/in/mypage",
+    "order": 5,
+    "parent": "default",
+    "title": "",
+    "url": "https://www.hotstar.com/in/mypage"
+  },
+  "linkslchgfc": {
+    "_id": "linkslchgfc",
+    "order": 9,
+    "parent": "default",
+    "title": "",
+    "url": "https://www.scaler.com/academy/mentee-dashboard/todos"
+  },
+  "linksiedcdj": {
+    "_id": "linksiedcdj",
+    "icon": "https://services.bonjourr.fr/favicon/blob/http://chatgpt.com/",
+    "order": 3,
+    "parent": "default",
+    "title": "",
+    "url": "http://chatgpt.com/"
+  },
+  "linksidjdac": {
+    "_id": "linksidjdac",
+    "icon": "https://services.bonjourr.fr/favicon/blob/https://leetcode.com/",
+    "order": 2,
+    "parent": "default",
+    "title": "",
+    "url": "https://leetcode.com/"
+  },
+  "linkshpepre": {
+    "_id": "linkshpepre",
+    "icon": "https://services.bonjourr.fr/favicon/blob/http://hianime.to/",
+    "order": 1,
+    "parent": "default",
+    "title": "",
+    "url": "http://hianime.to/"
+  },
+  "linksgirlea": {
+    "_id": "linksgirlea",
+    "icon": "https://services.bonjourr.fr/favicon/blob/https://web.whatsapp.com/",
+    "order": 4,
+    "parent": "default",
+    "title": "",
+    "url": "https://web.whatsapp.com/"
+  },
+  "linksghbqkh": {
+    "_id": "linksghbqkh",
+    "icon": "https://services.bonjourr.fr/favicon/blob/https://www.youtube.com/",
+    "order": 0,
+    "parent": "default",
+    "title": "",
+    "url": "https://www.youtube.com/"
+  },
+  "linkseigrop": {
+    "_id": "linkseigrop",
+    "icon": "https://services.bonjourr.fr/favicon/blob/https://www.instagram.com/",
+    "order": 6,
+    "parent": "default",
+    "title": "",
+    "url": "https://www.instagram.com/"
+  },
+  "linksdngnap": {
+    "_id": "linksdngnap",
+    "icon": "https://services.bonjourr.fr/favicon/blob/https://monkeytype.com/",
+    "order": 7,
+    "parent": "default",
+    "title": "",
+    "url": "https://monkeytype.com/"
+  },
+  "linkscpmmog": {
+    "_id": "linkscpmmog",
+    "icon": "https://services.bonjourr.fr/favicon/blob/https://mail.google.com",
+    "order": 8,
+    "parent": "default",
+    "title": "",
+    "url": "https://mail.google.com"
+  },
+  "linkgroups": {
+    "groups": [
+      "default"
+    ],
+    "on": false,
+    "pinned": [],
+    "selected": "default",
+    "synced": []
+  },
+  "clock": {
+    "ampm": false,
+    "ampmlabel": false,
+    "analog": false,
+    "seconds": false,
+    "size": 1,
+    "timezone": "auto",
+    "worldclocks": false
+  },
+  "analogstyle": {
+    "background": "#fff2",
+    "border": "#ffff",
+    "face": "none",
+    "hands": "modern",
+    "shape": "round"
+  },
+  "worldclocks": [],
+  "unsplash": {
+    "collection": "",
+    "every": "pause",
+    "lastCollec": "day",
+    "pausedImage": {
+      "url": "https://images.unsplash.com/photo-1719122010315-9fe64f8ec1c6?ixid=M3w4ODczOHwwfDF8cmFuZG9tfHx8fHx8fHx8MTc0MDkwMjI0OHw&ixlib=rb-4.0.3&w=1920&h=1200&dpr=1&auto=format&q=75&fit=crop",
+      "city": null,
+      "color": "#d9c0a6",
+      "country": null,
+      "download_link": "https://unsplash.com/photos/lDSz277b05Y/download?ixid=M3w4ODczOHwwfDF8cmFuZG9tfHx8fHx8fHx8MTc0MDkwMjI0OHw",
+      "exif": {
+        "aperture": "5.0",
+        "exposure_time": "1/640",
+        "focal_length": "270.6",
+        "iso": 400,
+        "make": "FUJIFILM",
+        "model": "X-T4",
+        "name": "FUJIFILM, X-T4"
+      },
+      "name": "Francesco Ungaro",
+      "link": "https://unsplash.com/photos/a-tree-stump-in-the-middle-of-a-field-lDSz277b05Y",
+      "username": "francesco_ungaro"
+    },
+    "time": 1741003230147
+  },
+  "weather": {
+    "city": "sampangiram-nagar",
+    "forecast": "auto",
+    "geolocation": "approximate",
+    "moreinfo": "none",
+    "provider": "",
+    "temperature": "actual",
+    "unit": "metric"
+  },
+  "notes": {
+    "on": false,
+    "align": "left",
+    "opacity": 0.1,
+    "width": 40
+  },
+  "searchbar": {
+    "on": false,
+    "opacity": 0.1,
+    "engine": "default",
+    "newtab": false,
+    "placeholder": "",
+    "request": "",
+    "suggestions": true
+  },
+  "quotes": {
+    "on": false,
+    "author": false,
+    "frequency": "day",
+    "last": 1740949261192,
+    "type": "classic"
+  },
+  "font": {
+    "size": "14",
+    "family": "",
+    "system": true,
+    "weight": "300",
+    "weightlist": []
+  },
+  "supporters": {
+    "closed": true,
+    "enabled": true,
+    "month": 3
+  },
+  "move": {
+    "layouts": {
+      "single": {
+        "grid": [
+          [
+            "quicklinks"
+          ]
+        ],
+        "items": {}
+      }
+    },
+    "selection": "single"
+  }
+}

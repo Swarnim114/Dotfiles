@@ -1,0 +1,199 @@
+/* @import "$HOME/.config/colors/colors.css" */
+@import "../colors/colors.css"; /* Ensure this path is correct for your color theme */
+
+
+* {
+    font-family: "JetBrains Mono Nerd Font", sans-serif; /* <-- Use the correct, installed font name */
+    font-size: 13px;
+    font-weight: bold;
+    background-color: transparent;
+    border-radius: 5px;
+    min-height: 0;
+}
+
+
+window,
+tooltip {
+    background-color: @background;
+}
+
+
+#waybar {
+    background: alpha(@background, 0.6);
+    border-radius: 0;
+    /* Optional: Add a subtle border to the top or bottom of the Waybar */
+    /* border-bottom: 1px solid @surface1; */
+}
+
+
+/* Base style for all modules on left/right */
+#workspaces,
+#custom-power,
+#custom-updates,
+#custom-media,
+#tray,
+#bluetooth,
+#network,
+#battery,
+#pulseaudio,
+#cpu,
+#memory,
+#temperature,
+#backlight,
+#clock {
+    color: @foreground;
+    margin: 1px 0;
+    padding: 0 10px;
+}
+
+
+/* Hover effect for most modules */
+#custom-power:hover,
+#custom-updates:hover,
+#custom-media:hover,
+#tray:hover,
+#bluetooth:hover,
+#network:hover,
+#battery:hover,
+#pulseaudio:hover,
+#cpu:hover,
+#memory:hover,
+#temperature:hover,
+#backlight:hover,  /* Fixed: added :hover */
+#clock:hover {
+    background-color: alpha(@surface1, 0.6); /* Using surface1 for a subtle hover */
+    /* Or use @select if you prefer a more pronounced hover color */
+}
+
+
+
+#workspaces {
+    margin: 1px 0;
+}
+
+
+#workspaces button {
+    color: @foreground;
+    border: none;
+    padding: 0 5px;
+}
+#workspaces button:hover {
+    color: @mauve; /* Use mauve for hover */
+    transition: none;
+    border-bottom: 1px solid @mauve;
+    padding: 0 8px;
+}
+
+
+#workspaces button.active {
+    color: @mauve; /* Active workspace color */
+    border: 2px solid @mauve;
+    padding: 0 8px;
+    margin: 0 2px;
+}
+
+
+#workspaces button.urgent {
+    background-color: @red; /* Urgent workspace color */
+    padding: 0 8px;
+}
+
+
+/* Specific module colors for differentiation */
+#custom-power {
+    margin-left: 10px;
+    padding: 0px 10px 0 15px;
+    color: @green; /* Or @lavender, @peach */
+}
+
+
+#custom-updates {
+    color: @peach; /* Standing out for updates */
+}
+#custom-updates.has-updates {
+    color: @red; /* Make it red if updates are available */
+}
+
+
+#custom-media {
+    color: @blue; /* For media player status - Ensure this color is visible against your Waybar background */
+}
+
+
+#bluetooth {
+    color: @yellow;
+}
+
+
+#network {
+    color: @green;
+}
+
+
+#battery {
+    color: @purple;
+}
+#battery.charging {
+    color: @green; /* Green when charging */
+}
+#battery.warning {
+    color: @peach; /* Peach/Orange for warning */
+}
+#battery.critical {
+    color: @red; /* Red for critical battery */
+}
+#battery.full {
+    color: @teal; /* Teal for full battery */
+}
+
+
+#backlight {
+    color: @yellow; /* Brightness module color */
+}
+
+
+#pulseaudio {
+    color: @orange;
+}
+#pulseaudio.muted {
+    color: @gray; /* Dimmed when muted */
+}
+
+
+#cpu {
+    color: @lavender;
+}
+
+
+#memory {
+    color: @sapphire;
+}
+
+
+#temperature {
+    color: @teal; /* Or @yellow for warmth indication */
+}
+#temperature.critical {
+    color: @red; /* Critical temperature */
+}
+
+
+#clock {
+    margin-right: 10px;
+    color: @blue;
+}
+
+
+/* Tooltip Styling */
+tooltip {
+    background-color: @overlay0; /* A slightly darker background than Waybar */
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid @surface1;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+
+tooltip label {
+    color: @foreground;
+}
