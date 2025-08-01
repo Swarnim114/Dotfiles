@@ -7,11 +7,35 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
-  "ui_font_size": 16,
-  "buffer_font_size": 16,
+  "agent": {
+    "default_model": {
+      "provider": "zed.dev",
+      "model": "claude-3-7-sonnet"
+    }
+  },
+  "autosave": "on_focus_change",
+  "ui_font_size": 18,
+  "buffer_font_size": 19,
+  "buffer_font_family": "Consolas",
+  "ui_font_family": "Consolas",
   "theme": {
     "mode": "system",
     "light": "Catppuccin Frappé - No Italics",
     "dark": "One Dark"
+  },
+
+  //extensions
+  "auto_install_extensions": {
+    "html": true,
+    "catppuccin": true,
+    "toml": true,
+    "java": true,
+    "dockerfile": true,
+    "latex": true,
+    "scss": true,
+    "lua": true,
+    "java-with-eclipse-jdtls": true,
+    "snippets": true,
+    "color-highlight": true
   }
 }

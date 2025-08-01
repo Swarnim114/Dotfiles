@@ -1,0 +1,25 @@
+// Project tasks configuration. See https://zed.dev/docs/tasks for documentation.
+//
+// Example:
+[
+  {
+    "label": "Run Java File",
+    "command": "javac \"$ZED_FILE\" && java \"$ZED_STEM\"",
+    "use_new_terminal": false,
+    "allow_concurrent_runs": false,
+    "reveal": "always",
+    "hide": "never",
+    "shell": "system",
+    "tags": []
+  },
+  {
+    "label": "Run C++ File",
+    "command": "g++ \"$ZED_FILE\" -o \"$ZED_STEM\" && ./$ZED_STEM",
+    "use_new_terminal": false,
+    "allow_concurrent_runs": false,
+    "reveal": "always",
+    "hide": "never",
+    "shell": "system",
+    "tags": []
+  }
+]

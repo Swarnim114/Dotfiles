@@ -28,7 +28,7 @@
 ,
 "pulseaudio#microphone": {
     "format": " {volume}%",
-    "format-muted": " {volume}%", 
+    "format-muted": " {volume}%",
     "on-click": "pavucontrol --tab=4",
     "on-right-click": "pactl set-source-mute @DEFAULT_SOURCE@ toggle",
     "on-scroll-up": "pactl set-source-volume @DEFAULT_SOURCE@ +5%",
@@ -68,18 +68,19 @@
     "format": "{icon} {text}",
     "max-length": 40,
     "format-icons": {
-        "Playing": " ",
-        "Paused": " ",
-        "Stopped": "⏹ "
+        "Playing": "🎵",
+        "Paused": "⏸",
+        "Stopped": "⏹"
     },
-    "on-click": "playerctl previous",
-    "on-click-right": "playerctl next",        // Try this instead
-    "on-click-middle": "playerctl play-pause", // Try this instead
+    "on-click": "playerctl --player=spotify previous",
+    "on-click-right": "playerctl --player=spotify next",
+    "on-click-middle": "playerctl --player=spotify play-pause",
     "on-scroll-up": "pactl set-sink-volume @DEFAULT_SINK@ +5%",
     "on-scroll-down": "pactl set-sink-volume @DEFAULT_SINK@ -5%",
-    "exec": "playerctl metadata --format '{{ artist }} - {{ title }}' -F",
-    "exec-if": "playerctl status"
+    "exec": "playerctl --player=spotify metadata --format '{{ artist }} - {{ title }}' -F",
+    "exec-if": "playerctl --player=spotify status"
 }
+
 ,
     "tray": {
         "icon-size": 20,
