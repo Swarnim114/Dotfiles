@@ -1,6 +1,6 @@
 /*
- * Catppuccin Frappé Theme for wlogout
- * A smaller, circular-button style
+ * Pywal themed wlogout
+ * Dynamic colors from wallpaper
  */
 
 * {
@@ -12,13 +12,13 @@
 }
 
 window {
-    /* Use a semi-transparent dark background from the Frappé palette */
-    background-color: rgba(35, 38, 52, 0.85); /* Crust @ 85% opacity */
+    /* Use semi-transparent background from pywal */
+    background-color: alpha(#0c131e, 0.85);
 }
 
 button {
-    color: #c6d0f5; /* Text */
-    background-color: #303446; /* Base */
+    color: #c2c4c6;
+    background-color: #0c131e;
 
     /* Create smaller circular buttons */
     border-radius: 0px;
@@ -35,33 +35,39 @@ button {
 button:focus,
 button:active,
 button:hover {
-    background-color: #414559; /* Surface0 */
+    background-color: #5c6370;
     outline-style: none;
+    background-size: 45%;
 }
 
 /* --- Button-specific styling --- */
 
-/* Add a unique colored border on hover for each action using Frappé colors */
+/* Add a unique colored border on hover for each action using pywal colors */
 #lock:hover {
-    border: 2px solid #babbf1;
-} /* Lavender */
-#logout:hover {
-    border: 2px solid #e78284;
-} /* Red */
-#suspend:hover {
-    border: 2px solid #e5c890;
-} /* Yellow */
-#hibernate:hover {
-    border: 2px solid #8caaee;
-} /* Blue */
-#shutdown:hover {
-    border: 2px solid #e78284;
-} /* Red */
-#reboot:hover {
-    border: 2px solid #ef9f76;
-} /* Peach */
+    border: 2px solid #A37883;
+}
 
-/* --- Icon Paths (Update these to your icon locations) --- */
+#logout:hover {
+    border: 2px solid #F59F6B;
+}
+
+#suspend:hover {
+    border: 2px solid #FEC575;
+}
+
+#hibernate:hover {
+    border: 2px solid #6C748C;
+}
+
+#shutdown:hover {
+    border: 2px solid #F59F6B;
+}
+
+#reboot:hover {
+    border: 2px solid #BF9894;
+}
+
+/* Icons - using original PNG icons */
 #lock {
     background-image: image(url("/usr/share/wlogout/icons/lock.png"));
 }

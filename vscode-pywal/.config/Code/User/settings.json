@@ -1,0 +1,88 @@
+{
+    "cph.general.defaultLanguage": "cpp",
+    "files.autoSave": "onFocusChange",
+    "files.associations": {
+        "*.cpp": "cpp"
+    },
+    "[cpp]": {
+        
+        "editor.wordBasedSuggestions": "off",
+        "editor.semanticHighlighting.enabled": true,
+        "editor.stickyScroll.defaultModel": "foldingProviderModel",
+        "editor.suggest.insertMode": "replace"
+    },
+    "editor.minimap.enabled": false,
+    "editor.fontSize": 16,
+    "editor.fontFamily": "Fira Code, 'Droid Sans Mono', monospace",
+
+    "C_Cpp.errorSquiggles": "disabled",
+    "github.copilot.enable": {
+        "*": false,
+        "plaintext": false,
+        "markdown": false,
+        "scminput": false,
+        "cpp": false
+    },
+    "leetcode.workspaceFolder": "/home/kalon/Learning/DSA/leetcode",
+    "leetcode.defaultLanguage": "cpp",
+    "leetcode.hint.configWebviewMarkdown": false,
+    "leetcode.hint.commentDescription": false,
+    "leetcode.hint.commandShortcut": false,
+    "leetcode.editor.shortcuts": [
+        "submit",
+        "test",
+        "solution"
+    ],
+    "leetcode.filePath": {
+
+        "default": {
+            "folder": "",
+            "filename": "${id}.${kebab-case-name}.${ext}"
+        }
+    },
+    "git.openRepositoryInParentFolders": "never",
+    "github.copilot.nextEditSuggestions.enabled": true,
+    "markdown-preview-enhanced.previewTheme": "atom-material.css",
+    "go.toolsManagement.autoUpdate": true,
+    "workbench.iconTheme": "vscode-icons",
+    "workbench.colorTheme": "Visual Studio 2017 Dark - C++",
+    "python.terminal.activateEnvironment": false,
+    "editor.largeFileOptimizations": false,
+    "notebook.output.scrolling": true,
+    "notebook.output.textLineLimit": 300,
+    "dart.addSdkToTerminalPath": false,
+    "redhat.telemetry.enabled": true,
+    "emulator.emulatorPath": "/home/kalon/Android/Sdk/emulator",
+    "dart.openDevTools": "flutter",
+    
+    "vsicons.dontShowNewVersionMessage": true,
+    "editor.allowVariableFonts": false,
+    
+    // Pywal color customizations
+    "editor.tokenColorCustomizations": {
+       "functions": "#5E6175", 
+        "keywords": "#64677B",
+        "numbers": "#717589", 
+        "strings": "#837D8E", 
+        "types": "#7D8197", 
+        "variables": "#9895A6", 
+        "comments": "#5e6172"
+    },
+    "workbench.colorCustomizations": {
+        "editor.background": "#0e1122",
+        "activityBar.background": "#0e1122",
+        "sideBar.background": "#0e1122",
+        "panel.background": "#0e1122",
+        "titleBar.activeBackground": "#0e1122",
+        "statusBar.background": "#0e1122",
+        "statusBar.foreground": "#c2c3c7",
+        "activityBar.foreground": "#c2c3c7",
+        "sideBar.foreground": "#c2c3c7",
+        "titleBar.activeForeground": "#c2c3c7",
+        "tab.activeBackground": "#5e6172",
+        "tab.inactiveBackground": "#0e1122",
+        "editorGroupHeader.tabsBackground": "#0e1122",
+        "terminal.background": "#0e1122",
+        "terminal.foreground": "#c2c3c7"
+    }
+}

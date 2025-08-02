@@ -1,7 +1,7 @@
 {
     "modules-left": ["custom/power", "hyprland/workspaces", "custom/media"],
     "modules-center": [ "clock"],
-    "modules-right": ["tray", "bluetooth", "network","custom/power-profile", "battery","backlight", "pulseaudio"],
+    "modules-right": ["tray", "bluetooth", "network","custom/powerprofile", "battery","backlight", "pulseaudio"],
 
   // backlight:
   "backlight": {
@@ -125,7 +125,7 @@
         "on-click-right": "~/.config/waybar/scripts/power-profile-toggle.sh toggle" // <--- ADDED 'toggle' argument here
     },
 
-        "custom/power-profile": {
+        "custom/powerprofile": {
         "format": "{icon} {text}", // Displays icon then the profile name (e.g., "⚡ performance")
         "return-type": "json",     // Tells Waybar to expect JSON output from the exec command
         "exec": "~/.config/waybar/scripts/power-profile-toggle.sh get", // Command to get the current profile

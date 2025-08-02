@@ -113,3 +113,4 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias zed="zeditor"
+export WAL_CACHE_DIR="$HOME/.config/wal"

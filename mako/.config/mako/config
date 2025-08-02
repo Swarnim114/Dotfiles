@@ -1,0 +1,11 @@
+max-visible=10
+layer=top
+font=Sarasa UI SC 10
+# Include pywal colors (will be updated by script)
+include=~/.config/mako/pywal-colors
+border-size=2
+border-radius=4
+max-icon-size=48
+default-timeout=4000
+anchor=top-right
+margin=20

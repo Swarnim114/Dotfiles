@@ -80,6 +80,41 @@ set_wallpaper() {
         exit 1
     fi
 
+    # Generate pywal colors from the selected wallpaper
+    echo "Generating color scheme from wallpaper..."
+    if command -v wal >/dev/null; then
+        # Generate colors with pywal
+        wal -i "$selected" -n
+        
+        # Run comprehensive color update script
+        echo "Updating all desktop components with new colors..."
+        if [ -f ~/.config/wal/update-colors.sh ]; then
+            ~/.config/wal/update-colors.sh
+            
+            # Restart waybar using the exact command that works in keybind
+            echo "Restarting waybar..."
+            bash -c "pkill waybar; sleep 0.5; waybar &"
+            echo "✅ Waybar restarted"
+        else
+            # Fallback: basic copying
+            echo "Copying pywal colors to ~/.config/wal/..."
+            [ -f ~/.cache/wal/colors.css ] && cp ~/.cache/wal/colors.css ~/.config/wal/
+            [ -f ~/.cache/wal/colors.rasi ] && cp ~/.cache/wal/colors.rasi ~/.config/wal/
+            [ -f ~/.cache/wal/colors-hyprland.conf ] && cp ~/.cache/wal/colors-hyprland.conf ~/.config/wal/
+            
+            # Reload waybar
+            if command -v waybar >/dev/null && pgrep waybar >/dev/null; then
+                echo "Reloading waybar..."
+                pkill waybar
+                waybar &
+            fi
+        fi
+        
+        echo "✅ Color scheme updated!"
+    else
+        echo "Warning: pywal (wal) is not installed or not in PATH."
+    fi
+
     # Define the autostart file path
     AUTOSTART_CONF="$HOME/.config/hypr/config/autostart.conf"
     

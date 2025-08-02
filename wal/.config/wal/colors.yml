@@ -1,0 +1,24 @@
+wallpaper: "/home/kalon/Pictures/Wallpaper-Collection/Wallpapers/tree-stump.jpg"
+
+special:
+    background: "#0f0f23"
+    foreground: "#c3c3c8"
+    cursor: "#c3c3c8"
+
+colors:
+    color0: "#0f0f23"
+    color1: "#62677B"
+    color2: "#6F758A"
+    color3: "#857C90"
+    color4: "#7C849D"
+    color5: "#8993AF"
+    color6: "#9FAFD8"
+    color7: "#c3c3c8"
+    color8: "#5e5e74"
+    color9: "#62677B"
+    color10: "#6F758A"
+    color11: "#857C90"
+    color12: "#7C849D"
+    color13: "#8993AF"
+    color14: "#9FAFD8"
+    color15: "#c3c3c8"

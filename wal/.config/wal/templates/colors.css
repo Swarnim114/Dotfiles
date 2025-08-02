@@ -1,0 +1,12 @@
+@define-color background {background};
+@define-color foreground {foreground};
+@define-color select     {color4};
+
+@define-color pink       {color5};
+@define-color purple     {color6};
+@define-color red        {color1};
+@define-color orange     {color3};
+@define-color yellow     {color2};
+@define-color green      {color10};
+@define-color blue       {color4};
+@define-color gray       {color8};
