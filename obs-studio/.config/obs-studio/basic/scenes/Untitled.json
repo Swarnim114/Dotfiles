@@ -42,7 +42,7 @@
         "mixers": 255,
         "sync": 0,
         "flags": 0,
-        "volume": 0.0,
+        "volume": 0.21233192086219788,
         "balance": 0.5,
         "enabled": true,
         "muted": false,
@@ -59,7 +59,33 @@
         "deinterlace_mode": 0,
         "deinterlace_field_order": 0,
         "monitoring_type": 0,
-        "private_settings": {}
+        "private_settings": {},
+        "filters": [
+            {
+                "prev_ver": 520159233,
+                "name": "Noise Suppression",
+                "uuid": "4d48f5bb-ddc8-426a-94c6-39a3e6ed1057",
+                "id": "noise_suppress_filter",
+                "versioned_id": "noise_suppress_filter_v2",
+                "settings": {},
+                "mixers": 255,
+                "sync": 0,
+                "flags": 0,
+                "volume": 1.0,
+                "balance": 0.5,
+                "enabled": true,
+                "muted": false,
+                "push-to-mute": false,
+                "push-to-mute-delay": 0,
+                "push-to-talk": false,
+                "push-to-talk-delay": 0,
+                "hotkeys": {},
+                "deinterlace_mode": 0,
+                "deinterlace_field_order": 0,
+                "monitoring_type": 0,
+                "private_settings": {}
+            }
+        ]
     },
     "current_scene": "Scene",
     "current_program_scene": "Scene",
@@ -134,61 +160,6 @@
                             "duration": 0
                         },
                         "private_settings": {}
-                    },
-                    {
-                        "name": "Audio Input Capture (PulseAudio)",
-                        "source_uuid": "a74131e3-006a-4f6d-8340-69cf4ce861a5",
-                        "visible": true,
-                        "locked": false,
-                        "rot": 0.0,
-                        "scale_ref": {
-                            "x": 1920.0,
-                            "y": 1200.0
-                        },
-                        "align": 5,
-                        "bounds_type": 0,
-                        "bounds_align": 0,
-                        "bounds_crop": false,
-                        "crop_left": 0,
-                        "crop_top": 0,
-                        "crop_right": 0,
-                        "crop_bottom": 0,
-                        "id": 2,
-                        "group_item_backup": false,
-                        "pos": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "pos_rel": {
-                            "x": -1.600000023841858,
-                            "y": -1.0
-                        },
-                        "scale": {
-                            "x": 1.0,
-                            "y": 1.0
-                        },
-                        "scale_rel": {
-                            "x": 1.0,
-                            "y": 1.0
-                        },
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "bounds_rel": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "scale_filter": "disable",
-                        "blend_method": "default",
-                        "blend_type": "normal",
-                        "show_transition": {
-                            "duration": 0
-                        },
-                        "hide_transition": {
-                            "duration": 0
-                        },
-                        "private_settings": {}
                     }
                 ]
             },
@@ -206,9 +177,7 @@
             "hotkeys": {
                 "OBSBasic.SelectScene": [],
                 "libobs.show_scene_item.1": [],
-                "libobs.hide_scene_item.1": [],
-                "libobs.show_scene_item.2": [],
-                "libobs.hide_scene_item.2": []
+                "libobs.hide_scene_item.1": []
             },
             "deinterlace_mode": 0,
             "deinterlace_field_order": 0,
@@ -241,61 +210,6 @@
             "deinterlace_field_order": 0,
             "monitoring_type": 0,
             "private_settings": {}
-        },
-        {
-            "prev_ver": 520159233,
-            "name": "Audio Input Capture (PulseAudio)",
-            "uuid": "a74131e3-006a-4f6d-8340-69cf4ce861a5",
-            "id": "pulse_input_capture",
-            "versioned_id": "pulse_input_capture",
-            "settings": {},
-            "mixers": 255,
-            "sync": 0,
-            "flags": 0,
-            "volume": 0.34919077157974243,
-            "balance": 0.5,
-            "enabled": true,
-            "muted": false,
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "hotkeys": {
-                "libobs.mute": [],
-                "libobs.unmute": [],
-                "libobs.push-to-mute": [],
-                "libobs.push-to-talk": []
-            },
-            "deinterlace_mode": 0,
-            "deinterlace_field_order": 0,
-            "monitoring_type": 0,
-            "private_settings": {},
-            "filters": [
-                {
-                    "prev_ver": 520159233,
-                    "name": "Noise Suppression",
-                    "uuid": "20742da9-ceee-4d32-9d6a-68316d5666a0",
-                    "id": "noise_suppress_filter",
-                    "versioned_id": "noise_suppress_filter_v2",
-                    "settings": {},
-                    "mixers": 255,
-                    "sync": 0,
-                    "flags": 0,
-                    "volume": 1.0,
-                    "balance": 0.5,
-                    "enabled": true,
-                    "muted": false,
-                    "push-to-mute": false,
-                    "push-to-mute-delay": 0,
-                    "push-to-talk": false,
-                    "push-to-talk-delay": 0,
-                    "hotkeys": {},
-                    "deinterlace_mode": 0,
-                    "deinterlace_field_order": 0,
-                    "monitoring_type": 0,
-                    "private_settings": {}
-                }
-            ]
         }
     ],
     "groups": [],
@@ -332,6 +246,9 @@
     "scaling_level": -6,
     "scaling_off_x": 0.0,
     "scaling_off_y": 0.0,
+    "virtual-camera": {
+        "type2": 3
+    },
     "modules": {
         "scripts-tool": [],
         "output-timer": {

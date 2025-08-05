@@ -1,0 +1,178 @@
+#!/bin/bash
+
+# Source the config file
+CONFIG_FILE="$HOME/.config/swaybg/config"
+if [ ! -f "$CONFIG_FILE" ]; then
+    touch "$CONFIG_FILE"
+fi
+source "$CONFIG_FILE"
+
+# The wallpaper directory should be defined here or in the config file.
+# Exit if the directory doesn't exist.
+WALLPAPER_DIR="${WALLPAPER:-/home/kalon/Pictures/Wallpaper-Collection/Wallpapers}"
+if [ ! -d "$WALLPAPER_DIR" ]; then
+    echo "Error: Wallpaper directory not found at $WALLPAPER_DIR" >&2
+    exit 1
+fi
+
+# --- Utility Functions ---
+# Function to select wallpaper and apply it
+set_wallpaper() {
+    # Create a temporary directory for symlinks
+    TEMP_DIR="/tmp/wallpaper-selector-$$"
+    mkdir -p "$TEMP_DIR"
+    
+    # Find all images and create symlinks. This block is corrected.
+    find "$WALLPAPER_DIR" -type f \( \
+        -iname "*.jpg" -o \
+        -iname "*.jpeg" -o \
+        -iname "*.png" -o \
+        -iname "*.gif" -o \
+        -iname "*.bmp" -o \
+        -iname "*.webp" -o \
+        -iname "*.tiff" -o \
+        -iname "*.svg" \
+    \) -exec sh -c '
+        for img; do
+            ln -sf "$img" "'"$TEMP_DIR"'/$(basename "$img")"
+        done
+    ' sh {} +
+    
+    # Check for rofi installation before running
+    if ! command -v rofi >/dev/null; then
+        echo "Error: rofi is not installed or not in PATH." >&2
+        rm -rf "$TEMP_DIR"
+        exit 1
+    fi
+    
+    # Use rofi with image preview support
+    if command -v convert >/dev/null; then
+        echo "Using rofi with image thumbnails..."
+        # Create thumbnail directory
+        THUMB_DIR="/tmp/wallpaper-thumbs-$$"
+        mkdir -p "$THUMB_DIR"
+        
+        # Generate thumbnails and create a list for rofi
+        ROFI_LIST=""
+        cd "$TEMP_DIR"
+        for img in *; do
+            if [ -L "$img" ]; then
+                # Create thumbnail
+                THUMB_PATH="$THUMB_DIR/${img%.*}.png"
+                convert "$(readlink -f "$img")" -resize 200x200^ -gravity center -extent 200x200 "$THUMB_PATH" 2>/dev/null
+                
+                # Add to rofi list with thumbnail path
+                if [ -f "$THUMB_PATH" ]; then
+                    ROFI_LIST="${ROFI_LIST}${img}\x00icon\x1f${THUMB_PATH}\n"
+                else
+                    ROFI_LIST="${ROFI_LIST}${img}\n"
+                fi
+            fi
+        done
+        
+        # Use rofi with thumbnails
+        selected_name=$(printf "$ROFI_LIST" | rofi -dmenu -i -p "�️ Select Wallpaper" \
+             -theme-str 'window { width: 80%; height: 80%; }
+                        listview { lines: 8; columns: 4; scrollbar: true; }
+                        element { padding: 8px; border-radius: 4px; orientation: vertical; }
+                        element-icon { size: 200px; }
+                        element-text { horizontal-align: 0.5; }' \
+             -theme-str 'entry { placeholder: "Type to filter wallpapers..."; }' \
+             -show-icons)
+        
+        # Clean up thumbnails
+        rm -rf "$THUMB_DIR"
+    else
+        echo "Using rofi with enhanced layout..."
+        # Fallback rofi without thumbnails but with better layout
+        selected_name=$(cd "$TEMP_DIR" && \
+        find . -maxdepth 1 -type l -printf "%f\n" | \
+        rofi -dmenu -i -p "🖼️ Select Wallpaper" \
+             -theme-str 'window { width: 70%; height: 80%; }
+                        listview { lines: 15; scrollbar: true; }
+                        element { padding: 12px; border-radius: 6px; }
+                        element-text { vertical-align: 0.5; font: "14"; }' \
+             -theme-str 'entry { placeholder: "Type to filter wallpapers... (install imagemagick for thumbnails)"; }' \
+             -mesg "💡 Install imagemagick (convert) for thumbnail previews!")
+    fi
+         
+    selected=""
+    if [ -n "$selected_name" ]; then
+        selected=$(readlink -f "$TEMP_DIR/$selected_name")
+    fi
+    
+    # Clean up temp directory
+    rm -rf "$TEMP_DIR"
+    
+    # Exit gracefully if no wallpaper was selected
+    if [ -z "$selected" ]; then
+        echo "No wallpaper selected. Exiting."
+        exit 0
+    fi
+    
+    # Use swaybg for immediate application
+    if command -v swaybg >/dev/null; then
+        pkill swaybg
+        swaybg -o "*" -i "$selected" -m "fill" &
+    else
+        echo "Error: swaybg is not installed or not in PATH." >&2
+        exit 1
+    fi
+
+    # Generate pywal colors from the selected wallpaper
+    echo "Generating color scheme from wallpaper..."
+    if command -v wal >/dev/null; then
+        # Generate colors with pywal
+        wal -i "$selected" -n
+        
+        # Run comprehensive color update script
+        echo "Updating all desktop components with new colors..."
+        if [ -f ~/.config/wal/update-colors.sh ]; then
+            ~/.config/wal/update-colors.sh
+            
+            # Restart waybar using the exact command that works in keybind
+            echo "Restarting waybar..."
+            bash -c "pkill waybar; sleep 0.5; waybar &"
+            echo "✅ Waybar restarted"
+        else
+            # Fallback: basic copying
+            echo "Copying pywal colors to ~/.config/wal/..."
+            [ -f ~/.cache/wal/colors.css ] && cp ~/.cache/wal/colors.css ~/.config/wal/
+            [ -f ~/.cache/wal/colors.rasi ] && cp ~/.cache/wal/colors.rasi ~/.config/wal/
+            [ -f ~/.cache/wal/colors-hyprland.conf ] && cp ~/.cache/wal/colors-hyprland.conf ~/.config/wal/
+            
+            # Reload waybar
+            if command -v waybar >/dev/null && pgrep waybar >/dev/null; then
+                echo "Reloading waybar..."
+                pkill waybar
+                waybar &
+            fi
+        fi
+        
+        echo "✅ Color scheme updated!"
+    else
+        echo "Warning: pywal (wal) is not installed or not in PATH."
+    fi
+
+    # Define the autostart file path
+    AUTOSTART_CONF="$HOME/.config/hypr/config/autostart.conf"
+    
+    # Define the new autostart command for swaybg
+    NEW_WALLPAPER_LINE="exec-once = swaybg -o \"*\" -i \"$selected\" -m fill"
+
+    # Check if the file exists and update the swaybg line
+    if [ -f "$AUTOSTART_CONF" ]; then
+        # Use sed to replace any existing swaybg line
+        sed -i "/^exec-once = swaybg/c\\$NEW_WALLPAPER_LINE" "$AUTOSTART_CONF"
+    else
+        echo "Warning: Autostart file not found at $AUTOSTART_CONF. Settings will not be saved."
+    fi
+
+    # Save settings to config for next script run
+    CURRENT_FILE=$(basename "$selected")
+    sed -i "s|^WALLPAPER=.*|WALLPAPER=\"$WALLPAPER_DIR\"|g" "$CONFIG_FILE"
+    sed -i "s|^CURRENT_FILE=.*|CURRENT_FILE=\"$CURRENT_FILE\"|g" "$CONFIG_FILE" 2>/dev/null || echo "CURRENT_FILE=\"$CURRENT_FILE\"" >> "$CONFIG_FILE"
+}
+
+# Just run the wallpaper selector directly
+set_wallpaper
