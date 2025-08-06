@@ -93,7 +93,7 @@ tooltip {
 #custom-power {
     margin-left: 10px;
     padding: 0px 10px 0 15px;
-    color: @blue; /* Or @lavender, @peach */
+    color: @overlay0; /* Or @lavender, @peach */
 }
 
 #custom-updates {
@@ -104,25 +104,25 @@ tooltip {
 }
 
 #custom-media {
-    color: @blue; /* For media player status - Ensure this color is visible against your Waybar background */
+    color: @overlay0; /* For media player status - Ensure this color is visible against your Waybar background */
 }
 
 #custom-powerprofile {
-    color: @blue;
+    color: @overlay0;
 }
 #bluetooth {
-    color: @blue;
+    color: @overlay0;
 }
 
 #network {
-    color: @blue;
+    color: @overlay0;
 }
 
 #battery {
-    color: @blue;
+    color: @overlay0;
 }
 #battery.charging {
-    color: @blue; /* Green when charging */
+    color: @overlay0; /* Green when charging */
 }
 #battery.warning {
     color: @peach; /* Peach/Orange for warning */
@@ -131,30 +131,30 @@ tooltip {
     color: @red; /* Red for critical battery */
 }
 #battery.full {
-    color: @blue; /* Teal for full battery */
+    color: @overlay0; /* Teal for full battery */
 }
 
 #backlight {
-    color: @blue; /* Brightness module color */
+    color: @overlay0; /* Brightness module color */
 }
 
 #pulseaudio {
-    color: @blue;
+    color: @overlay0;
 }
 #pulseaudio.muted {
     color: @gray; /* Dimmed when muted */
 }
 
 #cpu {
-    color: @blue;
+    color: @overlay0;
 }
 
 #memory {
-    color: @blue;
+    color: @overlay0;
 }
 
 #temperature {
-    color: @blue; /* Or @yellow for warmth indication */
+    color: @overlay0; /* Or @yellow for warmth indication */
 }
 #temperature.critical {
     color: @red; /* Critical temperature */
@@ -162,7 +162,7 @@ tooltip {
 
 #clock {
     margin-right: 10px;
-    color: @blue;
+    color: @overlay0;
 }
 
 /* Tray Specific Styling */
@@ -184,7 +184,7 @@ tooltip {
 }
 
 #tray > .active {
-    background-color: @blue;
+    background-color: @overlay0;
     border-radius: 4px;
 }
 

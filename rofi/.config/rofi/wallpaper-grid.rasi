@@ -1,0 +1,97 @@
+/* ~/.config/rofi/wallpaper.rasi */
+
+* {
+    background-color:   #1a1b26; /* Dark background */
+    text-color:         #c0caf5; /* Light text */
+    font:               "JetBrainsMono Nerd Font 10";
+    
+    /* Colors from your screenshot */
+    main-bg:            #1F1F1F;
+    main-fg:            #E0E0E0;
+    selected-bg:        #A3BE8C1A; /* Light green with transparency */
+    selected-border:    #A3BE8C;   /* Solid light green */
+    input-bg:           #16161E;
+}
+
+window {
+    width:      80%;
+    height:     80%;
+    transparency: "real";
+    background-color: @main-bg;
+    border: 2px;
+    border-color: @selected-border;
+    border-radius: 8px;
+    padding: 20px;
+}
+
+mainbox {
+    children:   [ inputbar, listview ];
+    spacing:    20px;
+}
+
+inputbar {
+    children:   [ prompt, entry ];
+    background-color: @input-bg;
+    border-radius: 6px;
+    padding: 12px;
+    border: 1px;
+    border-color: #3b4261;
+}
+
+prompt {
+    text-color: @selected-border;
+}
+
+entry {
+    placeholder: "Type to filter";
+    placeholder-color: #4b526d;
+}
+
+listview {
+    layout:     horizontal;
+    columns:    4; /* Adjust number of columns here */
+    lines:      3; /* Adjust number of rows here */
+    spacing:    15px;
+    
+    scrollbar:  false;
+}
+
+element {
+    orientation:    vertical;
+    padding:        10px;
+    border-radius:  8px;
+    children:       [ element-icon, element-text ];
+    spacing:        10px;
+}
+
+element-icon {
+    size: 160px; /* Adjust thumbnail size here */
+    horizontal-align: 0.5;
+}
+
+element-text {
+    text-color: inherit;
+    horizontal-align: 0.5;
+}
+
+element normal normal {
+    background-color: transparent;
+    text-color:       @main-fg;
+}
+
+element normal urgent {
+    background-color: transparent;
+    text-color:       @main-fg;
+}
+
+element normal active {
+    background-color: transparent;
+    text-color:       @main-fg;
+}
+
+element selected normal, element selected active, element selected urgent {
+    background-color: @selected-bg;
+    text-color:       @selected-border;
+    border:           2px;
+    border-color:     @selected-border;
+}

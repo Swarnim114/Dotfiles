@@ -13,12 +13,12 @@
 
 window {
     /* Use semi-transparent background from pywal */
-    background-color: alpha(#170f0a, 0.85);
+    background-color: alpha(#101212, 0.85);
 }
 
 button {
-    color: #c5c3c1;
-    background-color: #170f0a;
+    color: #c3c3c3;
+    background-color: #101212;
 
     /* Create smaller circular buttons */
     border-radius: 0px;
@@ -35,7 +35,7 @@ button {
 button:focus,
 button:active,
 button:hover {
-    background-color: #6d6259;
+    background-color: #596d6d;
     outline-style: none;
     background-size: 45%;
 }
@@ -44,27 +44,27 @@ button:hover {
 
 /* Add a unique colored border on hover for each action using pywal colors */
 #lock:hover {
-    border: 2px solid #7D817C;
+    border: 2px solid #96A460;
 }
 
 #logout:hover {
-    border: 2px solid #707674;
+    border: 2px solid #778839;
 }
 
 #suspend:hover {
-    border: 2px solid #9A6D59;
+    border: 2px solid #6C965F;
 }
 
 #hibernate:hover {
-    border: 2px solid #BE7348;
+    border: 2px solid #B4B350;
 }
 
 #shutdown:hover {
-    border: 2px solid #707674;
+    border: 2px solid #778839;
 }
 
 #reboot:hover {
-    border: 2px solid #B48366;
+    border: 2px solid #B0B493;
 }
 
 /* Icons - using original PNG icons */

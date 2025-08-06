@@ -83,8 +83,8 @@ set_wallpaper() {
     # Generate pywal colors from the selected wallpaper
     echo "Generating color scheme from wallpaper..."
     if command -v wal >/dev/null; then
-        # Generate colors with pywal
-        wal -i "$selected" -n
+        # Generate colors with pywal - using templates
+        wal -i "$selected" -n -e
         
         # Run comprehensive color update script
         echo "Updating all desktop components with new colors..."
@@ -109,6 +109,10 @@ set_wallpaper() {
                 waybar &
             fi
         fi
+        
+        # Reload Hyprland to apply new colors
+        echo "Reloading Hyprland configuration..."
+        hyprctl reload
         
         echo "✅ Color scheme updated!"
     else
