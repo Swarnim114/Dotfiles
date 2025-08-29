@@ -1,0 +1,195 @@
+{   "height":25,
+    "modules-left": ["custom/power", "hyprland/workspaces", "custom/media"],
+    "modules-center": [ "clock"],
+    "modules-right": ["tray","custom/powerprofile", "battery","backlight", "pulseaudio"],
+
+  // backlight:
+  "backlight": {
+    "format": "{icon} {percent}%",
+    "format-icons": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "scroll-step": 1
+  }
+,
+"pulseaudio#microphone": {
+    "format": " {volume}%",
+    "format-muted": " {volume}%",
+    "on-click": "pavucontrol --tab=4",
+    "on-right-click": "pactl set-source-mute @DEFAULT_SOURCE@ toggle",
+    "on-scroll-up": "pactl set-source-volume @DEFAULT_SOURCE@ +5%",
+    "on-scroll-down": "pactl set-source-volume @DEFAULT_SOURCE@ -5%",
+    "tooltip-format": "Microphone: {volume}%"
+}
+
+
+,
+
+    "custom/power": {
+        "format" : "⭘ ",
+        "tooltip": false,
+        "on-click": " ~/.config/rofi/power-menu.sh",
+        "tooltip-format": "Power Options"
+    },
+
+    "hyprland/workspaces": {
+        "disable-scroll": true,
+        "all-outputs": true,
+        "warp-on-scroll": false,
+        "format": "{name}",
+        "cursor": true,
+        "on-click": "activate",
+        "persistent_workspaces": {
+            "1": [],
+            "2": [],
+            "3": [],
+            "4": [],
+            "5": []
+        }
+    },
+
+
+
+"custom/media": {
+    "format": "{icon} {text}",
+    "max-length": 40,
+    "format-icons": {
+        "Playing": "🎵",
+        "Paused": "⏸",
+        "Stopped": "⏹"
+    },
+    "on-click": "playerctl --player=spotify previous",
+    "on-click-right": "playerctl --player=spotify next",
+    "on-click-middle": "playerctl --player=spotify play-pause",
+    "on-scroll-up": "pactl set-sink-volume @DEFAULT_SINK@ +5%",
+    "on-scroll-down": "pactl set-sink-volume @DEFAULT_SINK@ -5%",
+    "exec": "playerctl --player=spotify metadata --format '{{ artist }} - {{ title }}' -F",
+    "exec-if": "playerctl --player=spotify status"
+}
+
+,
+    "tray": {
+        "icon-size": 20,
+        "spacing": 10,
+        "cursor": true,
+        "tooltip": true,
+        "tooltip-format": "{title}"
+    },
+
+    "bluetooth": {
+        "format": " 󰂯 ",
+        "format-disabled": " 󰂲 ",
+        "format-connected": " 󰂱 ",
+        "on-click": "blueman-manager",
+        "tooltip": true,
+        "tooltip-format": "Bluetooth: {status}"
+    },
+
+    "network": {
+        "format-wifi": "  {essid}",
+        "format-ethernet": "  Ethernet",
+        "format-linked": "  Linked (No IP)",
+        "format-disconnected": "  Disconnected",
+        "tooltip": true,
+        "tooltip-format-wifi": "  {essid}\nSignal: {signalStrength}%\nIP: {ipaddr}",
+        "tooltip-format-ethernet": "  Ethernet\nIP: {ipaddr}"
+    },
+
+"battery": {
+        "states": {
+            "good": 85,
+            "warning": 30,
+            "critical": 15
+        },
+        "format": "{icon} {capacity}%",
+        "format-full": "{icon} {capacity}%",
+        "format-plugged": " {capacity}%",
+        "format-charging": " {capacity}%",
+        "format-alt": "{icon} {capacity}%",
+        "format-icons": [" ", " ", " ", " ", " "],
+        "tooltip-format": "Time left: {timeTo}",
+        "on-click-right": "~/.config/waybar/scripts/power-profile-toggle.sh toggle" // <--- ADDED 'toggle' argument here
+    },
+
+        "custom/powerprofile": {
+        "format": "{icon} {text}", // Displays icon then the profile name (e.g., "⚡ performance")
+        "return-type": "json",     // Tells Waybar to expect JSON output from the exec command
+        "exec": "~/.config/waybar/scripts/power-profile-toggle.sh get", // Command to get the current profile
+        "interval": 2,             // Update every 2 seconds to reflect changes quickly
+        "on-click-right": "~/.config/waybar/scripts/power-profile-toggle.sh toggle", // Right-click to toggle profile
+        "on-click": "~/.config/waybar/scripts/power-profile-toggle.sh toggle" // Left-click to toggle as well
+    },
+
+
+"pulseaudio": {
+    "format": "{icon} {volume}%",
+    "format-bluetooth": "{volume}% {icon} {format_source}",
+    "format-bluetooth-muted": " {icon} {format_source}",
+    "format-muted": " {format_source}",
+    "format-source": "{volume}% ",
+    "format-source-muted": "",
+    "format-icons": {
+        "headphone": " ",
+        "hands-free": " ",
+        "headset": " ",
+        "phone": " ",
+        "portable": " ",
+        "car": " ",
+        "default": ["", "", ""],
+        "muted": ""
+    },
+    "on-click": "pactl set-sink-mute @DEFAULT_SINK@ toggle",
+    "on-click-right": "pavucontrol"
+},
+
+    "cpu": {
+        "format": "  {usage}%",
+        "tooltip": true,
+        "tooltip-format": "Usage: {usage}%\nFreq: {frequency} GHz",
+        "on-click": "alacritty -e btop" // Or `gnome-system-monitor`, `htop` etc.
+    },
+
+"memory": {
+        "format": "  {used}/{total}G ({percentage}%)", // Ensure this exact format
+        "tooltip": true,
+        "tooltip-format": "Used: {used}G\nFree: {free}G\nTotal: {total}G",
+        "on-click": "alacritty -e btop"
+    },
+    "temperature": {
+        "thermal-zone": 0, // Adjust this if your CPU temp is on a different zone
+        "critical-threshold": 80, // Adjust critical temperature threshold
+        "format": " {temperatureC}°C",
+        "format-critical": " {temperatureC}°C (CRITICAL!)",
+        "tooltip": true,
+        "tooltip-format": "CPU Temp: {temperatureC}°C"
+    },
+
+    "clock": {
+        "format": "{:%a %d/%m/%Y ~ %H:%M}",
+        "tooltip-format": "<span size='15000'><tt>{calendar}</tt></span>",
+        "calendar": {
+            "mode": "month",
+            "format": {
+                "months": "<span color='#F5C2E7'><b>{}</b></span>",
+                "weekdays": "<span color='#89B4FA'><b>{}</b></span>",
+                "days": "<span color='#CDD6F4'><b>{}</b></span>",
+                "today": "<span color='#F9E2AF'><b>{}</b></span>",
+            }
+        },
+        "on-click": "swaync-client -t -sw"
+    }
+}

@@ -1,11 +1,24 @@
-max-visible=10
-layer=top
-font=Sarasa UI SC 10
-# Include pywal colors (will be updated by script)
-include=~/.config/mako/pywal-colors
+text-color=#a9b1d6
+border-color=#33ccff
+background-color=#1a1b26
+width=420
+height=110
+padding=10
 border-size=2
-border-radius=4
-max-icon-size=48
-default-timeout=4000
+font=Liberation Sans 11
 anchor=top-right
-margin=20
+outer-margin=20
+default-timeout=5000
+max-icon-size=32
+
+[app-name=Spotify]
+invisible=1
+
+[mode=do-not-disturb]
+invisible=true
+
+[mode=do-not-disturb app-name=notify-send]
+invisible=false
+
+[urgency=critical]
+default-timeout=0

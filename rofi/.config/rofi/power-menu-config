@@ -1,0 +1,29 @@
+# ~/.config/rofi/power-menu-config
+
+# --- Main Options ---
+# Define the order and text of the menu items.
+# Uses Nerd Font icons by default. Remove them if you don't use a patched font.
+POWER_OPTIONS=(
+    " Power Off"
+    " Restart"
+    " Suspend"
+    " Lock"
+    "󰍃 Log Out"
+)
+
+# --- Behavior ---
+# Set to "true" to require confirmation for dangerous actions (Power Off, Restart, Log Out)
+# Set to "false" to execute actions immediately.
+CONFIRMATION_ENABLED="false"
+
+# --- Theming ---
+# Point to your dedicated Rofi theme file for a consistent look.
+# This is the RECOMMENDED way to handle theming.
+ROFI_THEME_FILE="$HOME/.config/rofi/powermenu.rasi"
+
+# --- (Optional) Theme Overrides ---
+# If ROFI_THEME_FILE is not found, the script will use these overrides.
+# These are ignored if the theme file above is used.
+ROFI_THEME_WINDOW='window { width: 250px; }'
+ROFI_THEME_LISTVIEW='listview { lines: 5; }' # This will auto-adjust to the number of options
+ROFI_THEME_INPUT='entry { placeholder: ""; }'

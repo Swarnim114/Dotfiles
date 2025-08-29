@@ -1,26 +1,41 @@
 #!/bin/bash
 
-# Use the absolute path if 'which powerprofilesctl' doesn't consistently work
-# or if you prefer explicit paths. You can find it with 'which powerprofilesctl'.
-POWER_PROFILES_CTL="/usr/bin/powerprofilesctl" # <-- Verify this path for your system!
+# Use tuned-ppd via D-Bus interface (compatible with power-profiles-daemon)
 
-current_profile=$($POWER_PROFILES_CTL get)
+# Get current power profile
+current_profile=$(busctl get-property net.hadess.PowerProfiles /net/hadess/PowerProfiles net.hadess.PowerProfiles ActiveProfile | cut -d'"' -f2)
 
 # This part is for toggling the profile when the script is called with 'toggle'
 if [[ "$1" == "toggle" ]]; then
     case "$current_profile" in
         "performance")
-            $POWER_PROFILES_CTL set power-saver
+            if busctl set-property net.hadess.PowerProfiles /net/hadess/PowerProfiles net.hadess.PowerProfiles ActiveProfile s "power-saver" 2>/dev/null; then
+                notify-send "Power Profile" "Switched to Power Saver 🔋" -i battery-low
+            else
+                notify-send "Power Profile Error" "Failed to switch to Power Saver" -i dialog-error -u critical
+            fi
             ;;
         "power-saver")
-            $POWER_PROFILES_CTL set balanced
+            if busctl set-property net.hadess.PowerProfiles /net/hadess/PowerProfiles net.hadess.PowerProfiles ActiveProfile s "balanced" 2>/dev/null; then
+                notify-send "Power Profile" "Switched to Balanced ⚖" -i battery-good
+            else
+                notify-send "Power Profile Error" "Failed to switch to Balanced" -i dialog-error -u critical
+            fi
             ;;
         "balanced")
-            $POWER_PROFILES_CTL set performance
+            if busctl set-property net.hadess.PowerProfiles /net/hadess/PowerProfiles net.hadess.PowerProfiles ActiveProfile s "performance" 2>/dev/null; then
+                notify-send "Power Profile" "Switched to Performance ⚡" -i battery-full-charging
+            else
+                notify-send "Power Profile Error" "Failed to switch to Performance" -i dialog-error -u critical
+            fi
             ;;
         *)
             # Fallback for unknown state, default to balanced
-            $POWER_PROFILES_CTL set balanced
+            if busctl set-property net.hadess.PowerProfiles /net/hadess/PowerProfiles net.hadess.PowerProfiles ActiveProfile s "balanced" 2>/dev/null; then
+                notify-send "Power Profile" "Switched to Balanced ⚖ (fallback)" -i battery-good
+            else
+                notify-send "Power Profile Error" "Failed to switch to Balanced (fallback)" -i dialog-error -u critical
+            fi
             ;;
     esac
     exit 0 # Exit after toggling

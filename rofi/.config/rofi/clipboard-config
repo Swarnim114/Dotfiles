@@ -1,0 +1,19 @@
+# Rofi Clipboard Manager Configuration
+
+# Maximum number of clipboard entries to show
+MAX_ITEMS=50
+
+# Maximum display length for truncated entries
+MAX_DISPLAY_LENGTH=80
+
+# Clipboard database path (clipman default)
+CLIPMAN_DB="$HOME/.local/share/clipman.json"
+
+# Rofi theme overrides for clipboard manager
+ROFI_THEME_WINDOW='window { width: 500px; }'
+ROFI_THEME_LISTVIEW='listview { lines: 10; }'
+ROFI_THEME_ELEMENT='element-text { text-color: inherit; }'
+ROFI_THEME_INPUT='entry { placeholder: "Search clipboard history..."; }'
+
+# Notification settings
+NOTIFICATION_TIMEOUT=1500

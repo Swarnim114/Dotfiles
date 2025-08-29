@@ -1,5 +1,0 @@
-# Pywal colors for Mako notifications
-background-color={background}dd
-text-color={foreground}
-border-color={color4}
-progress-color={color6}
