@@ -4,6 +4,9 @@ configuration {
     show-icons: true;
     drun-display-format: "{icon} {name}";
     modi: "drun";
+    matching: "fuzzy";
+    sort: true;
+    case-sensitive: false;
 }
 
 @import "~/.config/themes/current/rofi.rasi"

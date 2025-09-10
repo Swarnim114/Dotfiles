@@ -105,4 +105,11 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 export PATH=$HOME/.local/bin:$PATH
 alias ff="fastfetch"
-alias i="sudo dnf install -y"
+alias i="yayfzf"
+
+# bun completions
+[ -s "/home/kalon/.bun/_bun" ] && source "/home/kalon/.bun/_bun"
+
+# bun
+export BUN_INSTALL="$HOME/.bun"
+export PATH="$BUN_INSTALL/bin:$PATH"

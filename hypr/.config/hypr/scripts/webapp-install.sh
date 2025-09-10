@@ -23,7 +23,7 @@ if [[ -z "$APP_NAME" || -z "$APP_URL" || -z "$ICON_URL" ]]; then
 fi
 
 # Check if Brave browser is installed
-if ! command -v brave-browser >/dev/null 2>&1; then
+if ! command -v brave >/dev/null 2>&1; then
   echo "Error: Brave browser is not installed or not in PATH"
   echo "Please install Brave browser first"
   exit 1
@@ -51,7 +51,7 @@ cat >"$DESKTOP_FILE" <<EOF
 Version=1.0
 Name=$APP_NAME
 Comment=$APP_NAME
-Exec=brave-browser --app=$APP_URL
+Exec=brave --app=$APP_URL
 Terminal=false
 Type=Application
 Icon=$ICON_PATH
