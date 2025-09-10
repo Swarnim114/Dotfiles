@@ -8,8 +8,8 @@
   "modules-center": ["clock"],
   "modules-right": [
     "tray",
-    "backlight",
     "network",
+    "backlight",
     "pulseaudio",
     "battery"
   ],
@@ -73,8 +73,8 @@
   },
   "network": {
     "format-icons": ["󰤯", "󰤟", "󰤢", "󰤥", "󰤨"],
-    "format": "{icon}",
-    "format-wifi": "{icon}",
+    "format": "{essid}",
+    "format-wifi": "{essid}",
     "format-ethernet": "󰀂",
     "format-disconnected": "󰖪",
     "tooltip-format-wifi": "{essid} ({frequency} GHz)\n⇣{bandwidthDownBytes}  ⇡{bandwidthUpBytes}",
@@ -84,30 +84,31 @@
     "spacing": 1,
     "on-click": "alacritty --class=Impala -e impala"
   },
-  "battery": {
-    "format": "{icon}",
-    "format-discharging": "{icon}",
-    "format-charging": "{icon}",
-    "format-plugged": "",
- "format-icons": {
-      "charging": [
-        "󰢜", "󰂆", "󰂇", "󰂈", "󰢝", "󰂉", "󰢞", "󰂊", "󰂋", "󰂅"
-      ],
-      "default": [
-        "󰁺", "󰁻", "󰁼", "󰁽", "󰁾", "󰁿", "󰂀", "󰂁", "󰂂", "󰁹"
-      ]
-    },
-    "format-full": "󰂅",
-    "tooltip-format-discharging": "{power:>1.0f}W↓ {capacity}%",
-    "tooltip-format-charging": "{power:>1.0f}W↑ {capacity}%",
-    "interval": 5,
-    "states": {
-      "warning": 20,
-      "critical": 10
-    },
-      "on-click-right": "~/.config/waybar/scripts/power-profile-toggle.sh toggle",
-      "on-click": "~/.config/waybar/scripts/power-profile-toggle.sh toggle" 
+ "battery": {
+  "format": "{icon}",
+  "format-discharging": "{icon}",
+  "format-charging": "",
+  "format-plugged": "",
+  "format-full": "",
+  "format-icons": {
+    "charging": [
+      "󰢜", "󰂆", "󰂇", "󰂈", "󰢝", "󰂉", "󰢞", "󰂊", "󰂋", "󰂅"
+    ],
+    "default": [
+      "󰁺", "󰁻", "󰁼", "󰁽", "󰁾", "󰁿", "󰂀", "", "", ""
+    ]
   },
+  "tooltip-format-discharging": "{power:>1.0f}W↓ {capacity}%",
+  "tooltip-format-charging": "{power:>1.0f}W↑ {capacity}%",
+  "interval": 5,
+  "states": {
+    "warning": 20,
+    "critical": 10
+  },
+  "on-click-right": "~/.config/waybar/scripts/power-profile-toggle.sh toggle",
+  "on-click": "~/.config/waybar/scripts/power-profile-toggle.sh toggle"
+}
+,
   "bluetooth": {
     "format": "",
     "format-disabled": "󰂲",

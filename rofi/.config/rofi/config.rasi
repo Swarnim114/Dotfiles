@@ -5,13 +5,11 @@ configuration {
     drun-display-format: "{icon} {name}";
     modi: "drun";
     matching: "fuzzy";
-    sort: true;
+    sort: false;
     case-sensitive: false;
 }
 
 @import "~/.config/themes/current/rofi.rasi"
-
-
 
 window {
     background-color: @background;
@@ -51,10 +49,10 @@ element.selected.normal {
 }
 
 element-text, element-icon {
-    size:             24px;
+    size:             26px;
     background-color: inherit;
     text-color:       inherit;
-    font-weight:      bold;
+    font: "Cascadia Mono SemiBold 16";   /* Change to Bold if you want thicker */
 }
 
 inputbar {
@@ -73,5 +71,5 @@ entry {
     text-color:        @foreground;
     placeholder-color: @foreground;
     placeholder:       "Search applications...";
-    font-weight:       bold;
+    font: "Cascadia Mono SemiBold 16";   /* slightly smaller for search */
 }
