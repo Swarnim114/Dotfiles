@@ -114,3 +114,5 @@ alias zed="zeditor"
 # bun
 export BUN_INSTALL="$HOME/.bun"
 export PATH="$BUN_INSTALL/bin:$PATH"
+export EDITOR=zeditor
+export VISUAL=zeditor
