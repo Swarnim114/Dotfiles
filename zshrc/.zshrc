@@ -107,6 +107,7 @@ export PATH=$HOME/.local/bin:$PATH
 alias ff="fastfetch"
 alias i="yayfzf"
 alias zed="zeditor"
+alias nf="neofetch"
 
 # bun completions
 [ -s "/home/kalon/.bun/_bun" ] && source "/home/kalon/.bun/_bun"
