@@ -73,17 +73,17 @@ else
 fi
 
 # --- Reload Components (based on config) ---
-if [[ "$RELOAD_WAYBAR" == "true" ]]; then 
+if [[ "$RELOAD_WAYBAR" == "true" ]]; then
     pkill waybar
     sleep 0.5
     waybar &
     echo "✓ Waybar reloaded"
 fi
-if [[ "$RELOAD_MAKO" == "true" ]]; then 
+if [[ "$RELOAD_MAKO" == "true" ]]; then
     makoctl reload
     echo "✓ Mako reloaded"
 fi
-if [[ "$RELOAD_HYPRLAND" == "true" ]]; then 
+if [[ "$RELOAD_HYPRLAND" == "true" ]]; then
     hyprctl reload
     echo "✓ Hyprland config reloaded"
 fi
@@ -100,5 +100,12 @@ if [[ "$SET_GTK_THEME" == "true" ]]; then
         flatpak override --user --env=GTK_THEME="$GTK_DARK_THEME_NAME"
     fi
 fi
+
+
+# --- Reload Kitty Colors ---
+kitty @ set-colors --all ~/.config/themes/current/kitty.conf
+
+
+
 
 echo "Theme switch to '$selected_theme' complete!"
