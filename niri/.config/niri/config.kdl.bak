@@ -1,0 +1,206 @@
+// Niri configuration - corrected KDL (no '=' inside nodes)
+// Place at ~/.config/niri/config.kdl
+
+// ---- General appearance and behavior ----
+gaps 6;
+border-width 3;
+corner-radius 14;
+focused-border-color "FFFFFFFF";
+border-color "A9A9A9FF";
+transition-duration "150ms";
+focus-follows-mouse "always";
+
+// ---- Gestures ----
+swipe-workspaces "three-finger";
+
+// ---- Environment variables ----
+set-environment {
+    "HYPRCURSOR_SIZE" "24";
+    "XCURSOR_SIZE" "24";
+    "QT_CURSOR_SIZE" "24";
+}
+
+// ---- Input configuration ----
+input-devices {
+    touchpad {
+        natural-scroll true;
+        accel-profile "adaptive";
+        pointer-accel 0.4;
+    }
+}
+
+// ---- Autostart commands ----
+autostart {
+    command "dms" "run";
+    command "nm-applet" "--indicator";
+    command "fcitx5" "-d";
+    command "wl-paste" "--watch" "cliphist" "store";
+    command "/usr/lib/mate-polkit/polkit-mate-authentication-agent-1";
+    command "sh" "-c" "mkfifo /tmp/$HYPRLAND_INSTANCE_SIGNATURE.wob && tail -f /tmp/$HYPRLAND_INSTANCE_SIGNATURE.wob | wob";
+    command "/usr/lib/polkit-kde-authentication-agent-1";
+    command "systemctl" "--user" "import-environment";
+    command "dbus-update-activation-environment" "--systemd";
+}
+
+// ---- Monitor / outputs ----
+outputs {
+    monitor "*" {
+        scale 1.0;
+    }
+}
+
+// ---- Window rules (floating dialogs, utilities) ----
+window-rules {
+    rule { app-id "org.pulseaudio.pavucontrol"; set-floating true; }
+    rule { app-id "blueman-manager"; set-floating true; }
+    rule { app-id "CachyOSHello"; set-floating true; }
+    rule { app-id "zenity"; set-floating true; }
+    rule { app-id "qalculate-gtk"; set-floating true; }
+    rule { app-id "xdg-desktop-portal-gtk"; set-floating true; }
+    rule { app-id "xdg-desktop-portal-kde"; set-floating true; }
+    rule { app-id "xdg-desktop-portal-hyprland"; set-floating true; }
+    rule { app-id "polkit-gnome-authentication-agent-1"; set-floating true; }
+    rule { app-id "hyprpolkitagent"; set-floating true; }
+    rule { app-id "org.kde.polkit-kde-authentication-agent-1"; set-floating true; }
+
+    // file dialogs / picture-in-picture
+    rule { title "Picture in picture"; set-floating true; }
+    rule { title "Save File"; set-floating true; }
+    rule { title "Open File"; set-floating true; }
+    rule { title "Steam - Self Updater"; set-floating true; }
+    rule { app-id "LibreWolf"; title "Picture-in-Picture"; set-floating true; }
+
+    // Media & small utilities
+    rule { title "imv"; set-floating true; }
+    rule { title "mpv"; set-floating true; }
+    rule { title "danmufloat"; set-floating true; }
+    rule { title "termfloat"; set-floating true; }
+    rule { title "nemo"; set-floating true; }
+    rule { title "ncmpcpp"; set-floating true; }
+    rule { title "Calculator"; set-floating true; }
+    rule { title "Volume Control"; set-floating true; }
+    rule { title "WebApp Installer"; set-floating true; }
+    rule { title "Proton VPN"; set-floating true; }
+    rule { title "Installer"; set-floating true; }
+}
+
+// ---- Keybindings (bindings) ----
+bindings {
+    mod "Super";
+
+    // ======= Application Launchers =======
+    bind "${mod}+Space" { spawn "kitty"; }
+    bind "${mod}+Return" { spawn "firefox"; }
+    bind "${mod}+F" { spawn "thunar"; }
+    bind "${mod}+Shift+F" { spawn "kitty" "-e" "yazi"; }
+    bind "${mod}+M" { spawn "spotify"; }
+    bind "${mod}+E" { spawn "code"; }
+    bind "${mod}+N" { spawn "obsidian"; }
+    bind "${mod}+S" { spawn "dms" "ipc" "call" "settings" "toggle"; }
+    bind "${mod}+Shift+T" { spawn "dms" "ipc" "call" "theme" "toggle"; }
+    bind "Super+P" { spawn "dms" "ipc" "call" "processlist" "toggle"; }
+    bind "Super+D" { spawn "dms" "ipc" "call" "spotlight" "toggle"; }
+    bind "Super+V" { spawn "dms" "ipc" "call" "clipboard" "toggle"; }
+    bind "${mod}+Shift+P" { spawn "gnome-calculator"; }
+    bind "${mod}+Shift+I" { spawn "alacritty" "--title" "WebApp Installer" "-o" "window.dimensions.columns=100" "-o" "window.dimensions.lines=30" "-e" "sh" "-c" "cd ~/.config/hypr && ./scripts/webapp-install.sh; exec bash"; }
+    bind "${mod}+I" { spawn "alacritty" "--title" "Installer" "-o" "window.dimensions.columns=100" "-o" "window.dimensions.lines=30" "-e" "sh" "-c" "cd ~/.config/hypr && ./scripts/yay-helper.sh; exec bash"; }
+    bind "${mod}+H" { spawn "code" "~/.config/hypr"; }
+    bind "${mod}+Shift+C" { spawn "code" "~/.config/"; }
+
+    // ======= System & Power =======
+    bind "${mod}+L" { spawn "dms" "ipc" "call" "powermenu" "toggle"; }
+    bind "${mod}+Shift+Q" { spawn "dms" "ipc" "call" "lock" "lock"; }
+    bind "${mod}+Control+R" { spawn "sh" "-c" "pkill waybar; sleep 0.5; waybar &"; }
+    bind "${mod}+Shift+W" { spawn "~/.config/hypr/scripts/toggleWaybar.sh"; }
+
+    // ======= Screenshot =======
+    bind "${mod}+A" { spawn "~/.config/hypr/scripts/screenshot"; }
+    bind "Print" { spawn "caelestia" "screenshot"; }
+    bind "Super+Shift+S" { spawn "caelestia:screenshotFreeze"; }
+
+    // ======= Window Actions =======
+    bind "${mod}+Q" { close-window; }
+    bind "${mod}+C" { toggle-floating; }
+    bind "${mod}+W" { toggle-fullscreen; }
+    bind "${mod}+X" { orient-right; }
+    bind "${mod}+Tab" { focus-next-window; }
+
+    // Move Focus
+    bind "${mod}+Left" { focus-left; }
+    bind "${mod}+Right" { focus-right; }
+    bind "${mod}+Up" { focus-up; }
+    bind "${mod}+Down" { focus-down; }
+
+    // Move Window
+    bind "${mod}+Shift+Left" { move-left; }
+    bind "${mod}+Shift+Right" { move-right; }
+    bind "${mod}+Shift+Up" { move-up; }
+    bind "${mod}+Shift+Down" { move-down; }
+
+    // Resize Mode
+    bind "${mod}+R" { mode "resize"; }
+
+    // ======= Workspaces =======
+    bind "${mod}+1" { focus-workspace 1; }
+    bind "${mod}+2" { focus-workspace 2; }
+    bind "${mod}+3" { focus-workspace 3; }
+    bind "${mod}+4" { focus-workspace 4; }
+    bind "${mod}+5" { focus-workspace 5; }
+    bind "${mod}+6" { focus-workspace 6; }
+    bind "${mod}+7" { focus-workspace 7; }
+    bind "${mod}+8" { focus-workspace 8; }
+    bind "${mod}+9" { focus-workspace 9; }
+    bind "${mod}+0" { focus-workspace 10; }
+
+    // Move Window to Workspace + follow
+    bind "${mod}+Control+1" { move-to-workspace-and-follow 1; }
+    bind "${mod}+Control+2" { move-to-workspace-and-follow 2; }
+    bind "${mod}+Control+3" { move-to-workspace-and-follow 3; }
+    bind "${mod}+Control+4" { move-to-workspace-and-follow 4; }
+    bind "${mod}+Control+5" { move-to-workspace-and-follow 5; }
+    bind "${mod}+Control+6" { move-to-workspace-and-follow 6; }
+    bind "${mod}+Control+7" { move-to-workspace-and-follow 7; }
+    bind "${mod}+Control+8" { move-to-workspace-and-follow 8; }
+    bind "${mod}+Control+9" { move-to-workspace-and-follow 9; }
+    bind "${mod}+Control+0" { move-to-workspace-and-follow 10; }
+
+    // Move Window to Workspace (Silent)
+    bind "${mod}+Shift+1" { move-to-workspace 1; }
+    bind "${mod}+Shift+2" { move-to-workspace 2; }
+    bind "${mod}+Shift+3" { move-to-workspace 3; }
+    bind "${mod}+Shift+4" { move-to-workspace 4; }
+    bind "${mod}+Shift+5" { move-to-workspace 5; }
+    bind "${mod}+Shift+6" { move-to-workspace 6; }
+    bind "${mod}+Shift+7" { move-to-workspace 7; }
+    bind "${mod}+Shift+8" { move-to-workspace 8; }
+    bind "${mod}+Shift+9" { move-to-workspace 9; }
+    bind "${mod}+Shift+0" { move-to-workspace 10; }
+
+    // ======= Multimedia =======
+    bind "XF86AudioRaiseVolume" { spawn "dms" "ipc" "call" "audio" "increment" "3"; }
+    bind "XF86AudioLowerVolume" { spawn "dms" "ipc" "call" "audio" "decrement" "3"; }
+    bind "XF86AudioMute" { spawn "dms" "ipc" "call" "audio" "mute"; }
+    bind "XF86AudioMicMute" { spawn "dms" "ipc" "call" "audio" "micmute"; }
+    bind "XF86MonBrightnessUp" { spawn "dms" "ipc" "call" "brightness" "increment" "5"; }
+    bind "XF86MonBrightnessDown" { spawn "dms" "ipc" "call" "brightness" "decrement" "5"; }
+
+    // ======= Misc Settings =======
+    bind "${mod}+G" { set-preference "gaps" 0; }
+    bind "${mod}+Shift+G" { set-preference "gaps" 6; }
+
+    bind "${mod}+B" { spawn "dms" "ipc" "call" "wallpaper" "next"; }
+    bind "${mod}+Shift+B" { spawn "dms" "ipc" "call" "wallpaper" "next"; }
+
+    // Resize Mode bindings
+    mode "resize" {
+        bind "Escape" { mode "default"; }
+        bind "Left"  { resize-left; }
+        bind "h"     { resize-left; }
+        bind "Right" { resize-right; }
+        bind "l"     { resize-right; }
+        bind "Up"    { resize-up; }
+        bind "k"     { resize-up; }
+        bind "Down"  { resize-down; }
+        bind "j"     { resize-down; }
+    }
+}

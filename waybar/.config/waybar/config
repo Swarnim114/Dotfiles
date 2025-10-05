@@ -73,8 +73,8 @@
   },
   "network": {
     "format-icons": ["󰤯", "󰤟", "󰤢", "󰤥", "󰤨"],
-    "format": "{essid}",
-    "format-wifi": "{essid}",
+    "format": "{icon}",
+    "format-wifi": "{icon}",
     "format-ethernet": "󰀂",
     "format-disconnected": "󰖪",
     "tooltip-format-wifi": "{essid} ({frequency} GHz)\n⇣{bandwidthDownBytes}  ⇡{bandwidthUpBytes}",
@@ -117,7 +117,7 @@
     "on-click": "blueman-manager"
   },
 
-  "custom/media": {
+"custom/media": {
     "format": "{icon} {text}",
     "max-length": 40,
     "format-icons": {
@@ -125,14 +125,15 @@
         "Paused": "⏸",
         "Stopped": "⏹"
     },
-    "on-click": "playerctl --player=spotify previous",
-    "on-click-right": "playerctl --player=spotify next",
-    "on-click-middle": "playerctl --player=spotify play-pause",
+    "on-click": "playerctl --player=spotify,brave previous",
+    "on-click-right": "playerctl --player=spotify,brave next",
+    "on-click-middle": "playerctl --player=spotify,brave play-pause",
     "on-scroll-up": "pactl set-sink-volume @DEFAULT_SINK@ +5%",
     "on-scroll-down": "pactl set-sink-volume @DEFAULT_SINK@ -5%",
-    "exec": "playerctl --player=spotify metadata --format '{{ artist }} - {{ title }}' -F",
-    "exec-if": "playerctl --player=spotify status"
+    "exec": "playerctl --player=spotify,brave metadata --format '{{ artist }} - {{ title }}' -F",
+    "exec-if": "playerctl --player=spotify,brave status"
 },
+
   "pulseaudio": {
     "format": "{icon}",
     "on-click": "alacritty --class=Wiremix -e wiremix",
