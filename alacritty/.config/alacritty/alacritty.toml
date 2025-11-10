@@ -23,27 +23,11 @@ general = "Alacritty"
 history = 10000
 multiplier = 3
 
-
-
-
 [font]
 size = 14
-
-[font.normal]
-family = "Cascadia Mono"
-style = "Regular"
-
-[font.bold]
-family = "Cascadia Mono"
-style = "Bold"
-
-[font.italic]
-family = "Cascadia Mono"
-style = "Italic"
-
-[font.bold_italic]
-family = "Cascadia Mono"
-style = "Bold Italic"
+normal = { family = "CaskaydiaMono Nerd Font", style = "Regular" }
+bold = { family = "CaskaydiaMono Nerd Font", style = "Bold" }
+italic = { family = "CaskaydiaMono Nerd Font", style = "Italic" }
 
 [selection]
 semantic_escape_chars = ",│`|:\"' ()[]{}<>\t"
@@ -63,6 +47,7 @@ mouse = "Middle"
 action = "PasteSelection"
 
 [keyboard]
+
 [[keyboard.bindings]]
 key = "Paste"
 action = "Paste"
@@ -136,5 +121,3 @@ action = "ClearSelection"
 key = "Key0"
 mods = "Control"
 action = "ResetFontSize"
-
-
