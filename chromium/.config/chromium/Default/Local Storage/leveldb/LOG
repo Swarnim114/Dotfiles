@@ -1,2 +1,6 @@
-2025/11/10-17:29:21.417 5 Creating DB /home/kalon/.config/chromium/Default/Local Storage/leveldb since it was missing.
-2025/11/10-17:29:21.427 5 Reusing MANIFEST /home/kalon/.config/chromium/Default/Local Storage/leveldb/MANIFEST-000001
+2025/11/10-18:10:29.813 5 Reusing MANIFEST /home/kalon/.config/chromium/Default/Local Storage/leveldb/MANIFEST-000001
+2025/11/10-18:10:29.819 5 Recovering log #10
+2025/11/10-18:10:29.820 5 Reusing old log /home/kalon/.config/chromium/Default/Local Storage/leveldb/000010.log 
+2025/11/10-18:11:13.049 7 Level-0 table #14: started
+2025/11/10-18:11:13.051 7 Level-0 table #14: 27288 bytes OK
+2025/11/10-18:11:13.054 7 Delete type=0 #10

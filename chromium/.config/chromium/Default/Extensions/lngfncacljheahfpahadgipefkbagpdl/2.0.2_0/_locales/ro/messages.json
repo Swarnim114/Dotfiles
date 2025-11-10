@@ -1,0 +1,86 @@
+{
+   "Accept": {
+      "message": "Continuă"
+   },
+   "AppDescription": {
+      "message": "Elimină benzile negre din videoclipuri pe ecranele ultrawide (21:9, 32:9, etc.) peste tot, inclusiv pe YouTube, Netflix, Prime Video, etc."
+   },
+   "AppName": {
+      "message": "UltraWide Video"
+   },
+   "AppNameShort": {
+      "message": "UltraWide Video"
+   },
+   "ApplyOnlyInFullscreen": {
+      "message": "Aplică doar în modul ecran complet"
+   },
+   "ApplyOutsideFullscreen": {
+      "message": "Aplică în afara ecranului complet"
+   },
+   "ChangeKeyboardShortcuts": {
+      "message": "Modifică comenzile rapide de la tastatură"
+   },
+   "CommandAspect169": {
+      "message": "Raport de aspect 16:9"
+   },
+   "CommandAspect189": {
+      "message": "Raport de aspect 18:9"
+   },
+   "CommandAspect219": {
+      "message": "Raport de aspect 21:9"
+   },
+   "CommandAspect329": {
+      "message": "Raport de aspect 32:9"
+   },
+   "CommandDecreaseZoom": {
+      "message": "Micșorează zoom-ul (-)"
+   },
+   "CommandIncreaseZoom": {
+      "message": "Mărește zoom-ul (+)"
+   },
+   "CommandLabel": {
+      "message": "Comandă"
+   },
+   "CommandStretchMode": {
+      "message": "Modul întindere"
+   },
+   "CommandZoomMode": {
+      "message": "Modul zoom"
+   },
+   "ImproveUs": {
+      "message": "Te rugăm să ne spui cum să ne îmbunătățim prin \u003Ca href=\"mailto:support@ultrawidevideo.com?subject=Improve UltraWide Video\">email\u003C/a>"
+   },
+   "Off": {
+      "description": "Name of the mode when the extension is disabled and doesn't apply any transformations",
+      "message": "Dezactivat"
+   },
+   "PrivacyPolicyText": {
+      "message": "Prețuim confidențialitatea ta și respectăm GDPR-ul UE. Te rugăm să citești și să accepți \u003Ca href=\"https://ultrawidevideo.com/privacy\" target=\"_blank\">politica noastră de confidențialitate\u003C/a> pentru a începe să folosești UltraWide Video."
+   },
+   "PrivacyPolicyTitle": {
+      "message": "Politica de Confidențialitate"
+   },
+   "Rate": {
+      "message": "Evaluează UltraWide Video:"
+   },
+   "ReviewUs": {
+      "message": "Te rugăm să \u003Ca href=\"https://chromewebstore.google.com/detail/lngfncacljheahfpahadgipefkbagpdl/reviews\" id=\"reviewLink\">lași o recenzie\u003C/a> pentru UltraWide Video pe Chrome Web Store"
+   },
+   "Scale": {
+      "message": "Scară:"
+   },
+   "ShortcutNotSet": {
+      "message": "Nesetat"
+   },
+   "Shortcuts": {
+      "message": "Comenzi rapide"
+   },
+   "Stretch": {
+      "description": "Name of the mode when video on the webpage gets stretched horizontally to fill the video element and remove black bars",
+      "message": "Întindere"
+   },
+   "Zoom": {
+      "description": "Name of the mode when video on the webpage gets zoomed (scaled up, vertically and horizontally) to fill the video element and remove black bars",
+      "message": "Zoom"
+   }
+}

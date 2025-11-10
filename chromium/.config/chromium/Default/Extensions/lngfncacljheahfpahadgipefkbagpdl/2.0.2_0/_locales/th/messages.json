@@ -1,0 +1,86 @@
+{
+   "Accept": {
+      "message": "ดำเนินการต่อ"
+   },
+   "AppDescription": {
+      "message": "ลบแถบสีดำออกจากวิดีโอบนหน้าจอ ultrawide (21:9, 32:9 ฯลฯ) ทุกที่ รวมถึง YouTube, Netflix, Prime Video ฯลฯ"
+   },
+   "AppName": {
+      "message": "UltraWide Video"
+   },
+   "AppNameShort": {
+      "message": "UltraWide Video"
+   },
+   "ApplyOnlyInFullscreen": {
+      "message": "ใช้งานเฉพาะในโหมดเต็มจอ"
+   },
+   "ApplyOutsideFullscreen": {
+      "message": "ใช้งานนอกโหมดเต็มจอ"
+   },
+   "ChangeKeyboardShortcuts": {
+      "message": "เปลี่ยนช็อตคัทแป้นพิมพ์"
+   },
+   "CommandAspect169": {
+      "message": "อัตราส่วนภาพ 16:9"
+   },
+   "CommandAspect189": {
+      "message": "อัตราส่วนภาพ 18:9"
+   },
+   "CommandAspect219": {
+      "message": "อัตราส่วนภาพ 21:9"
+   },
+   "CommandAspect329": {
+      "message": "อัตราส่วนภาพ 32:9"
+   },
+   "CommandDecreaseZoom": {
+      "message": "ลดการซูม (-)"
+   },
+   "CommandIncreaseZoom": {
+      "message": "เพิ่มการซูม (+)"
+   },
+   "CommandLabel": {
+      "message": "คำสั่ง"
+   },
+   "CommandStretchMode": {
+      "message": "โหมดยืด"
+   },
+   "CommandZoomMode": {
+      "message": "โหมดซูม"
+   },
+   "ImproveUs": {
+      "message": "กรุณาบอกเราถึงแนวทางปรับปรุงผ่าน\u003Ca href=\"mailto:support@ultrawidevideo.com?subject=Improve UltraWide Video\">อีเมล\u003C/a>"
+   },
+   "Off": {
+      "description": "Name of the mode when the extension is disabled and doesn't apply any transformations",
+      "message": "ปิด"
+   },
+   "PrivacyPolicyText": {
+      "message": "เราให้ความสำคัญกับความเป็นส่วนตัวของคุณและปฏิบัติตาม EU GDPR กรุณาอ่านและยอมรับ\u003Ca href=\"https://ultrawidevideo.com/privacy\" target=\"_blank\">นโยบายความเป็นส่วนตัว\u003C/a>ของเราเพื่อเริ่มใช้งาน UltraWide Video"
+   },
+   "PrivacyPolicyTitle": {
+      "message": "นโยบายความเป็นส่วนตัว"
+   },
+   "Rate": {
+      "message": "ให้คะแนน UltraWide Video:"
+   },
+   "ReviewUs": {
+      "message": "กรุณา \u003Ca href=\"https://chromewebstore.google.com/detail/lngfncacljheahfpahadgipefkbagpdl/reviews\" id=\"reviewLink\">เขียนรีวิว\u003C/a> สำหรับ UltraWide Video บน Chrome Web Store"
+   },
+   "Scale": {
+      "message": "ขนาด:"
+   },
+   "ShortcutNotSet": {
+      "message": "ยังไม่ได้ตั้งค่า"
+   },
+   "Shortcuts": {
+      "message": "ช็อตคัท"
+   },
+   "Stretch": {
+      "description": "Name of the mode when video on the webpage gets stretched horizontally to fill the video element and remove black bars",
+      "message": "ยืด"
+   },
+   "Zoom": {
+      "description": "Name of the mode when video on the webpage gets zoomed (scaled up, vertically and horizontally) to fill the video element and remove black bars",
+      "message": "ซูม"
+   }
+}

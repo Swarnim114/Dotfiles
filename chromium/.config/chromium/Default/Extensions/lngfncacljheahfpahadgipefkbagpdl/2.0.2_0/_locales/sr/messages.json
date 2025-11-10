@@ -1,0 +1,86 @@
+{
+   "Accept": {
+      "message": "Nastavi"
+   },
+   "AppDescription": {
+      "message": "Uklanja crne trake sa video sadržaja na ultraširokim ekranima (21:9, 32:9, itd) svugde, uključujući YouTube, Netflix, Prime Video, itd."
+   },
+   "AppName": {
+      "message": "UltraWide Video"
+   },
+   "AppNameShort": {
+      "message": "UltraWide Video"
+   },
+   "ApplyOnlyInFullscreen": {
+      "message": "Primeni samo u punom ekranu"
+   },
+   "ApplyOutsideFullscreen": {
+      "message": "Primeni van punog ekrana"
+   },
+   "ChangeKeyboardShortcuts": {
+      "message": "Promeni prečice na tastaturi"
+   },
+   "CommandAspect169": {
+      "message": "Format slike 16:9"
+   },
+   "CommandAspect189": {
+      "message": "Format slike 18:9"
+   },
+   "CommandAspect219": {
+      "message": "Format slike 21:9"
+   },
+   "CommandAspect329": {
+      "message": "Format slike 32:9"
+   },
+   "CommandDecreaseZoom": {
+      "message": "Smanji zum (-)"
+   },
+   "CommandIncreaseZoom": {
+      "message": "Povećaj uvećanje (+)"
+   },
+   "CommandLabel": {
+      "message": "Komanda"
+   },
+   "CommandStretchMode": {
+      "message": "Režim rastezanja"
+   },
+   "CommandZoomMode": {
+      "message": "Režim uvećavanja"
+   },
+   "ImproveUs": {
+      "message": "Molimo recite nam kako da se poboljšamo preko \u003Ca href=\"mailto:support@ultrawidevideo.com?subject=Improve UltraWide Video\">email-a\u003C/a>"
+   },
+   "Off": {
+      "description": "Name of the mode when the extension is disabled and doesn't apply any transformations",
+      "message": "Isključeno"
+   },
+   "PrivacyPolicyText": {
+      "message": "Cenimo vašu privatnost i poštujemo EU GDPR. Molimo pregledajte i prihvatite našu \u003Ca href=\"https://ultrawidevideo.com/privacy\" target=\"_blank\">politiku privatnosti\u003C/a> da biste počeli da koristite UltraWide Video."
+   },
+   "PrivacyPolicyTitle": {
+      "message": "Politika privatnosti"
+   },
+   "Rate": {
+      "message": "Ocenite UltraWide Video:"
+   },
+   "ReviewUs": {
+      "message": "Molimo \u003Ca href=\"https://chromewebstore.google.com/detail/lngfncacljheahfpahadgipefkbagpdl/reviews\" id=\"reviewLink\">ostavite recenziju\u003C/a> za UltraWide Video na Chrome Web Store-u"
+   },
+   "Scale": {
+      "message": "Razmera:"
+   },
+   "ShortcutNotSet": {
+      "message": "Nije podešeno"
+   },
+   "Shortcuts": {
+      "message": "Prečice"
+   },
+   "Stretch": {
+      "description": "Name of the mode when video on the webpage gets stretched horizontally to fill the video element and remove black bars",
+      "message": "Rastegni"
+   },
+   "Zoom": {
+      "description": "Name of the mode when video on the webpage gets zoomed (scaled up, vertically and horizontally) to fill the video element and remove black bars",
+      "message": "Uvećaj"
+   }
+}

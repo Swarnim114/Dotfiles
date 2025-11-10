@@ -1,0 +1,86 @@
+{
+   "Accept": {
+      "message": "Continue"
+   },
+   "AppDescription": {
+      "message": "Removes black bars from videos on ultrawide screens (21:9, 32:9, etc) everywhere, including YouTube, Netflix, Prime Video, etc."
+   },
+   "AppName": {
+      "message": "UltraWide Video"
+   },
+   "AppNameShort": {
+      "message": "UltraWide Video"
+   },
+   "ApplyOnlyInFullscreen": {
+      "message": "Apply only in fullscreen"
+   },
+   "ApplyOutsideFullscreen": {
+      "message": "Apply outside fullscreen"
+   },
+   "ChangeKeyboardShortcuts": {
+      "message": "Change keyboard shortcuts"
+   },
+   "CommandAspect169": {
+      "message": "16:9 Aspect Ratio"
+   },
+   "CommandAspect189": {
+      "message": "18:9 Aspect Ratio"
+   },
+   "CommandAspect219": {
+      "message": "21:9 Aspect Ratio"
+   },
+   "CommandAspect329": {
+      "message": "32:9 Aspect Ratio"
+   },
+   "CommandDecreaseZoom": {
+      "message": "Decrease zoom (-)"
+   },
+   "CommandIncreaseZoom": {
+      "message": "Increase zoom (+)"
+   },
+   "CommandLabel": {
+      "message": "Command"
+   },
+   "CommandStretchMode": {
+      "message": "Stretch mode"
+   },
+   "CommandZoomMode": {
+      "message": "Zoom mode"
+   },
+   "ImproveUs": {
+      "message": "Please tell us how to improve over \u003Ca href=\"mailto:support@ultrawidevideo.com?subject=Improve UltraWide Video\">email\u003C/a>"
+   },
+   "Off": {
+      "description": "Name of the mode when the extension is disabled and doesn't apply any transformations",
+      "message": "Off"
+   },
+   "PrivacyPolicyText": {
+      "message": "We value your privacy and honor the EU GDPR. Please review & accept our \u003Ca href=\"https://ultrawidevideo.com/privacy\" target=\"_blank\">privacy policy\u003C/a> to start using UltraWide Video."
+   },
+   "PrivacyPolicyTitle": {
+      "message": "Privacy Policy"
+   },
+   "Rate": {
+      "message": "Rate UltraWide Video:"
+   },
+   "ReviewUs": {
+      "message": "Please \u003Ca href=\"https://chromewebstore.google.com/detail/lngfncacljheahfpahadgipefkbagpdl/reviews\" id=\"reviewLink\">leave a review\u003C/a> for UltraWide Video on the Chrome Web Store"
+   },
+   "Scale": {
+      "message": "Scale:"
+   },
+   "ShortcutNotSet": {
+      "message": "Not set"
+   },
+   "Shortcuts": {
+      "message": "Shortcuts"
+   },
+   "Stretch": {
+      "description": "Name of the mode when video on the webpage gets stretched horizontally to fill the video element and remove black bars",
+      "message": "Stretch"
+   },
+   "Zoom": {
+      "description": "Name of the mode when video on the webpage gets zoomed (scaled up, vertically and horizontally) to fill the video element and remove black bars",
+      "message": "Zoom"
+   }
+}

@@ -1,0 +1,18 @@
+Zažite skutočný filmový zážitok na vašom monitore s pomerom strán 21:9 s UltraWide Video! Toto rozšírenie transformuje režim na celú obrazovku na YouTube, Netflixe, HBO GO a ďalších streamovacích platformách, zabezpečujúc pohlcujúci ultra-široký pomer strán.
+
+Hlavné funkcie:
+ • Vylepšená podpora Ultra-Širokého pomeru: Automaticky upravuje pomer strán pre ultra-široké (21:9, 32:9) monitory, čím eliminuje čierne pruhy na videách.
+ • Okamžité prepnutie: Ľahko prepínajte pomer strán jednoduchou skratkou:
+     • Windows: Stlačte Ctrl+Alt+C
+     • macOS: Stlačte Ctrl+Cmd+C
+ • Univerzálne použitie: Perfektné pre videá so širokým pomerom strán, ktoré sa nesprávne prispôsobujú, zabezpečujúc plynulý zážitok z pozerania.
+
+Kompatibilita:
+ • YouTube
+ • Netflix
+ • HBO GO
+ • Amazon Prime
+ • Disney+
+ • a mnoho ďalších!
+
+Vylepšite svoj zážitok zo streamovania s UltraWide Video, najlepším riešením pre používateľov ultra-širokých obrazoviek. Zabudnite na čierne pruhy a užívajte si svoje obľúbené seriály a filmy v plnej filmovej sláve!

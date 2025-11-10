@@ -1,0 +1,86 @@
+{
+   "Accept": {
+      "message": "Continua"
+   },
+   "AppDescription": {
+      "message": "Elimina les barres negres dels vídeos en pantalles ultraamples (21:9, 32:9, etc.) a tot arreu, incloent YouTube, Netflix, Prime Video, etc."
+   },
+   "AppName": {
+      "message": "UltraWide Video"
+   },
+   "AppNameShort": {
+      "message": "UltraWide Video"
+   },
+   "ApplyOnlyInFullscreen": {
+      "message": "Aplicar només en pantalla completa"
+   },
+   "ApplyOutsideFullscreen": {
+      "message": "Aplicar fora de pantalla completa"
+   },
+   "ChangeKeyboardShortcuts": {
+      "message": "Canviar dreceres de teclat"
+   },
+   "CommandAspect169": {
+      "message": "Relació d'aspecte 16:9"
+   },
+   "CommandAspect189": {
+      "message": "Relació d'aspecte 18:9"
+   },
+   "CommandAspect219": {
+      "message": "Relació d'aspecte 21:9"
+   },
+   "CommandAspect329": {
+      "message": "Relació d'aspecte 32:9"
+   },
+   "CommandDecreaseZoom": {
+      "message": "Reduir zoom (-)"
+   },
+   "CommandIncreaseZoom": {
+      "message": "Augmentar zoom (+)"
+   },
+   "CommandLabel": {
+      "message": "Comanda"
+   },
+   "CommandStretchMode": {
+      "message": "Mode estirar"
+   },
+   "CommandZoomMode": {
+      "message": "Mode zoom"
+   },
+   "ImproveUs": {
+      "message": "Si us plau, diga'ns com millorar per \u003Ca href=\"mailto:support@ultrawidevideo.com?subject=Improve UltraWide Video\">correu electrònic\u003C/a>"
+   },
+   "Off": {
+      "description": "Name of the mode when the extension is disabled and doesn't apply any transformations",
+      "message": "Desactivat"
+   },
+   "PrivacyPolicyText": {
+      "message": "Valorem la teva privadesa i respectem el RGPD de la UE. Si us plau, revisa i accepta la nostra \u003Ca href=\"https://ultrawidevideo.com/privacy\" target=\"_blank\">política de privadesa\u003C/a> per començar a utilitzar UltraWide Video."
+   },
+   "PrivacyPolicyTitle": {
+      "message": "Política de Privadesa"
+   },
+   "Rate": {
+      "message": "Valora UltraWide Video:"
+   },
+   "ReviewUs": {
+      "message": "Si us plau, \u003Ca href=\"https://chromewebstore.google.com/detail/lngfncacljheahfpahadgipefkbagpdl/reviews\" id=\"reviewLink\">deixa una ressenya\u003C/a> d'UltraWide Video a la Chrome Web Store"
+   },
+   "Scale": {
+      "message": "Escala:"
+   },
+   "ShortcutNotSet": {
+      "message": "No establert"
+   },
+   "Shortcuts": {
+      "message": "Dreceres"
+   },
+   "Stretch": {
+      "description": "Name of the mode when video on the webpage gets stretched horizontally to fill the video element and remove black bars",
+      "message": "Estirar"
+   },
+   "Zoom": {
+      "description": "Name of the mode when video on the webpage gets zoomed (scaled up, vertically and horizontally) to fill the video element and remove black bars",
+      "message": "Zoom"
+   }
+}

@@ -1,0 +1,6 @@
+2025/11/10-18:00:02.553 d25f0 Creating DB /home/kalon/.config/chromium/Default/IndexedDB/https_meet.google.com_0.indexeddb.leveldb since it was missing.
+2025/11/10-18:00:02.557 d25f0 Reusing MANIFEST /home/kalon/.config/chromium/Default/IndexedDB/https_meet.google.com_0.indexeddb.leveldb/MANIFEST-000001
+2025/11/10-18:00:43.919 d25f1 Level-0 table #5: started
+2025/11/10-18:00:43.921 d25f1 Level-0 table #5: 4965 bytes OK
+2025/11/10-18:00:43.923 d25f1 Delete type=0 #3
+2025/11/10-18:00:43.923 d25f1 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

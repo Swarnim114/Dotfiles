@@ -1,0 +1,86 @@
+{
+   "Accept": {
+      "message": "Continuar"
+   },
+   "AppDescription": {
+      "message": "Elimina las barras negras de los videos en pantallas ultraanchas (21:9, 32:9, etc) en todas partes, incluyendo YouTube, Netflix, Prime Video, etc."
+   },
+   "AppName": {
+      "message": "UltraWide Video"
+   },
+   "AppNameShort": {
+      "message": "UltraWide Video"
+   },
+   "ApplyOnlyInFullscreen": {
+      "message": "Aplicar solo en pantalla completa"
+   },
+   "ApplyOutsideFullscreen": {
+      "message": "Aplicar fuera de pantalla completa"
+   },
+   "ChangeKeyboardShortcuts": {
+      "message": "Cambiar atajos de teclado"
+   },
+   "CommandAspect169": {
+      "message": "Relación de aspecto 16:9"
+   },
+   "CommandAspect189": {
+      "message": "Relación de aspecto 18:9"
+   },
+   "CommandAspect219": {
+      "message": "Relación de aspecto 21:9"
+   },
+   "CommandAspect329": {
+      "message": "Relación de aspecto 32:9"
+   },
+   "CommandDecreaseZoom": {
+      "message": "Reducir zoom (-)"
+   },
+   "CommandIncreaseZoom": {
+      "message": "Aumentar zoom (+)"
+   },
+   "CommandLabel": {
+      "message": "Comando"
+   },
+   "CommandStretchMode": {
+      "message": "Modo estirar"
+   },
+   "CommandZoomMode": {
+      "message": "Modo ampliar"
+   },
+   "ImproveUs": {
+      "message": "Por favor dinos cómo mejorar por \u003Ca href=\"mailto:support@ultrawidevideo.com?subject=Improve UltraWide Video\">correo electrónico\u003C/a>"
+   },
+   "Off": {
+      "description": "Name of the mode when the extension is disabled and doesn't apply any transformations",
+      "message": "Desactivado"
+   },
+   "PrivacyPolicyText": {
+      "message": "Valoramos tu privacidad y respetamos el GDPR de la UE. Por favor revisa y acepta nuestra \u003Ca href=\"https://ultrawidevideo.com/privacy\" target=\"_blank\">política de privacidad\u003C/a> para comenzar a usar UltraWide Video."
+   },
+   "PrivacyPolicyTitle": {
+      "message": "Política de Privacidad"
+   },
+   "Rate": {
+      "message": "Califica UltraWide Video:"
+   },
+   "ReviewUs": {
+      "message": "Por favor \u003Ca href=\"https://chromewebstore.google.com/detail/lngfncacljheahfpahadgipefkbagpdl/reviews\" id=\"reviewLink\">deja una reseña\u003C/a> para UltraWide Video en Chrome Web Store"
+   },
+   "Scale": {
+      "message": "Escala:"
+   },
+   "ShortcutNotSet": {
+      "message": "No establecido"
+   },
+   "Shortcuts": {
+      "message": "Atajos"
+   },
+   "Stretch": {
+      "description": "Name of the mode when video on the webpage gets stretched horizontally to fill the video element and remove black bars",
+      "message": "Estirar"
+   },
+   "Zoom": {
+      "description": "Name of the mode when video on the webpage gets zoomed (scaled up, vertically and horizontally) to fill the video element and remove black bars",
+      "message": "Ampliar"
+   }
+}

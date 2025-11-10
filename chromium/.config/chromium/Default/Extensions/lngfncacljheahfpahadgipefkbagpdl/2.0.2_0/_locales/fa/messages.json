@@ -1,0 +1,86 @@
+{
+   "Accept": {
+      "message": "ادامه"
+   },
+   "AppDescription": {
+      "message": "نوارهای سیاه را از ویدیوها در صفحه‌نمایش‌های فوق‌پهن (21:9، 32:9 و غیره) در همه جا حذف می‌کند، از جمله YouTube، Netflix، Prime Video و سایر سایت‌ها."
+   },
+   "AppName": {
+      "message": "UltraWide Video"
+   },
+   "AppNameShort": {
+      "message": "UltraWide Video"
+   },
+   "ApplyOnlyInFullscreen": {
+      "message": "فقط در حالت تمام صفحه اعمال شود"
+   },
+   "ApplyOutsideFullscreen": {
+      "message": "اعمال خارج از حالت تمام صفحه"
+   },
+   "ChangeKeyboardShortcuts": {
+      "message": "تغییر میانبرهای صفحه کلید"
+   },
+   "CommandAspect169": {
+      "message": "نسبت تصویر ۱۶:۹"
+   },
+   "CommandAspect189": {
+      "message": "نسبت تصویر ۱۸:۹"
+   },
+   "CommandAspect219": {
+      "message": "نسبت تصویر ۲۱:۹"
+   },
+   "CommandAspect329": {
+      "message": "نسبت تصویر ۳۲:۹"
+   },
+   "CommandDecreaseZoom": {
+      "message": "کاهش زوم (-)"
+   },
+   "CommandIncreaseZoom": {
+      "message": "افزایش زوم (+)"
+   },
+   "CommandLabel": {
+      "message": "دستور"
+   },
+   "CommandStretchMode": {
+      "message": "حالت کشیدن"
+   },
+   "CommandZoomMode": {
+      "message": "حالت زوم"
+   },
+   "ImproveUs": {
+      "message": "لطفاً از طریق \u003Ca href=\"mailto:support@ultrawidevideo.com?subject=Improve UltraWide Video\">ایمیل\u003C/a> به ما بگویید چگونه بهبود یابیم"
+   },
+   "Off": {
+      "description": "Name of the mode when the extension is disabled and doesn't apply any transformations",
+      "message": "خاموش"
+   },
+   "PrivacyPolicyText": {
+      "message": "ما حریم خصوصی شما را ارج می‌نهیم و از GDPR اتحادیه اروپا پیروی می‌کنیم. لطفاً \u003Ca href=\"https://ultrawidevideo.com/privacy\" target=\"_blank\">سیاست حریم خصوصی\u003C/a> ما را بررسی و بپذیرید تا استفاده از UltraWide Video را شروع کنید."
+   },
+   "PrivacyPolicyTitle": {
+      "message": "سیاست حریم خصوصی"
+   },
+   "Rate": {
+      "message": "امتیاز دادن به UltraWide Video:"
+   },
+   "ReviewUs": {
+      "message": "لطفاً برای UltraWide Video در Chrome Web Store \u003Ca href=\"https://chromewebstore.google.com/detail/lngfncacljheahfpahadgipefkbagpdl/reviews\" id=\"reviewLink\">نظر بدهید\u003C/a>"
+   },
+   "Scale": {
+      "message": "مقیاس:"
+   },
+   "ShortcutNotSet": {
+      "message": "تنظیم نشده"
+   },
+   "Shortcuts": {
+      "message": "میانبرها"
+   },
+   "Stretch": {
+      "description": "Name of the mode when video on the webpage gets stretched horizontally to fill the video element and remove black bars",
+      "message": "کشیدن"
+   },
+   "Zoom": {
+      "description": "Name of the mode when video on the webpage gets zoomed (scaled up, vertically and horizontally) to fill the video element and remove black bars",
+      "message": "زوم"
+   }
+}

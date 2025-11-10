@@ -1,0 +1,192 @@
+{
+   "checksum": "c88818213477fa4b6136d3802458296d",
+   "roots": {
+      "bookmark_bar": {
+         "children": [ {
+            "date_added": "13402394233000000",
+            "date_last_used": "13407251574969452",
+            "guid": "a54f2a4a-320e-4985-b1db-45c15fcffc50",
+            "id": "5",
+            "name": "Daily Tasks",
+            "type": "url",
+            "url": "https://www.notion.so/Daily-Tasks-260afd3279a880afba8bf1511e7dce37"
+         }, {
+            "date_added": "13407228341000000",
+            "date_last_used": "0",
+            "guid": "3add57f4-2af6-4c3f-aee9-34743b9d9a5d",
+            "id": "6",
+            "name": "SST Policies_2023 - Google Docs",
+            "type": "url",
+            "url": "https://docs.google.com/document/d/1LRqd0GaedE4fC_RyyI1YIpU31f6nGaEk9UQbm6CX20E/edit?tab=t.12cxh9eqlhif#heading=h.mu6f0tl4dme"
+         }, {
+            "children": [ {
+               "children": [ {
+                  "date_added": "13406469339000000",
+                  "date_last_used": "0",
+                  "guid": "873085c8-0c72-4a25-851b-0f00958dc286",
+                  "id": "9",
+                  "name": "Get Help",
+                  "type": "url",
+                  "url": "https://support.mozilla.org/products/firefox"
+               }, {
+                  "date_added": "13406469339000000",
+                  "date_last_used": "0",
+                  "guid": "7d6dff26-39ad-45de-9aca-9e0957ef7c58",
+                  "id": "10",
+                  "name": "Customize Firefox",
+                  "type": "url",
+                  "url": "https://support.mozilla.org/kb/customize-firefox-controls-buttons-and-toolbars?utm_source=firefox-browser&utm_medium=default-bookmarks&utm_campaign=customize"
+               }, {
+                  "date_added": "13406469339000000",
+                  "date_last_used": "0",
+                  "guid": "b730de0c-317a-4d6a-b102-8cc1d5257906",
+                  "id": "11",
+                  "name": "Get Involved",
+                  "type": "url",
+                  "url": "https://www.mozilla.org/contribute/"
+               }, {
+                  "date_added": "13406469339000000",
+                  "date_last_used": "0",
+                  "guid": "9bb3ce8f-134e-4b09-a2cd-1d2e483b72b8",
+                  "id": "12",
+                  "name": "About Us",
+                  "type": "url",
+                  "url": "https://www.mozilla.org/about/"
+               } ],
+               "date_added": "13407251287525849",
+               "date_last_used": "0",
+               "date_modified": "0",
+               "guid": "74364a04-141d-4c90-bb67-72394730e564",
+               "id": "8",
+               "name": "Mozilla Firefox",
+               "type": "folder"
+            }, {
+               "children": [ {
+                  "children": [ {
+                     "date_added": "13402394215000000",
+                     "date_last_used": "0",
+                     "guid": "5328d6ed-c819-4043-aa7f-0699f3f592ad",
+                     "id": "15",
+                     "name": "SST 2027 Batch Term 9 Syllabus - Google Sheets",
+                     "type": "url",
+                     "url": "https://docs.google.com/spreadsheets/d/1dLUcWutr5b6Q2sgXm6laE9ye0h8xpJD24sMRs6CZs38/edit?gid=1083311221#gid=1083311221"
+                  }, {
+                     "date_added": "13402398812000000",
+                     "date_last_used": "0",
+                     "guid": "8da5482f-4b97-4109-bb33-01f86b5e8ad2",
+                     "id": "16",
+                     "name": "SST Policies_2023 - Google Docs",
+                     "type": "url",
+                     "url": "https://docs.google.com/document/d/1LRqd0GaedE4fC_RyyI1YIpU31f6nGaEk9UQbm6CX20E/edit?tab=t.u19n41g8pi0j#heading=h.i1eubknyx83"
+                  }, {
+                     "date_added": "13403356377000000",
+                     "date_last_used": "0",
+                     "guid": "94999fad-8d98-4f3b-9a11-4580535545f5",
+                     "id": "17",
+                     "name": "Solved all dynamic programming (dp) problems in 7 months. - Discuss - LeetCode",
+                     "type": "url",
+                     "url": "https://leetcode.com/discuss/post/1000929/solved-all-dynamic-programming-dp-proble-8m82/"
+                  }, {
+                     "date_added": "13403363391000000",
+                     "date_last_used": "0",
+                     "guid": "7049913a-82bc-43b8-ad8b-6d0f1e4e1a94",
+                     "id": "18",
+                     "name": "Tasks - Educational DP Contest",
+                     "type": "url",
+                     "url": "https://atcoder.jp/contests/dp/tasks"
+                  }, {
+                     "date_added": "13403474060000000",
+                     "date_last_used": "0",
+                     "guid": "2ca283bf-9f9d-42b0-ac27-f41bfe2edc43",
+                     "id": "19",
+                     "name": "AvengeMedia/DankMaterialShell: Quickshell optimized for niri & hyprland. Check out the niri community Discord below.",
+                     "type": "url",
+                     "url": "https://github.com/AvengeMedia/DankMaterialShell"
+                  }, {
+                     "date_added": "13403706618000000",
+                     "date_last_used": "0",
+                     "guid": "82841745-f87a-4596-afd4-71c12411c739",
+                     "id": "20",
+                     "name": "Exam Handbook Batch'27 End Term October 2025 - Google Docs",
+                     "type": "url",
+                     "url": "https://docs.google.com/document/d/1l8wuKo5Bu5cQ7EyDyM7t-1Tw5It-TsjccHLiJnMNZ0w/edit?tab=t.0#heading=h.5gkav8yrvvi8"
+                  }, {
+                     "date_added": "13404420117000000",
+                     "date_last_used": "0",
+                     "guid": "93679014-dd95-4c73-bb64-188e38a4f28e",
+                     "id": "21",
+                     "name": "Links - Links.pdf",
+                     "type": "url",
+                     "url": "https://scaler-production-new.s3.ap-southeast-1.amazonaws.com/attachments/attachments/000/361/718/original/Links.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIDNNIRGHAQUQRWYA%2F20251008%2Fap-southeast-1%2Fs3%2Faws4_request&X-Amz-Date=20251008T175851Z&X-Amz-Expires=561600&X-Amz-SignedHeaders=host&X-Amz-Signature=46496ac7e0506877944d6c82fab730e758ac85194229c09fa486a8b26834ab9e"
+                  } ],
+                  "date_added": "13407251287525912",
+                  "date_last_used": "0",
+                  "date_modified": "0",
+                  "guid": "24a3cd5f-a942-4d6e-8cbb-ab2e8b2334ab",
+                  "id": "14",
+                  "name": "Study",
+                  "type": "folder"
+               }, {
+                  "date_added": "13405618534000000",
+                  "date_last_used": "0",
+                  "guid": "0b1227dd-47aa-4326-9d99-5525a3d68bc4",
+                  "id": "22",
+                  "name": "Academic Calendar 2025-2026 - All Batches - Google Sheets",
+                  "type": "url",
+                  "url": "https://docs.google.com/spreadsheets/d/1kAFYv_ctiXk8wq_4w5cXqrlLSZOCBq6fQjBoavHRMzY/edit?gid=1758545633#gid=1758545633"
+               }, {
+                  "date_added": "13405796552000000",
+                  "date_last_used": "0",
+                  "guid": "38a746f6-1592-4da8-b81f-ba9dba7ec1e8",
+                  "id": "23",
+                  "name": "SST 2027 Batch Term 10 Syllabus - Google Sheets",
+                  "type": "url",
+                  "url": "https://docs.google.com/spreadsheets/d/13MzTunGSTXAgp3gIXeNiaVtN6VzrY8j20eHwh8i0nH0/edit?gid=1752807431#gid=1752807431"
+               } ],
+               "date_added": "13407251287525906",
+               "date_last_used": "0",
+               "date_modified": "0",
+               "guid": "e5e34215-bd8d-4e5b-9e7d-a484bc067d6b",
+               "id": "13",
+               "name": "unfiled",
+               "type": "folder"
+            } ],
+            "date_added": "13407251287525802",
+            "date_last_used": "0",
+            "date_modified": "13407251287525802",
+            "guid": "b447f1b1-6f4a-4a61-90b8-6c0bd4187af1",
+            "id": "7",
+            "name": "Imported From Firefox",
+            "type": "folder"
+         } ],
+         "date_added": "13407249561412269",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "0bc5d13f-2cba-5d74-951f-3f233fe6c908",
+         "id": "1",
+         "name": "Bookmarks bar",
+         "type": "folder"
+      },
+      "other": {
+         "children": [  ],
+         "date_added": "13407249561412269",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "82b081ec-3dd3-529c-8475-ab6c344590dd",
+         "id": "2",
+         "name": "Other bookmarks",
+         "type": "folder"
+      },
+      "synced": {
+         "children": [  ],
+         "date_added": "13407249561412269",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "4cf2e351-0e85-532b-bb37-df045d8f8d0f",
+         "id": "3",
+         "name": "Mobile bookmarks",
+         "type": "folder"
+      }
+   },
+   "version": 1
+}

@@ -1,0 +1,86 @@
+{
+   "Accept": {
+      "message": "Pokračovať"
+   },
+   "AppDescription": {
+      "message": "Odstraňuje čierne pruhy z videí na ultraširokých obrazovkách (21:9, 32:9, atď.) všade, vrátane YouTube, Netflix, Prime Video, atď."
+   },
+   "AppName": {
+      "message": "UltraWide Video"
+   },
+   "AppNameShort": {
+      "message": "UltraWide Video"
+   },
+   "ApplyOnlyInFullscreen": {
+      "message": "Použiť len na celej obrazovke"
+   },
+   "ApplyOutsideFullscreen": {
+      "message": "Použiť mimo celej obrazovky"
+   },
+   "ChangeKeyboardShortcuts": {
+      "message": "Zmeniť klávesové skratky"
+   },
+   "CommandAspect169": {
+      "message": "Pomer strán 16:9"
+   },
+   "CommandAspect189": {
+      "message": "Pomer strán 18:9"
+   },
+   "CommandAspect219": {
+      "message": "Pomer strán 21:9"
+   },
+   "CommandAspect329": {
+      "message": "Pomer strán 32:9"
+   },
+   "CommandDecreaseZoom": {
+      "message": "Zmenšiť priblíženie (-)"
+   },
+   "CommandIncreaseZoom": {
+      "message": "Zvýšiť priblíženie (+)"
+   },
+   "CommandLabel": {
+      "message": "Príkaz"
+   },
+   "CommandStretchMode": {
+      "message": "Režim roztiahnutia"
+   },
+   "CommandZoomMode": {
+      "message": "Režim priblíženia"
+   },
+   "ImproveUs": {
+      "message": "Prosím povedzte nám, ako sa zlepšiť prostredníctvom \u003Ca href=\"mailto:support@ultrawidevideo.com?subject=Improve UltraWide Video\">emailu\u003C/a>"
+   },
+   "Off": {
+      "description": "Name of the mode when the extension is disabled and doesn't apply any transformations",
+      "message": "Vypnuté"
+   },
+   "PrivacyPolicyText": {
+      "message": "Ceníme si vaše súkromie a dodržiavame EU GDPR. Prosím prečítajte si a akceptujte naše \u003Ca href=\"https://ultrawidevideo.com/privacy\" target=\"_blank\">zásady ochrany osobných údajov\u003C/a> pre začatie používania UltraWide Video."
+   },
+   "PrivacyPolicyTitle": {
+      "message": "Zásady ochrany osobných údajov"
+   },
+   "Rate": {
+      "message": "Ohodnoťte UltraWide Video:"
+   },
+   "ReviewUs": {
+      "message": "Prosím \u003Ca href=\"https://chromewebstore.google.com/detail/lngfncacljheahfpahadgipefkbagpdl/reviews\" id=\"reviewLink\">zanechajte recenziu\u003C/a> pre UltraWide Video v Chrome Web Store"
+   },
+   "Scale": {
+      "message": "Mierka:"
+   },
+   "ShortcutNotSet": {
+      "message": "Nie je nastavená"
+   },
+   "Shortcuts": {
+      "message": "Skratky"
+   },
+   "Stretch": {
+      "description": "Name of the mode when video on the webpage gets stretched horizontally to fill the video element and remove black bars",
+      "message": "Roztiahnutie"
+   },
+   "Zoom": {
+      "description": "Name of the mode when video on the webpage gets zoomed (scaled up, vertically and horizontally) to fill the video element and remove black bars",
+      "message": "Priblíženie"
+   }
+}

@@ -1,0 +1,86 @@
+{
+   "Accept": {
+      "message": "Продължи"
+   },
+   "AppDescription": {
+      "message": "Премахва черните ленти от видеа на ultrawide екрани (21:9, 32:9, и др.) навсякъде, включително YouTube, Netflix, Prime Video и др."
+   },
+   "AppName": {
+      "message": "UltraWide Video"
+   },
+   "AppNameShort": {
+      "message": "UltraWide Video"
+   },
+   "ApplyOnlyInFullscreen": {
+      "message": "Прилагай само в цял екран"
+   },
+   "ApplyOutsideFullscreen": {
+      "message": "Прилагай извън цял екран"
+   },
+   "ChangeKeyboardShortcuts": {
+      "message": "Промени клавишните комбинации"
+   },
+   "CommandAspect169": {
+      "message": "Съотношение 16:9"
+   },
+   "CommandAspect189": {
+      "message": "Съотношение 18:9"
+   },
+   "CommandAspect219": {
+      "message": "Съотношение 21:9"
+   },
+   "CommandAspect329": {
+      "message": "Съотношение 32:9"
+   },
+   "CommandDecreaseZoom": {
+      "message": "Намаляване на мащаба (-)"
+   },
+   "CommandIncreaseZoom": {
+      "message": "Увеличи мащаба (+)"
+   },
+   "CommandLabel": {
+      "message": "Команда"
+   },
+   "CommandStretchMode": {
+      "message": "Режим разтягане"
+   },
+   "CommandZoomMode": {
+      "message": "Режим мащабиране"
+   },
+   "ImproveUs": {
+      "message": "Моля кажете ни как да се подобрим чрез \u003Ca href=\"mailto:support@ultrawidevideo.com?subject=Improve UltraWide Video\">имейл\u003C/a>"
+   },
+   "Off": {
+      "description": "Name of the mode when the extension is disabled and doesn't apply any transformations",
+      "message": "Изключено"
+   },
+   "PrivacyPolicyText": {
+      "message": "Ценим вашата поверителност и спазваме EU GDPR. Моля прегледайте и приемете нашата \u003Ca href=\"https://ultrawidevideo.com/privacy\" target=\"_blank\">политика за поверителност\u003C/a>, за да започнете да използвате UltraWide Video."
+   },
+   "PrivacyPolicyTitle": {
+      "message": "Политика за поверителност"
+   },
+   "Rate": {
+      "message": "Оценете UltraWide Video:"
+   },
+   "ReviewUs": {
+      "message": "Моля \u003Ca href=\"https://chromewebstore.google.com/detail/lngfncacljheahfpahadgipefkbagpdl/reviews\" id=\"reviewLink\">оставете отзив\u003C/a> за UltraWide Video в Chrome Web Store"
+   },
+   "Scale": {
+      "message": "Мащаб:"
+   },
+   "ShortcutNotSet": {
+      "message": "Не е зададена"
+   },
+   "Shortcuts": {
+      "message": "Клавишни комбинации"
+   },
+   "Stretch": {
+      "description": "Name of the mode when video on the webpage gets stretched horizontally to fill the video element and remove black bars",
+      "message": "Разтягане"
+   },
+   "Zoom": {
+      "description": "Name of the mode when video on the webpage gets zoomed (scaled up, vertically and horizontally) to fill the video element and remove black bars",
+      "message": "Мащабиране"
+   }
+}

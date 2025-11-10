@@ -1,0 +1,18 @@
+Experimenta una veritable visió cinematogràfica a la teva pantalla 21:9 amb UltraWide Video! Aquesta extensió transforma el mode de pantalla completa a YouTube, Netflix, HBO GO i altres plataformes de streaming, assegurant una immersió amb una relació d'aspecte ultra-ampla.
+
+Característiques principals:
+ • Suport millorat per Ultra-Wide: Ajust automàtic de la relació d'aspecte per a monitors ultra-amplis (21:9, 32:9), eliminant les franges negres als vídeos.
+ • Canvi instantani: Canvia fàcilment la relació d'aspecte amb una senzilla drecera:
+     • Windows: Prem Ctrl+Alt+C
+     • macOS: Prem Ctrl+Cmd+C
+ • Ús versàtil: Perfecte per a vídeos amb una relació d'aspecte àmplia que no s'ajusten correctament, assegurant una experiència de visualització fluida.
+
+Compatibilitat:
+ • YouTube
+ • Netflix
+ • HBO GO
+ • Amazon Prime
+ • Disney+
+ • i molts més!
+
+Actualitza la teva experiència de streaming amb UltraWide Video, la solució definitiva per a usuaris de pantalles ultra-amplis. Digueu adéu a les franges negres i gaudiu de les vostres sèries i pel·lícules preferides en tota la seva esplendor cinematogràfica!

@@ -1,0 +1,86 @@
+{
+   "Accept": {
+      "message": "Endelea"
+   },
+   "AppDescription": {
+      "message": "Inaondoa miline myeusi kwenye video katika skrini za ultrawide (21:9, 32:9, n.k.) popote, ikijumuisha YouTube, Netflix, Prime Video, n.k."
+   },
+   "AppName": {
+      "message": "UltraWide Video"
+   },
+   "AppNameShort": {
+      "message": "UltraWide Video"
+   },
+   "ApplyOnlyInFullscreen": {
+      "message": "Tumia tu katika skrini nzima"
+   },
+   "ApplyOutsideFullscreen": {
+      "message": "Tumia nje ya skrini kamili"
+   },
+   "ChangeKeyboardShortcuts": {
+      "message": "Badilisha njia za haraka za kibodi"
+   },
+   "CommandAspect169": {
+      "message": "Uwiano wa Kipimo 16:9"
+   },
+   "CommandAspect189": {
+      "message": "Uwiano wa Kipimo 18:9"
+   },
+   "CommandAspect219": {
+      "message": "Uwiano wa Kipimo 21:9"
+   },
+   "CommandAspect329": {
+      "message": "Uwiano wa Kipimo 32:9"
+   },
+   "CommandDecreaseZoom": {
+      "message": "Punguza ukuzaji (-)"
+   },
+   "CommandIncreaseZoom": {
+      "message": "Ongeza ukuzaji (+)"
+   },
+   "CommandLabel": {
+      "message": "Amri"
+   },
+   "CommandStretchMode": {
+      "message": "Hali ya kunyoosha"
+   },
+   "CommandZoomMode": {
+      "message": "Hali ya kuza"
+   },
+   "ImproveUs": {
+      "message": "Tafadhali tuambie jinsi ya kuboresha kupitia \u003Ca href=\"mailto:support@ultrawidevideo.com?subject=Improve UltraWide Video\">barua pepe\u003C/a>"
+   },
+   "Off": {
+      "description": "Name of the mode when the extension is disabled and doesn't apply any transformations",
+      "message": "Imezimwa"
+   },
+   "PrivacyPolicyText": {
+      "message": "Tunaheshimu faragha yako na tunaadhimisha EU GDPR. Tafadhali pitia na ukubali \u003Ca href=\"https://ultrawidevideo.com/privacy\" target=\"_blank\">sera yetu ya faragha\u003C/a> ili uanze kutumia UltraWide Video."
+   },
+   "PrivacyPolicyTitle": {
+      "message": "Sera ya Faragha"
+   },
+   "Rate": {
+      "message": "Kadiria UltraWide Video:"
+   },
+   "ReviewUs": {
+      "message": "Tafadhali \u003Ca href=\"https://chromewebstore.google.com/detail/lngfncacljheahfpahadgipefkbagpdl/reviews\" id=\"reviewLink\">acha ukaguzi\u003C/a> wa UltraWide Video kwenye Chrome Web Store"
+   },
+   "Scale": {
+      "message": "Kipimo:"
+   },
+   "ShortcutNotSet": {
+      "message": "Haijawekwa"
+   },
+   "Shortcuts": {
+      "message": "Njia za Haraka"
+   },
+   "Stretch": {
+      "description": "Name of the mode when video on the webpage gets stretched horizontally to fill the video element and remove black bars",
+      "message": "Nyoosha"
+   },
+   "Zoom": {
+      "description": "Name of the mode when video on the webpage gets zoomed (scaled up, vertically and horizontally) to fill the video element and remove black bars",
+      "message": "Kuza"
+   }
+}

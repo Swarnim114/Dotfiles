@@ -1,0 +1,86 @@
+{
+   "Accept": {
+      "message": "繼續"
+   },
+   "AppDescription": {
+      "message": "在超寬螢幕（21:9、32:9 等）上移除影片的黑邊，適用於所有網站，包括 YouTube、Netflix、Prime Video 等。"
+   },
+   "AppName": {
+      "message": "超寬屏視頻 (UltraWide Video)"
+   },
+   "AppNameShort": {
+      "message": "UltraWide Video"
+   },
+   "ApplyOnlyInFullscreen": {
+      "message": "僅在全螢幕時套用"
+   },
+   "ApplyOutsideFullscreen": {
+      "message": "在非全螢幕模式下套用"
+   },
+   "ChangeKeyboardShortcuts": {
+      "message": "更改鍵盤快捷鍵"
+   },
+   "CommandAspect169": {
+      "message": "16:9 長寬比"
+   },
+   "CommandAspect189": {
+      "message": "18:9 長寬比"
+   },
+   "CommandAspect219": {
+      "message": "21:9 長寬比"
+   },
+   "CommandAspect329": {
+      "message": "32:9 長寬比"
+   },
+   "CommandDecreaseZoom": {
+      "message": "減少縮放 (-)"
+   },
+   "CommandIncreaseZoom": {
+      "message": "增加縮放 (+)"
+   },
+   "CommandLabel": {
+      "message": "指令"
+   },
+   "CommandStretchMode": {
+      "message": "延展模式"
+   },
+   "CommandZoomMode": {
+      "message": "縮放模式"
+   },
+   "ImproveUs": {
+      "message": "請透過\u003Ca href=\"mailto:support@ultrawidevideo.com?subject=Improve UltraWide Video\">電子郵件\u003C/a>告訴我們如何改進"
+   },
+   "Off": {
+      "description": "Name of the mode when the extension is disabled and doesn't apply any transformations",
+      "message": "關閉"
+   },
+   "PrivacyPolicyText": {
+      "message": "我們重視您的隱私並遵守歐盟 GDPR 規範。請查看並接受我們的\u003Ca href=\"https://ultrawidevideo.com/privacy\" target=\"_blank\">隱私權政策\u003C/a>以開始使用 UltraWide Video。"
+   },
+   "PrivacyPolicyTitle": {
+      "message": "隱私權政策"
+   },
+   "Rate": {
+      "message": "為 UltraWide Video 評分："
+   },
+   "ReviewUs": {
+      "message": "請在 Chrome 線上應用程式商店為 UltraWide Video \u003Ca href=\"https://chromewebstore.google.com/detail/lngfncacljheahfpahadgipefkbagpdl/reviews\" id=\"reviewLink\">留下評論\u003C/a>"
+   },
+   "Scale": {
+      "message": "縮放比例："
+   },
+   "ShortcutNotSet": {
+      "message": "未設定"
+   },
+   "Shortcuts": {
+      "message": "快捷鍵"
+   },
+   "Stretch": {
+      "description": "Name of the mode when video on the webpage gets stretched horizontally to fill the video element and remove black bars",
+      "message": "延展"
+   },
+   "Zoom": {
+      "description": "Name of the mode when video on the webpage gets zoomed (scaled up, vertically and horizontally) to fill the video element and remove black bars",
+      "message": "縮放"
+   }
+}

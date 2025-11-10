@@ -1,0 +1,86 @@
+{
+   "Accept": {
+      "message": "המשך"
+   },
+   "AppDescription": {
+      "message": "מסיר פסים שחורים מסרטונים במסכים רחבים במיוחד (21:9, 32:9, וכו') בכל מקום, כולל YouTube, Netflix, Prime Video ועוד."
+   },
+   "AppName": {
+      "message": "UltraWide Video"
+   },
+   "AppNameShort": {
+      "message": "UltraWide Video"
+   },
+   "ApplyOnlyInFullscreen": {
+      "message": "החל רק במסך מלא"
+   },
+   "ApplyOutsideFullscreen": {
+      "message": "החל מחוץ למסך מלא"
+   },
+   "ChangeKeyboardShortcuts": {
+      "message": "שנה קיצורי דרך במקלדת"
+   },
+   "CommandAspect169": {
+      "message": "יחס גובה-רוחב 16:9"
+   },
+   "CommandAspect189": {
+      "message": "יחס גובה-רוחב 18:9"
+   },
+   "CommandAspect219": {
+      "message": "יחס גובה-רוחב 21:9"
+   },
+   "CommandAspect329": {
+      "message": "יחס גובה-רוחב 32:9"
+   },
+   "CommandDecreaseZoom": {
+      "message": "הקטן זום (-)"
+   },
+   "CommandIncreaseZoom": {
+      "message": "הגדל זום (+)"
+   },
+   "CommandLabel": {
+      "message": "פקודה"
+   },
+   "CommandStretchMode": {
+      "message": "מצב מתיחה"
+   },
+   "CommandZoomMode": {
+      "message": "מצב זום"
+   },
+   "ImproveUs": {
+      "message": "אנא ספר לנו כיצד לשפר באמצעות \u003Ca href=\"mailto:support@ultrawidevideo.com?subject=Improve UltraWide Video\">דואר אלקטרוני\u003C/a>"
+   },
+   "Off": {
+      "description": "Name of the mode when the extension is disabled and doesn't apply any transformations",
+      "message": "כבוי"
+   },
+   "PrivacyPolicyText": {
+      "message": "אנו מעריכים את הפרטיות שלך ומכבדים את ה-GDPR של האיחוד האירופי. אנא עיין ואשר את \u003Ca href=\"https://ultrawidevideo.com/privacy\" target=\"_blank\">מדיניות הפרטיות\u003C/a> שלנו כדי להתחיל להשתמש ב-UltraWide Video."
+   },
+   "PrivacyPolicyTitle": {
+      "message": "מדיניות פרטיות"
+   },
+   "Rate": {
+      "message": "דרג את UltraWide Video:"
+   },
+   "ReviewUs": {
+      "message": "אנא \u003Ca href=\"https://chromewebstore.google.com/detail/lngfncacljheahfpahadgipefkbagpdl/reviews\" id=\"reviewLink\">השאר ביקורת\u003C/a> עבור UltraWide Video בחנות Chrome Web Store"
+   },
+   "Scale": {
+      "message": "קנה מידה:"
+   },
+   "ShortcutNotSet": {
+      "message": "לא הוגדר"
+   },
+   "Shortcuts": {
+      "message": "קיצורי דרך"
+   },
+   "Stretch": {
+      "description": "Name of the mode when video on the webpage gets stretched horizontally to fill the video element and remove black bars",
+      "message": "מתיחה"
+   },
+   "Zoom": {
+      "description": "Name of the mode when video on the webpage gets zoomed (scaled up, vertically and horizontally) to fill the video element and remove black bars",
+      "message": "זום"
+   }
+}

@@ -1,0 +1,86 @@
+{
+   "Accept": {
+      "message": "Fortsett"
+   },
+   "AppDescription": {
+      "message": "Fjerner sorte felter fra videoer på ultrabrede skjermer (21:9, 32:9, osv) overalt, inkludert YouTube, Netflix, Prime Video, osv."
+   },
+   "AppName": {
+      "message": "UltraWide Video"
+   },
+   "AppNameShort": {
+      "message": "UltraWide Video"
+   },
+   "ApplyOnlyInFullscreen": {
+      "message": "Bruk kun i fullskjerm"
+   },
+   "ApplyOutsideFullscreen": {
+      "message": "Bruk utenfor fullskjerm"
+   },
+   "ChangeKeyboardShortcuts": {
+      "message": "Endre tastatursnarveier"
+   },
+   "CommandAspect169": {
+      "message": "16:9 Sideforhold"
+   },
+   "CommandAspect189": {
+      "message": "18:9 Sideforhold"
+   },
+   "CommandAspect219": {
+      "message": "21:9 Sideforhold"
+   },
+   "CommandAspect329": {
+      "message": "32:9 Sideforhold"
+   },
+   "CommandDecreaseZoom": {
+      "message": "Reduser zoom (-)"
+   },
+   "CommandIncreaseZoom": {
+      "message": "Øk zoom (+)"
+   },
+   "CommandLabel": {
+      "message": "Kommando"
+   },
+   "CommandStretchMode": {
+      "message": "Strekk-modus"
+   },
+   "CommandZoomMode": {
+      "message": "Zoom-modus"
+   },
+   "ImproveUs": {
+      "message": "Vennligst fortell oss hvordan vi kan forbedre oss via \u003Ca href=\"mailto:support@ultrawidevideo.com?subject=Improve UltraWide Video\">e-post\u003C/a>"
+   },
+   "Off": {
+      "description": "Name of the mode when the extension is disabled and doesn't apply any transformations",
+      "message": "Av"
+   },
+   "PrivacyPolicyText": {
+      "message": "Vi verdsetter ditt personvern og respekterer EU GDPR. Vennligst les og godta våre \u003Ca href=\"https://ultrawidevideo.com/privacy\" target=\"_blank\">personvernregler\u003C/a> for å begynne å bruke UltraWide Video."
+   },
+   "PrivacyPolicyTitle": {
+      "message": "Personvernregler"
+   },
+   "Rate": {
+      "message": "Vurder UltraWide Video:"
+   },
+   "ReviewUs": {
+      "message": "Vennligst \u003Ca href=\"https://chromewebstore.google.com/detail/lngfncacljheahfpahadgipefkbagpdl/reviews\" id=\"reviewLink\">skriv en anmeldelse\u003C/a> for UltraWide Video på Chrome Web Store"
+   },
+   "Scale": {
+      "message": "Skalering:"
+   },
+   "ShortcutNotSet": {
+      "message": "Ikke angitt"
+   },
+   "Shortcuts": {
+      "message": "Snarveier"
+   },
+   "Stretch": {
+      "description": "Name of the mode when video on the webpage gets stretched horizontally to fill the video element and remove black bars",
+      "message": "Strekk"
+   },
+   "Zoom": {
+      "description": "Name of the mode when video on the webpage gets zoomed (scaled up, vertically and horizontally) to fill the video element and remove black bars",
+      "message": "Zoom"
+   }
+}

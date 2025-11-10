@@ -1,0 +1,86 @@
+{
+   "Accept": {
+      "message": "Jätka"
+   },
+   "AppDescription": {
+      "message": "Eemaldab mustad ribad videotelt ülilaiatel ekraanidel (21:9, 32:9 jne) kõikjal, sealhulgas YouTube'is, Netflix'is, Prime Video's jne."
+   },
+   "AppName": {
+      "message": "UltraWide Video"
+   },
+   "AppNameShort": {
+      "message": "UltraWide Video"
+   },
+   "ApplyOnlyInFullscreen": {
+      "message": "Rakenda ainult täisekraanil"
+   },
+   "ApplyOutsideFullscreen": {
+      "message": "Rakenda väljaspool täisekraani"
+   },
+   "ChangeKeyboardShortcuts": {
+      "message": "Muuda klaviatuuriotseteid"
+   },
+   "CommandAspect169": {
+      "message": "16:9 Kuvasuhe"
+   },
+   "CommandAspect189": {
+      "message": "18:9 Kuvasuhe"
+   },
+   "CommandAspect219": {
+      "message": "21:9 Kuvasuhe"
+   },
+   "CommandAspect329": {
+      "message": "32:9 Kuvasuhe"
+   },
+   "CommandDecreaseZoom": {
+      "message": "Vähenda suumi (-)"
+   },
+   "CommandIncreaseZoom": {
+      "message": "Suurenda suurendust (+)"
+   },
+   "CommandLabel": {
+      "message": "Käsk"
+   },
+   "CommandStretchMode": {
+      "message": "Venitamisrežiim"
+   },
+   "CommandZoomMode": {
+      "message": "Suurendusrežiim"
+   },
+   "ImproveUs": {
+      "message": "Palun ütle meile, kuidas paremaks saada \u003Ca href=\"mailto:support@ultrawidevideo.com?subject=Improve UltraWide Video\">e-posti\u003C/a> teel"
+   },
+   "Off": {
+      "description": "Name of the mode when the extension is disabled and doesn't apply any transformations",
+      "message": "Väljas"
+   },
+   "PrivacyPolicyText": {
+      "message": "Me väärtustame teie privaatsust ja austame EL-i GDPR-i. Palun vaadake üle ja nõustuge meie \u003Ca href=\"https://ultrawidevideo.com/privacy\" target=\"_blank\">privaatsuspoliitikaga\u003C/a>, et hakata kasutama UltraWide Video't."
+   },
+   "PrivacyPolicyTitle": {
+      "message": "Privaatsuspoliitika"
+   },
+   "Rate": {
+      "message": "Hinda UltraWide Video't:"
+   },
+   "ReviewUs": {
+      "message": "Palun \u003Ca href=\"https://chromewebstore.google.com/detail/lngfncacljheahfpahadgipefkbagpdl/reviews\" id=\"reviewLink\">jäta arvustus\u003C/a> UltraWide Video kohta Chrome'i veebipoodi"
+   },
+   "Scale": {
+      "message": "Skaala:"
+   },
+   "ShortcutNotSet": {
+      "message": "Määramata"
+   },
+   "Shortcuts": {
+      "message": "Otseteed"
+   },
+   "Stretch": {
+      "description": "Name of the mode when video on the webpage gets stretched horizontally to fill the video element and remove black bars",
+      "message": "Venitamine"
+   },
+   "Zoom": {
+      "description": "Name of the mode when video on the webpage gets zoomed (scaled up, vertically and horizontally) to fill the video element and remove black bars",
+      "message": "Suurendus"
+   }
+}

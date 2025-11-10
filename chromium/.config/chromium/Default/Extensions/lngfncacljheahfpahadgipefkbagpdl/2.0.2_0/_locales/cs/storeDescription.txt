@@ -1,0 +1,18 @@
+Zažijte pravé filmové zážitky na svém 21:9 monitoru s aplikací UltraWidth Video! Toto rozšíření transformuje režim celé obrazovky na YouTube, Netflixu, HBO GO a dalších streamovacích platformách a zajišťuje pohlcující ultraširoký poměr stran.
+
+Klíčové vlastnosti:
+ • Vylepšená podpora ultraše širokého formátu: Automaticky přizpůsobuje poměr stran pro ultraširoké monitory (21:9, 32:9), čímž eliminuje černé pruhy na videích.
+ • Okamžité přepínání: Snadné přepínání poměru stran pomocí jednoduché klávesové zkratky:
+     • Windows: Stiskněte Ctrl+Alt+C
+     • macOS: Stiskněte Ctrl+Cmd+C
+ • Univerzální použití: Perfektní pro videa s širokým poměrem stran, která se neškálují správně, zajišťující plynulý sledovací zážitek.
+
+Kompatibilita:
+ • YouTube
+ • Netflix
+ • HBO GO
+ • Amazon Prime
+ • Disney+
+ • a mnohem více!
+
+Vylepšete své streamování s UltraWidth Video, dokonalým řešením pro uživatele ultraširokých obrazovek. Řekněte sbohem černým pruhům a užijte si své oblíbené seriály a filmy v plné filmové slávě!

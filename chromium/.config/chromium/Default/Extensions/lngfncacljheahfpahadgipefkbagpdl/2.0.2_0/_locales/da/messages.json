@@ -1,0 +1,86 @@
+{
+   "Accept": {
+      "message": "Fortsæt"
+   },
+   "AppDescription": {
+      "message": "Fjerner sorte bjælker fra videoer på ultrawide skærme (21:9, 32:9, osv.) overalt, inklusiv YouTube, Netflix, Prime Video, osv."
+   },
+   "AppName": {
+      "message": "UltraWide Video"
+   },
+   "AppNameShort": {
+      "message": "UltraWide Video"
+   },
+   "ApplyOnlyInFullscreen": {
+      "message": "Anvend kun i fuldskærm"
+   },
+   "ApplyOutsideFullscreen": {
+      "message": "Anvend uden for fuldskærm"
+   },
+   "ChangeKeyboardShortcuts": {
+      "message": "Ændr tastaturgenveje"
+   },
+   "CommandAspect169": {
+      "message": "16:9 Billedformat"
+   },
+   "CommandAspect189": {
+      "message": "18:9 Billedformat"
+   },
+   "CommandAspect219": {
+      "message": "21:9 Billedformat"
+   },
+   "CommandAspect329": {
+      "message": "32:9 Billedformat"
+   },
+   "CommandDecreaseZoom": {
+      "message": "Formindsk zoom (-)"
+   },
+   "CommandIncreaseZoom": {
+      "message": "Forøg zoom (+)"
+   },
+   "CommandLabel": {
+      "message": "Kommando"
+   },
+   "CommandStretchMode": {
+      "message": "Stræk-tilstand"
+   },
+   "CommandZoomMode": {
+      "message": "Zoom-tilstand"
+   },
+   "ImproveUs": {
+      "message": "Fortæl os venligst hvordan vi kan forbedre via \u003Ca href=\"mailto:support@ultrawidevideo.com?subject=Improve UltraWide Video\">email\u003C/a>"
+   },
+   "Off": {
+      "description": "Name of the mode when the extension is disabled and doesn't apply any transformations",
+      "message": "Fra"
+   },
+   "PrivacyPolicyText": {
+      "message": "Vi værdsætter dit privatliv og respekterer EU GDPR. Gennemgå og acceptér venligst vores \u003Ca href=\"https://ultrawidevideo.com/privacy\" target=\"_blank\">privatlivspolitik\u003C/a> for at begynde at bruge UltraWide Video."
+   },
+   "PrivacyPolicyTitle": {
+      "message": "Privatlivspolitik"
+   },
+   "Rate": {
+      "message": "Bedøm UltraWide Video:"
+   },
+   "ReviewUs": {
+      "message": "Venligst \u003Ca href=\"https://chromewebstore.google.com/detail/lngfncacljheahfpahadgipefkbagpdl/reviews\" id=\"reviewLink\">skriv en anmeldelse\u003C/a> af UltraWide Video på Chrome Web Store"
+   },
+   "Scale": {
+      "message": "Skala:"
+   },
+   "ShortcutNotSet": {
+      "message": "Ikke indstillet"
+   },
+   "Shortcuts": {
+      "message": "Genveje"
+   },
+   "Stretch": {
+      "description": "Name of the mode when video on the webpage gets stretched horizontally to fill the video element and remove black bars",
+      "message": "Stræk"
+   },
+   "Zoom": {
+      "description": "Name of the mode when video on the webpage gets zoomed (scaled up, vertically and horizontally) to fill the video element and remove black bars",
+      "message": "Zoom"
+   }
+}

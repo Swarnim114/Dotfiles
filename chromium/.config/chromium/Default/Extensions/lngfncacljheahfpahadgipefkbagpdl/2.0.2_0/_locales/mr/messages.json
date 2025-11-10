@@ -1,0 +1,86 @@
+{
+   "Accept": {
+      "message": "सुरू ठेवा"
+   },
+   "AppDescription": {
+      "message": "अल्ट्राव्हाइड स्क्रीनवर (21:9, 32:9, इत्यादी) YouTube, Netflix, Prime Video इत्यादी सर्वत्र व्हिडिओमधील काळ्या पट्ट्या काढून टाकते."
+   },
+   "AppName": {
+      "message": "UltraWide Video"
+   },
+   "AppNameShort": {
+      "message": "UltraWide Video"
+   },
+   "ApplyOnlyInFullscreen": {
+      "message": "केवळ पूर्ण स्क्रीनमध्ये लागू करा"
+   },
+   "ApplyOutsideFullscreen": {
+      "message": "फुलस्क्रीनबाहेर लागू करा"
+   },
+   "ChangeKeyboardShortcuts": {
+      "message": "कीबोर्ड शॉर्टकट बदला"
+   },
+   "CommandAspect169": {
+      "message": "16:9 आस्पेक्ट रेशो"
+   },
+   "CommandAspect189": {
+      "message": "18:9 आस्पेक्ट रेशो"
+   },
+   "CommandAspect219": {
+      "message": "21:9 आस्पेक्ट रेशो"
+   },
+   "CommandAspect329": {
+      "message": "32:9 आस्पेक्ट रेशो"
+   },
+   "CommandDecreaseZoom": {
+      "message": "झूम कमी करा (-)"
+   },
+   "CommandIncreaseZoom": {
+      "message": "झूम वाढवा (+)"
+   },
+   "CommandLabel": {
+      "message": "कमांड"
+   },
+   "CommandStretchMode": {
+      "message": "स्ट्रेच मोड"
+   },
+   "CommandZoomMode": {
+      "message": "झूम मोड"
+   },
+   "ImproveUs": {
+      "message": "कृपया \u003Ca href=\"mailto:support@ultrawidevideo.com?subject=Improve UltraWide Video\">ईमेल\u003C/a> द्वारे आम्हाला कसे सुधारावे ते सांगा"
+   },
+   "Off": {
+      "description": "Name of the mode when the extension is disabled and doesn't apply any transformations",
+      "message": "बंद"
+   },
+   "PrivacyPolicyText": {
+      "message": "आम्ही तुमच्या गोपनीयतेची कदर करतो आणि EU GDPR चा सन्मान करतो. UltraWide Video वापरण्यास सुरुवात करण्यासाठी कृपया आमचे \u003Ca href=\"https://ultrawidevideo.com/privacy\" target=\"_blank\">गोपनीयता धोरण\u003C/a> पहा आणि स्वीकारा."
+   },
+   "PrivacyPolicyTitle": {
+      "message": "गोपनीयता धोरण"
+   },
+   "Rate": {
+      "message": "UltraWide Video ला रेटिंग द्या:"
+   },
+   "ReviewUs": {
+      "message": "कृपया Chrome Web Store वर UltraWide Video साठी \u003Ca href=\"https://chromewebstore.google.com/detail/lngfncacljheahfpahadgipefkbagpdl/reviews\" id=\"reviewLink\">रिव्ह्यू लिहा\u003C/a>"
+   },
+   "Scale": {
+      "message": "स्केल:"
+   },
+   "ShortcutNotSet": {
+      "message": "सेट केले नाही"
+   },
+   "Shortcuts": {
+      "message": "शॉर्टकट"
+   },
+   "Stretch": {
+      "description": "Name of the mode when video on the webpage gets stretched horizontally to fill the video element and remove black bars",
+      "message": "स्ट्रेच"
+   },
+   "Zoom": {
+      "description": "Name of the mode when video on the webpage gets zoomed (scaled up, vertically and horizontally) to fill the video element and remove black bars",
+      "message": "झूम"
+   }
+}

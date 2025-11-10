@@ -1,0 +1,86 @@
+{
+   "Accept": {
+      "message": "தொடரவும்"
+   },
+   "AppDescription": {
+      "message": "அல்ட்ராவைட் திரைகளில் (21:9, 32:9, போன்றவை) வீடியோக்களில் இருந்து கருப்பு பட்டைகளை நீக்குகிறது, YouTube, Netflix, Prime Video போன்ற எல்லா இடங்களிலும்."
+   },
+   "AppName": {
+      "message": "UltraWide Video"
+   },
+   "AppNameShort": {
+      "message": "UltraWide Video"
+   },
+   "ApplyOnlyInFullscreen": {
+      "message": "முழுத்திரையில் மட்டும் பயன்படுத்து"
+   },
+   "ApplyOutsideFullscreen": {
+      "message": "முழுத்திரை அல்லாத போதும் பயன்படுத்து"
+   },
+   "ChangeKeyboardShortcuts": {
+      "message": "விசைப்பலகை குறுக்குவழிகளை மாற்று"
+   },
+   "CommandAspect169": {
+      "message": "16:9 விகித அளவு"
+   },
+   "CommandAspect189": {
+      "message": "18:9 விகித அளவு"
+   },
+   "CommandAspect219": {
+      "message": "21:9 விகித அளவு"
+   },
+   "CommandAspect329": {
+      "message": "32:9 விகித அளவு"
+   },
+   "CommandDecreaseZoom": {
+      "message": "ஜூம் குறைக்க (-)"
+   },
+   "CommandIncreaseZoom": {
+      "message": "பெரிதாக்கத்தை அதிகரி (+)"
+   },
+   "CommandLabel": {
+      "message": "கட்டளை"
+   },
+   "CommandStretchMode": {
+      "message": "நீட்டு பயன்முறை"
+   },
+   "CommandZoomMode": {
+      "message": "பெரிதாக்கு பயன்முறை"
+   },
+   "ImproveUs": {
+      "message": "எப்படி மேம்படுத்தலாம் என்பதை \u003Ca href=\"mailto:support@ultrawidevideo.com?subject=Improve UltraWide Video\">மின்னஞ்சல்\u003C/a> மூலம் சொல்லுங்கள்"
+   },
+   "Off": {
+      "description": "Name of the mode when the extension is disabled and doesn't apply any transformations",
+      "message": "அணைக்கப்பட்டது"
+   },
+   "PrivacyPolicyText": {
+      "message": "நாங்கள் உங்கள் தனியுரிமையை மதிக்கிறோம் மற்றும் EU GDPR-ஐ மதிக்கிறோம். UltraWide Video-ஐ பயன்படுத்த ஆரம்பிக்க எங்கள் \u003Ca href=\"https://ultrawidevideo.com/privacy\" target=\"_blank\">தனியுரிமை கொள்கையை\u003C/a> படித்து ஏற்றுக்கொள்ளுங்கள்."
+   },
+   "PrivacyPolicyTitle": {
+      "message": "தனியுரிமை கொள்கை"
+   },
+   "Rate": {
+      "message": "UltraWide Video-க்கு மதிப்பீடு கொடுங்கள்:"
+   },
+   "ReviewUs": {
+      "message": "Chrome Web Store-ல் UltraWide Video-க்கு \u003Ca href=\"https://chromewebstore.google.com/detail/lngfncacljheahfpahadgipefkbagpdl/reviews\" id=\"reviewLink\">மதிப்புரை எழுதுங்கள்\u003C/a>"
+   },
+   "Scale": {
+      "message": "அளவு:"
+   },
+   "ShortcutNotSet": {
+      "message": "அமைக்கப்படவில்லை"
+   },
+   "Shortcuts": {
+      "message": "குறுக்குவழிகள்"
+   },
+   "Stretch": {
+      "description": "Name of the mode when video on the webpage gets stretched horizontally to fill the video element and remove black bars",
+      "message": "நீட்டு"
+   },
+   "Zoom": {
+      "description": "Name of the mode when video on the webpage gets zoomed (scaled up, vertically and horizontally) to fill the video element and remove black bars",
+      "message": "பெரிதாக்கு"
+   }
+}

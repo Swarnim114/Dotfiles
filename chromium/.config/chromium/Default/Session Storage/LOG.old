@@ -1,0 +1,5 @@
+2025/11/10-17:29:21.469 5 Creating DB /home/kalon/.config/chromium/Default/Session Storage since it was missing.
+2025/11/10-17:29:21.474 5 Reusing MANIFEST /home/kalon/.config/chromium/Default/Session Storage/MANIFEST-000001
+2025/11/10-18:04:58.210 7 Level-0 table #5: started
+2025/11/10-18:04:58.215 7 Level-0 table #5: 21209 bytes OK
+2025/11/10-18:04:58.218 7 Delete type=0 #3
