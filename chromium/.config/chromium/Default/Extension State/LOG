@@ -1,3 +1,39 @@
-2025/11/10-18:10:30.192 da1a0 Reusing MANIFEST /home/kalon/.config/chromium/Default/Extension State/MANIFEST-000001
-2025/11/10-18:10:30.192 da1a0 Recovering log #3
-2025/11/10-18:10:30.196 da1a0 Reusing old log /home/kalon/.config/chromium/Default/Extension State/000003.log 
+2025/11/23-13:26:58.511 74d6d Reusing MANIFEST /home/kalon/.config/chromium/Default/Extension State/MANIFEST-000001
+2025/11/23-13:26:58.511 74d6d Recovering log #71
+2025/11/23-13:26:58.516 74d6d Reusing old log /home/kalon/.config/chromium/Default/Extension State/000071.log 
+2025/11/23-16:32:51.928 74d6d Level-0 table #75: started
+2025/11/23-16:32:51.943 74d6d Level-0 table #75: 635680 bytes OK
+2025/11/23-16:32:51.948 74d6d Delete type=0 #71
+2025/11/23-16:32:51.949 74d6d Compacting 4@0 + 1@1 files
+2025/11/23-16:32:51.959 74d6d Generated table #76@0: 5 keys, 2495 bytes
+2025/11/23-16:32:51.959 74d6d Compacted 4@0 + 1@1 files => 2495 bytes
+2025/11/23-16:32:51.961 74d6d compacted to: files[ 0 1 1 0 0 0 0 ]
+2025/11/23-16:32:51.961 74d6d Delete type=2 #66
+2025/11/23-16:32:51.961 74d6d Delete type=2 #68
+2025/11/23-16:32:51.961 74d6d Delete type=2 #70
+2025/11/23-16:32:51.961 74d6d Delete type=2 #72
+2025/11/23-16:32:51.961 74d6d Delete type=2 #75
+2025/11/23-19:19:54.030 74d6d Level-0 table #78: started
+2025/11/23-19:19:54.057 74d6d Level-0 table #78: 659546 bytes OK
+2025/11/23-19:19:54.060 74d6d Delete type=0 #74
+2025/11/24-00:45:34.868 74d6d Level-0 table #80: started
+2025/11/24-00:45:34.889 74d6d Level-0 table #80: 641186 bytes OK
+2025/11/24-00:45:34.891 74d6d Delete type=0 #77
+2025/11/24-13:49:50.580 74d6d Level-0 table #82: started
+2025/11/24-13:49:50.597 74d6d Level-0 table #82: 663743 bytes OK
+2025/11/24-13:49:50.600 74d6d Delete type=0 #79
+2025/11/24-14:56:02.882 74d6d Level-0 table #84: started
+2025/11/24-14:56:02.903 74d6d Level-0 table #84: 654584 bytes OK
+2025/11/24-14:56:02.906 74d6d Delete type=0 #81
+2025/11/24-14:56:02.907 74d6d Compacting 4@0 + 1@1 files
+2025/11/24-14:56:02.919 74d6d Generated table #85@0: 6 keys, 6563 bytes
+2025/11/24-14:56:02.919 74d6d Compacted 4@0 + 1@1 files => 6563 bytes
+2025/11/24-14:56:02.921 74d6d compacted to: files[ 0 1 1 0 0 0 0 ]
+2025/11/24-14:56:02.922 74d6d Delete type=2 #76
+2025/11/24-14:56:02.922 74d6d Delete type=2 #78
+2025/11/24-14:56:02.922 74d6d Delete type=2 #80
+2025/11/24-14:56:02.922 74d6d Delete type=2 #82
+2025/11/24-14:56:02.922 74d6d Delete type=2 #84
+2025/11/24-16:05:09.642 74d6d Level-0 table #87: started
+2025/11/24-16:05:09.662 74d6d Level-0 table #87: 653097 bytes OK
+2025/11/24-16:05:09.665 74d6d Delete type=0 #83

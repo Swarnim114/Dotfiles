@@ -1,2 +1,3 @@
-2025/11/10-17:44:58.258 d25f0 Creating DB /home/kalon/.config/chromium/Default/IndexedDB/https_www.reddit.com_0.indexeddb.leveldb since it was missing.
-2025/11/10-17:44:58.262 d25f0 Reusing MANIFEST /home/kalon/.config/chromium/Default/IndexedDB/https_www.reddit.com_0.indexeddb.leveldb/MANIFEST-000001
+2025/11/24-13:08:22.799 74d6b Reusing MANIFEST /home/kalon/.config/chromium/Default/IndexedDB/https_www.reddit.com_0.indexeddb.leveldb/MANIFEST-000001
+2025/11/24-13:08:22.800 74d6b Recovering log #23
+2025/11/24-13:08:22.801 74d6b Reusing old log /home/kalon/.config/chromium/Default/IndexedDB/https_www.reddit.com_0.indexeddb.leveldb/000023.log 

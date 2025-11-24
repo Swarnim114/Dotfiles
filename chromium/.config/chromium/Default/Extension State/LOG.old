@@ -1,2 +1,24 @@
-2025/11/10-17:29:21.571 d25f1 Creating DB /home/kalon/.config/chromium/Default/Extension State since it was missing.
-2025/11/10-17:29:21.577 d25f1 Reusing MANIFEST /home/kalon/.config/chromium/Default/Extension State/MANIFEST-000001
+2025/11/22-12:00:52.781 1ab4 Reusing MANIFEST /home/kalon/.config/chromium/Default/Extension State/MANIFEST-000001
+2025/11/22-12:00:52.782 1ab4 Recovering log #61
+2025/11/22-12:00:52.785 1ab4 Reusing old log /home/kalon/.config/chromium/Default/Extension State/000061.log 
+2025/11/22-15:28:14.828 1ab5 Level-0 table #65: started
+2025/11/22-15:28:14.840 1ab5 Level-0 table #65: 644968 bytes OK
+2025/11/22-15:28:14.844 1ab5 Delete type=0 #61
+2025/11/22-15:28:14.845 1ab5 Compacting 4@0 + 1@1 files
+2025/11/22-15:28:14.857 1ab5 Generated table #66@0: 5 keys, 2724 bytes
+2025/11/22-15:28:14.857 1ab5 Compacted 4@0 + 1@1 files => 2724 bytes
+2025/11/22-15:28:14.859 1ab5 compacted to: files[ 0 1 1 0 0 0 0 ]
+2025/11/22-15:28:14.859 1ab5 Delete type=2 #56
+2025/11/22-15:28:14.859 1ab5 Delete type=2 #58
+2025/11/22-15:28:14.859 1ab5 Delete type=2 #60
+2025/11/22-15:28:14.859 1ab5 Delete type=2 #62
+2025/11/22-15:28:14.859 1ab5 Delete type=2 #65
+2025/11/22-20:35:16.851 1ab5 Level-0 table #68: started
+2025/11/22-20:35:16.864 1ab5 Level-0 table #68: 628954 bytes OK
+2025/11/22-20:35:16.867 1ab5 Delete type=0 #64
+2025/11/23-01:57:07.293 1ab4 Level-0 table #70: started
+2025/11/23-01:57:07.314 1ab4 Level-0 table #70: 622467 bytes OK
+2025/11/23-01:57:07.319 1ab4 Delete type=0 #67
+2025/11/23-13:10:24.091 1ab5 Level-0 table #72: started
+2025/11/23-13:10:24.117 1ab5 Level-0 table #72: 660172 bytes OK
+2025/11/23-13:10:24.121 1ab5 Delete type=0 #69

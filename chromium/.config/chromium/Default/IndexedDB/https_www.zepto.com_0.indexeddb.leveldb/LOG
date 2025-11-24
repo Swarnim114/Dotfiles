@@ -1,0 +1,6 @@
+2025/11/11-14:29:31.296 152c Creating DB /home/kalon/.config/chromium/Default/IndexedDB/https_www.zepto.com_0.indexeddb.leveldb since it was missing.
+2025/11/11-14:29:31.302 152c Reusing MANIFEST /home/kalon/.config/chromium/Default/IndexedDB/https_www.zepto.com_0.indexeddb.leveldb/MANIFEST-000001
+2025/11/11-17:45:10.260 152d Level-0 table #5: started
+2025/11/11-17:45:10.273 152d Level-0 table #5: 1019419 bytes OK
+2025/11/11-17:45:10.276 152d Delete type=0 #3
+2025/11/11-17:45:10.276 152f Manual compaction at level-0 from (begin) .. (end); will stop at (end)

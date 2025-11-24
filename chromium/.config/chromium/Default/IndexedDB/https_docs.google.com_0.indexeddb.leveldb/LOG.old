@@ -1,0 +1,15 @@
+2025/11/24-16:32:34.541 74d6d Reusing MANIFEST /home/kalon/.config/chromium/Default/IndexedDB/https_docs.google.com_0.indexeddb.leveldb/MANIFEST-000001
+2025/11/24-16:32:34.541 74d6d Recovering log #4
+2025/11/24-16:32:34.541 74d6d Reusing old log /home/kalon/.config/chromium/Default/IndexedDB/https_docs.google.com_0.indexeddb.leveldb/000004.log 
+2025/11/24-16:32:37.042 74d6d Level-0 table #8: started
+2025/11/24-16:32:37.043 74d6d Level-0 table #8: 209 bytes OK
+2025/11/24-16:32:37.046 74d6d Delete type=0 #4
+2025/11/24-16:32:37.046 74d6d Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2025/11/24-16:32:37.046 74d6d Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x00\x00\x00\x06' @ 679 : 1
+2025/11/24-16:32:37.046 74d6d Compacting 1@1 + 1@2 files
+2025/11/24-16:32:37.048 74d6d Generated table #9@1: 206 keys, 3048 bytes
+2025/11/24-16:32:37.048 74d6d Compacted 1@1 + 1@2 files => 3048 bytes
+2025/11/24-16:32:37.050 74d6d compacted to: files[ 0 0 1 0 0 0 0 ]
+2025/11/24-16:32:37.050 74d6d Delete type=2 #5
+2025/11/24-16:32:37.050 74d6d Delete type=2 #8
+2025/11/24-16:32:37.050 74d6d Manual compaction at level-1 from '\x00\x00\x00\x00\x06' @ 679 : 1 .. (end); will stop at (end)

@@ -1,0 +1,33 @@
+2025/11/22-12:51:21.657 1ab4 Reusing MANIFEST /home/kalon/.config/chromium/Default/IndexedDB/https_sst-dashboard.netlify.app_0.indexeddb.leveldb/MANIFEST-000001
+2025/11/22-12:51:21.658 1ab4 Recovering log #6
+2025/11/22-12:51:21.658 1ab4 Reusing old log /home/kalon/.config/chromium/Default/IndexedDB/https_sst-dashboard.netlify.app_0.indexeddb.leveldb/000006.log 
+2025/11/22-12:51:21.670 1ab4 Level-0 table #10: started
+2025/11/22-12:51:21.672 1ab4 Level-0 table #10: 4566 bytes OK
+2025/11/22-12:51:21.674 1ab4 Delete type=0 #6
+2025/11/22-12:51:21.674 1ab4 Manual compaction at level-0 from '\x00\x05\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x06\x00\x00\x00' @ 0 : 0; will stop at '\x00\x05\x00\x00\x05' @ 201 : 1
+2025/11/22-12:51:21.674 1ab4 Compacting 1@0 + 1@1 files
+2025/11/22-12:51:21.676 1ab4 Generated table #11@0: 69 keys, 4146 bytes
+2025/11/22-12:51:21.676 1ab4 Compacted 1@0 + 1@1 files => 4146 bytes
+2025/11/22-12:51:21.678 1ab4 compacted to: files[ 0 1 1 0 0 0 0 ]
+2025/11/22-12:51:21.678 1ab4 Delete type=2 #10
+2025/11/22-12:51:21.678 1ab4 Manual compaction at level-0 from '\x00\x05\x00\x00\x05' @ 201 : 1 .. '\x00\x06\x00\x00\x00' @ 0 : 0; will stop at (end)
+2025/11/22-15:20:13.156 1ab5 Level-0 table #13: started
+2025/11/22-15:20:13.157 1ab5 Level-0 table #13: 6902 bytes OK
+2025/11/22-15:20:13.159 1ab5 Delete type=2 #7
+2025/11/22-15:20:13.159 1ab5 Delete type=0 #9
+2025/11/22-15:20:13.160 1ab5 Manual compaction at level-0 from (begin) .. (end); will stop at '\x00\x03\x01\x02\x013\x00[\x00D\x00E\x00F\x00A\x00U\x00L\x00T\x00]\x00!\x001\x00:\x007\x002\x005\x007\x006\x004\x009\x006\x007\x007\x006\x007\x00:\x00w\x00e\x00b\x00:\x001\x005\x00e\x005\x003\x00e\x001\x000\x006\x00f\x00c\x00d\x004\x007\x00a\x00d\x009\x00c\x000\x002\x001\x002' @ 230 : 1
+2025/11/22-15:20:13.160 1ab5 Compacting 1@0 + 1@1 files
+2025/11/22-15:20:13.161 1ab5 Generated table #14@0: 83 keys, 4170 bytes
+2025/11/22-15:20:13.161 1ab5 Compacted 1@0 + 1@1 files => 4170 bytes
+2025/11/22-15:20:13.163 1ab5 compacted to: files[ 0 1 1 0 0 0 0 ]
+2025/11/22-15:20:13.164 1ab5 Delete type=2 #11
+2025/11/22-15:20:13.164 1ab5 Delete type=2 #13
+2025/11/22-15:20:13.164 1ab5 Manual compaction at level-0 from '\x00\x03\x01\x02\x013\x00[\x00D\x00E\x00F\x00A\x00U\x00L\x00T\x00]\x00!\x001\x00:\x007\x002\x005\x007\x006\x004\x009\x006\x007\x007\x006\x007\x00:\x00w\x00e\x00b\x00:\x001\x005\x00e\x005\x003\x00e\x001\x000\x006\x00f\x00c\x00d\x004\x007\x00a\x00d\x009\x00c\x000\x002\x001\x002' @ 230 : 1 .. (end); will stop at (end)
+2025/11/22-15:20:13.164 1ab5 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x03\x01\x02\x013\x00[\x00D\x00E\x00F\x00A\x00U\x00L\x00T\x00]\x00!\x001\x00:\x007\x002\x005\x007\x006\x004\x009\x006\x007\x007\x006\x007\x00:\x00w\x00e\x00b\x00:\x001\x005\x00e\x005\x003\x00e\x001\x000\x006\x00f\x00c\x00d\x004\x007\x00a\x00d\x009\x00c\x000\x002\x001\x002' @ 238 : 1
+2025/11/22-15:20:13.164 1ab5 Compacting 1@1 + 1@2 files
+2025/11/22-15:20:13.166 1ab5 Generated table #15@1: 36 keys, 3618 bytes
+2025/11/22-15:20:13.166 1ab5 Compacted 1@1 + 1@2 files => 3618 bytes
+2025/11/22-15:20:13.168 1ab5 compacted to: files[ 0 0 1 0 0 0 0 ]
+2025/11/22-15:20:13.168 1ab5 Delete type=2 #5
+2025/11/22-15:20:13.168 1ab5 Delete type=2 #14
+2025/11/22-15:20:13.169 1ab5 Manual compaction at level-1 from '\x00\x03\x01\x02\x013\x00[\x00D\x00E\x00F\x00A\x00U\x00L\x00T\x00]\x00!\x001\x00:\x007\x002\x005\x007\x006\x004\x009\x006\x007\x007\x006\x007\x00:\x00w\x00e\x00b\x00:\x001\x005\x00e\x005\x003\x00e\x001\x000\x006\x00f\x00c\x00d\x004\x007\x00a\x00d\x009\x00c\x000\x002\x001\x002' @ 238 : 1 .. (end); will stop at (end)

@@ -1,0 +1,10 @@
+2025/11/11-13:03:30.941 152f Creating DB /home/kalon/.config/chromium/Default/IndexedDB/https_monkeytype.com_0.indexeddb.leveldb since it was missing.
+2025/11/11-13:03:30.945 152f Reusing MANIFEST /home/kalon/.config/chromium/Default/IndexedDB/https_monkeytype.com_0.indexeddb.leveldb/MANIFEST-000001
+2025/11/11-13:03:31.006 152f Level-0 table #5: started
+2025/11/11-13:03:31.008 152f Level-0 table #5: 1703 bytes OK
+2025/11/11-13:03:31.012 152f Delete type=0 #3
+2025/11/11-13:03:31.012 152d Manual compaction at level-0 from '\x00\x02\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x03\x00\x00\x00' @ 0 : 0; will stop at (end)
+2025/11/11-13:03:38.308 1541 Level-0 table #7: started
+2025/11/11-13:03:38.312 1541 Level-0 table #7: 1912 bytes OK
+2025/11/11-13:03:38.316 1541 Delete type=0 #4
+2025/11/11-13:03:38.316 152c Manual compaction at level-0 from '\x00\x05\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x06\x00\x00\x00' @ 0 : 0; will stop at (end)

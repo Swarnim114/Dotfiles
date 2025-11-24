@@ -1,6 +1,15 @@
-2025/11/10-18:00:02.553 d25f0 Creating DB /home/kalon/.config/chromium/Default/IndexedDB/https_meet.google.com_0.indexeddb.leveldb since it was missing.
-2025/11/10-18:00:02.557 d25f0 Reusing MANIFEST /home/kalon/.config/chromium/Default/IndexedDB/https_meet.google.com_0.indexeddb.leveldb/MANIFEST-000001
-2025/11/10-18:00:43.919 d25f1 Level-0 table #5: started
-2025/11/10-18:00:43.921 d25f1 Level-0 table #5: 4965 bytes OK
-2025/11/10-18:00:43.923 d25f1 Delete type=0 #3
-2025/11/10-18:00:43.923 d25f1 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2025/11/18-14:21:49.350 16b01 Reusing MANIFEST /home/kalon/.config/chromium/Default/IndexedDB/https_meet.google.com_0.indexeddb.leveldb/MANIFEST-000001
+2025/11/18-14:21:49.350 16b01 Recovering log #4
+2025/11/18-14:21:49.351 16b01 Reusing old log /home/kalon/.config/chromium/Default/IndexedDB/https_meet.google.com_0.indexeddb.leveldb/000004.log 
+2025/11/18-14:22:21.381 16b02 Level-0 table #8: started
+2025/11/18-14:22:21.383 16b02 Level-0 table #8: 4458 bytes OK
+2025/11/18-14:22:21.385 16b02 Delete type=0 #4
+2025/11/18-14:22:21.386 16b02 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2025/11/18-14:22:21.386 16b02 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x01\x01\x02\x01A\x00B\x00x\x00U\x00l\x00h\x00f\x00:\x00/\x00u\x00/\x002\x00/\x00_\x00/\x00M\x00e\x00e\x00t\x00i\x00n\x00g\x00s\x00U\x00i\x00:\x00b\x00o\x00q\x00-\x00r\x00t\x00c\x00.\x00M\x00e\x00e\x00t\x00i\x00n\x00g\x00s\x00U\x00i\x00.\x00e\x00n\x00.\x00h\x00G\x00u\x00j\x00h\x00v\x00X\x00T\x00S\x00O\x000\x00.\x002\x000\x002\x000\x00.\x00O' @ 90 : 1
+2025/11/18-14:22:21.386 16b02 Compacting 1@1 + 1@2 files
+2025/11/18-14:22:21.387 16b02 Generated table #9@1: 22 keys, 4336 bytes
+2025/11/18-14:22:21.387 16b02 Compacted 1@1 + 1@2 files => 4336 bytes
+2025/11/18-14:22:21.390 16b02 compacted to: files[ 0 0 1 0 0 0 0 ]
+2025/11/18-14:22:21.390 16b02 Delete type=2 #5
+2025/11/18-14:22:21.390 16b02 Delete type=2 #8
+2025/11/18-14:22:21.390 16b02 Manual compaction at level-1 from '\x00\x01\x01\x02\x01A\x00B\x00x\x00U\x00l\x00h\x00f\x00:\x00/\x00u\x00/\x002\x00/\x00_\x00/\x00M\x00e\x00e\x00t\x00i\x00n\x00g\x00s\x00U\x00i\x00:\x00b\x00o\x00q\x00-\x00r\x00t\x00c\x00.\x00M\x00e\x00e\x00t\x00i\x00n\x00g\x00s\x00U\x00i\x00.\x00e\x00n\x00.\x00h\x00G\x00u\x00j\x00h\x00v\x00X\x00T\x00S\x00O\x000\x00.\x002\x000\x002\x000\x00.\x00O' @ 90 : 1 .. (end); will stop at (end)

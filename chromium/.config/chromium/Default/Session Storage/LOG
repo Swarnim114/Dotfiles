@@ -1,3 +1,24 @@
-2025/11/10-18:10:29.972 5 Reusing MANIFEST /home/kalon/.config/chromium/Default/Session Storage/MANIFEST-000001
-2025/11/10-18:10:29.972 5 Recovering log #4
-2025/11/10-18:10:29.972 5 Reusing old log /home/kalon/.config/chromium/Default/Session Storage/000004.log 
+2025/11/23-13:27:01.403 5 Reusing MANIFEST /home/kalon/.config/chromium/Default/Session Storage/MANIFEST-000001
+2025/11/23-13:27:01.404 5 Recovering log #115
+2025/11/23-13:27:01.405 5 Reusing old log /home/kalon/.config/chromium/Default/Session Storage/000115.log 
+2025/11/23-13:27:01.429 7 Level-0 table #120: started
+2025/11/23-13:27:01.432 7 Level-0 table #120: 21725 bytes OK
+2025/11/23-13:27:01.438 7 Delete type=0 #115
+2025/11/24-00:38:47.424 7 Level-0 table #122: started
+2025/11/24-00:38:47.428 7 Level-0 table #122: 25951 bytes OK
+2025/11/24-00:38:47.431 7 Delete type=0 #119
+2025/11/24-14:42:52.574 7 Level-0 table #124: started
+2025/11/24-14:42:52.584 7 Level-0 table #124: 22699 bytes OK
+2025/11/24-14:42:52.587 7 Delete type=0 #121
+2025/11/24-16:29:15.927 7 Level-0 table #126: started
+2025/11/24-16:29:15.930 7 Level-0 table #126: 21557 bytes OK
+2025/11/24-16:29:15.935 7 Delete type=0 #123
+2025/11/24-16:29:15.935 7 Compacting 4@0 + 1@1 files
+2025/11/24-16:29:15.939 7 Generated table #127@0: 3852 keys, 93353 bytes
+2025/11/24-16:29:15.939 7 Compacted 4@0 + 1@1 files => 93353 bytes
+2025/11/24-16:29:15.942 7 compacted to: files[ 0 1 1 0 0 0 0 ]
+2025/11/24-16:29:15.943 7 Delete type=2 #117
+2025/11/24-16:29:15.943 7 Delete type=2 #120
+2025/11/24-16:29:15.943 7 Delete type=2 #122
+2025/11/24-16:29:15.943 7 Delete type=2 #124
+2025/11/24-16:29:15.943 7 Delete type=2 #126

@@ -1,0 +1,6 @@
+2025/11/23-13:18:13.917 1ac9 Creating DB /home/kalon/.config/chromium/Default/WebStorage/81/IndexedDB/indexeddb.leveldb since it was missing.
+2025/11/23-13:18:13.922 1ac9 Reusing MANIFEST /home/kalon/.config/chromium/Default/WebStorage/81/IndexedDB/indexeddb.leveldb/MANIFEST-000001
+2025/11/23-13:18:22.471 1ab5 Level-0 table #5: started
+2025/11/23-13:18:22.473 1ab5 Level-0 table #5: 1194 bytes OK
+2025/11/23-13:18:22.476 1ab5 Delete type=0 #3
+2025/11/23-13:18:22.476 1ab5 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

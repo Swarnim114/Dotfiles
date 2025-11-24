@@ -1,14 +1,20 @@
-2025/11/10-18:10:30.427 da1a1 Reusing MANIFEST /home/kalon/.config/chromium/Default/IndexedDB/chrome-extension_bgnkhhnnamicmpeenaelnjfhikgbkllg_0.indexeddb.leveldb/MANIFEST-000001
-2025/11/10-18:10:30.427 da1a1 Recovering log #6
-2025/11/10-18:10:30.431 da1a1 Reusing old log /home/kalon/.config/chromium/Default/IndexedDB/chrome-extension_bgnkhhnnamicmpeenaelnjfhikgbkllg_0.indexeddb.leveldb/000006.log 
-2025/11/10-18:10:30.449 da1b6 Level-0 table #10: started
-2025/11/10-18:10:30.458 da1b6 Level-0 table #10: 1201117 bytes OK
-2025/11/10-18:10:30.461 da1b6 Delete type=0 #6
-2025/11/10-18:10:30.461 da1b6 Manual compaction at level-0 from '\x00\x04\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x05\x00\x00\x00' @ 0 : 0; will stop at '\x00\x04\x00\x00\x05' @ 5349 : 1
-2025/11/10-18:10:30.461 da1b6 Compacting 1@0 + 1@1 files
-2025/11/10-18:10:30.481 da1b6 Generated table #11@0: 1985 keys, 2136292 bytes
-2025/11/10-18:10:30.492 da1b6 Generated table #12@0: 798 keys, 2030405 bytes
-2025/11/10-18:10:30.493 da1b6 Compacted 1@0 + 1@1 files => 4166697 bytes
-2025/11/10-18:10:30.495 da1b6 compacted to: files[ 0 2 1 0 0 0 0 ]
-2025/11/10-18:10:30.495 da1b6 Delete type=2 #10
-2025/11/10-18:10:30.495 da1a3 Manual compaction at level-0 from '\x00\x04\x00\x00\x05' @ 5349 : 1 .. '\x00\x05\x00\x00\x00' @ 0 : 0; will stop at (end)
+2025/11/23-13:26:58.869 74d6b Reusing MANIFEST /home/kalon/.config/chromium/Default/IndexedDB/chrome-extension_bgnkhhnnamicmpeenaelnjfhikgbkllg_0.indexeddb.leveldb/MANIFEST-000001
+2025/11/23-13:26:58.870 74d6b Recovering log #52
+2025/11/23-13:26:58.870 74d6b Reusing old log /home/kalon/.config/chromium/Default/IndexedDB/chrome-extension_bgnkhhnnamicmpeenaelnjfhikgbkllg_0.indexeddb.leveldb/000052.log 
+2025/11/23-13:26:58.871 74d6b Delete type=2 #48
+2025/11/23-13:26:58.871 74d6b Delete type=2 #49
+2025/11/23-13:26:58.871 74d6b Delete type=2 #50
+2025/11/23-13:26:58.871 74d6b Delete type=2 #51
+2025/11/23-13:26:58.883 74d6b Level-0 table #60: started
+2025/11/23-13:26:58.885 74d6b Level-0 table #60: 628 bytes OK
+2025/11/23-13:26:58.888 74d6b Delete type=0 #52
+2025/11/23-13:26:58.888 74d6b Manual compaction at level-0 from '\x00\x0b\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x0c\x00\x00\x00' @ 0 : 0; will stop at '\x00\x0b\x00\x00\x05' @ 13324 : 1
+2025/11/23-13:26:58.888 74d6b Compacting 1@0 + 4@1 files
+2025/11/23-13:26:58.908 74d6b Generated table #61@0: 3861 keys, 2113381 bytes
+2025/11/23-13:26:58.935 74d6b Generated table #62@0: 576 keys, 2122980 bytes
+2025/11/23-13:26:58.956 74d6b Generated table #63@0: 479 keys, 2114406 bytes
+2025/11/23-13:26:58.961 74d6b Generated table #64@0: 335 keys, 139112 bytes
+2025/11/23-13:26:58.961 74d6b Compacted 1@0 + 4@1 files => 6489879 bytes
+2025/11/23-13:26:58.964 74d6b compacted to: files[ 0 4 1 0 0 0 0 ]
+2025/11/23-13:26:58.964 74d6b Delete type=2 #60
+2025/11/23-13:26:58.965 74d6b Manual compaction at level-0 from '\x00\x0b\x00\x00\x05' @ 13324 : 1 .. '\x00\x0c\x00\x00\x00' @ 0 : 0; will stop at (end)

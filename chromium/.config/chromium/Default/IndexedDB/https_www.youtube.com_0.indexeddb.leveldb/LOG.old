@@ -1,0 +1,51 @@
+2025/11/22-20:44:39.934 1ac9 Reusing MANIFEST /home/kalon/.config/chromium/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
+2025/11/22-20:44:39.935 1ac9 Recovering log #201
+2025/11/22-20:44:39.937 1ac9 Reusing old log /home/kalon/.config/chromium/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/000201.log 
+2025/11/22-20:49:53.690 1ab5 Level-0 table #206: started
+2025/11/22-20:49:53.701 1ab5 Level-0 table #206: 1754469 bytes OK
+2025/11/22-20:49:53.704 1ab5 Delete type=0 #201
+2025/11/22-23:46:57.030 1ab5 Compacting 1@1 + 1@2 files
+2025/11/22-23:46:57.044 1ab5 Generated table #207@1: 1576 keys, 194476 bytes
+2025/11/22-23:46:57.044 1ab5 Compacted 1@1 + 1@2 files => 194476 bytes
+2025/11/22-23:46:57.046 1ab5 compacted to: files[ 0 0 1 0 0 0 0 ]
+2025/11/22-23:46:57.047 1ab5 Delete type=2 #203
+2025/11/22-23:46:57.047 1ab5 Delete type=2 #206
+2025/11/23-00:30:29.294 1ab5 Level-0 table #209: started
+2025/11/23-00:30:29.310 1ab5 Level-0 table #209: 1648655 bytes OK
+2025/11/23-00:30:29.313 1ab5 Delete type=0 #205
+2025/11/23-00:33:10.407 1ab5 Compacting 1@1 + 1@2 files
+2025/11/23-00:33:10.414 1ab5 Generated table #210@1: 1598 keys, 97253 bytes
+2025/11/23-00:33:10.415 1ab5 Compacted 1@1 + 1@2 files => 97253 bytes
+2025/11/23-00:33:10.417 1ab5 compacted to: files[ 0 0 1 0 0 0 0 ]
+2025/11/23-00:33:10.417 1ab5 Delete type=2 #207
+2025/11/23-00:33:10.417 1ab5 Delete type=2 #209
+2025/11/23-12:06:48.247 1ab7 Level-0 table #212: started
+2025/11/23-12:06:48.258 1ab7 Level-0 table #212: 1477577 bytes OK
+2025/11/23-12:06:48.262 1ab7 Delete type=0 #208
+2025/11/23-12:08:59.771 1ab4 Compacting 1@1 + 1@2 files
+2025/11/23-12:08:59.783 1ab4 Generated table #213@1: 1642 keys, 159936 bytes
+2025/11/23-12:08:59.783 1ab4 Compacted 1@1 + 1@2 files => 159936 bytes
+2025/11/23-12:08:59.785 1ab4 compacted to: files[ 0 0 1 0 0 0 0 ]
+2025/11/23-12:08:59.785 1ab4 Delete type=2 #210
+2025/11/23-12:08:59.785 1ab4 Delete type=2 #212
+2025/11/23-12:09:49.880 1ab5 Level-0 table #215: started
+2025/11/23-12:09:49.889 1ab5 Level-0 table #215: 1349589 bytes OK
+2025/11/23-12:09:49.893 1ab5 Delete type=0 #211
+2025/11/23-12:13:21.217 1ab4 Compacting 1@1 + 1@2 files
+2025/11/23-12:13:21.223 1ab4 Generated table #216@1: 1648 keys, 110428 bytes
+2025/11/23-12:13:21.223 1ab4 Compacted 1@1 + 1@2 files => 110428 bytes
+2025/11/23-12:13:21.225 1ab4 compacted to: files[ 0 0 1 0 0 0 0 ]
+2025/11/23-12:13:21.225 1ab4 Delete type=2 #213
+2025/11/23-12:13:21.225 1ab4 Delete type=2 #215
+2025/11/23-12:21:42.536 1ab5 Level-0 table #218: started
+2025/11/23-12:21:42.566 1ab5 Level-0 table #218: 1454493 bytes OK
+2025/11/23-12:21:42.569 1ab5 Delete type=0 #214
+2025/11/23-12:22:18.736 1ab4 Compacting 1@1 + 1@2 files
+2025/11/23-12:22:18.748 1ab4 Generated table #219@1: 1672 keys, 124846 bytes
+2025/11/23-12:22:18.748 1ab4 Compacted 1@1 + 1@2 files => 124846 bytes
+2025/11/23-12:22:18.751 1ab4 compacted to: files[ 0 0 1 0 0 0 0 ]
+2025/11/23-12:22:18.751 1ab4 Delete type=2 #216
+2025/11/23-12:22:18.751 1ab4 Delete type=2 #218
+2025/11/23-13:20:41.815 1ab5 Level-0 table #221: started
+2025/11/23-13:20:41.839 1ab5 Level-0 table #221: 1184305 bytes OK
+2025/11/23-13:20:41.844 1ab5 Delete type=0 #217

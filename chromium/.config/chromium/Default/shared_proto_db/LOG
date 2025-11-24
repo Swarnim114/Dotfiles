@@ -1,3 +1,9 @@
-2025/11/10-18:10:30.006 da1a1 Reusing MANIFEST /home/kalon/.config/chromium/Default/shared_proto_db/MANIFEST-000001
-2025/11/10-18:10:30.006 da1a1 Recovering log #3
-2025/11/10-18:10:30.007 da1a1 Reusing old log /home/kalon/.config/chromium/Default/shared_proto_db/000003.log 
+2025/11/23-13:26:58.184 74d82 Reusing MANIFEST /home/kalon/.config/chromium/Default/shared_proto_db/MANIFEST-000001
+2025/11/23-13:26:58.184 74d82 Recovering log #3
+2025/11/23-13:26:58.190 74d82 Reusing old log /home/kalon/.config/chromium/Default/shared_proto_db/000003.log 
+2025/11/23-17:57:00.765 74d6b Level-0 table #5: started
+2025/11/23-17:57:00.770 74d6b Level-0 table #5: 276686 bytes OK
+2025/11/23-17:57:00.773 74d6b Delete type=0 #3
+2025/11/23-17:57:05.008 74d6d Level-0 table #7: started
+2025/11/23-17:57:05.015 74d6d Level-0 table #7: 646945 bytes OK
+2025/11/23-17:57:05.018 74d6d Delete type=0 #4

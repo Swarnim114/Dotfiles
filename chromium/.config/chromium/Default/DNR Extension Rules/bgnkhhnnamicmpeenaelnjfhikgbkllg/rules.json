@@ -1,0 +1,1 @@
+[{"action":{"type":"allowAllRequests"},"condition":{"requestDomains":["chatgpt.com"],"resourceTypes":["main_frame"]},"id":1064279158,"priority":140102}]

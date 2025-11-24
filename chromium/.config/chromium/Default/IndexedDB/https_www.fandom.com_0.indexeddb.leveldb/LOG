@@ -1,0 +1,6 @@
+2025/11/19-14:43:37.989 60641 Creating DB /home/kalon/.config/chromium/Default/IndexedDB/https_www.fandom.com_0.indexeddb.leveldb since it was missing.
+2025/11/19-14:43:37.993 60641 Reusing MANIFEST /home/kalon/.config/chromium/Default/IndexedDB/https_www.fandom.com_0.indexeddb.leveldb/MANIFEST-000001
+2025/11/19-14:53:20.921 60642 Level-0 table #5: started
+2025/11/19-14:53:20.922 60642 Level-0 table #5: 3713 bytes OK
+2025/11/19-14:53:20.925 60642 Delete type=0 #3
+2025/11/19-14:53:20.925 60642 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

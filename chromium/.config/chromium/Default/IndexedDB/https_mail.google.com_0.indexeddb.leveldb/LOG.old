@@ -1,0 +1,9 @@
+2025/11/15-16:38:17.848 152c Reusing MANIFEST /home/kalon/.config/chromium/Default/IndexedDB/https_mail.google.com_0.indexeddb.leveldb/MANIFEST-000001
+2025/11/15-16:38:17.849 152c Recovering log #4
+2025/11/15-16:38:17.850 152c Reusing old log /home/kalon/.config/chromium/Default/IndexedDB/https_mail.google.com_0.indexeddb.leveldb/000004.log 
+2025/11/15-16:38:38.834 152d Level-0 table #8: started
+2025/11/15-16:38:38.859 152d Level-0 table #8: 3141437 bytes OK
+2025/11/15-16:38:38.863 152d Delete type=0 #4
+2025/11/15-16:38:56.352 152c Level-0 table #10: started
+2025/11/15-16:38:56.371 152c Level-0 table #10: 3185982 bytes OK
+2025/11/15-16:38:56.375 152c Delete type=0 #7

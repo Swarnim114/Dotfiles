@@ -1,2 +1,3 @@
-2025/11/10-18:02:34.538 d25f0 Creating DB /home/kalon/.config/chromium/Default/IndexedDB/https_www.scaler.com_0.indexeddb.leveldb since it was missing.
-2025/11/10-18:02:34.541 d25f0 Reusing MANIFEST /home/kalon/.config/chromium/Default/IndexedDB/https_www.scaler.com_0.indexeddb.leveldb/MANIFEST-000001
+2025/11/24-14:37:03.824 74d6b Reusing MANIFEST /home/kalon/.config/chromium/Default/IndexedDB/https_www.scaler.com_0.indexeddb.leveldb/MANIFEST-000001
+2025/11/24-14:37:03.824 74d6b Recovering log #4
+2025/11/24-14:37:03.825 74d6b Reusing old log /home/kalon/.config/chromium/Default/IndexedDB/https_www.scaler.com_0.indexeddb.leveldb/000004.log 
