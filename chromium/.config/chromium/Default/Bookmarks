@@ -1,10 +1,10 @@
 {
-   "checksum": "3f16aafb3490fe286b0c4fa41982840c",
+   "checksum": "77a203843ff6f5efd69f535371c9a0a8",
    "roots": {
       "bookmark_bar": {
          "children": [ {
             "date_added": "13402394233000000",
-            "date_last_used": "13407939174688244",
+            "date_last_used": "13408530194766385",
             "guid": "a54f2a4a-320e-4985-b1db-45c15fcffc50",
             "id": "5",
             "name": "Daily Tasks",
@@ -106,10 +106,21 @@
                   "name": "SST - HLD 1 - System Design 101 - Google Docs",
                   "type": "url",
                   "url": "https://docs.google.com/document/d/1Q44IgCOtkcdV3d2z09vmMvdgMx70Pe6WK_KWf2SUlaM/edit?tab=t.0"
+               }, {
+                  "date_added": "13408533952868606",
+                  "date_last_used": "0",
+                  "guid": "76fb34be-56af-4669-a4f3-6d4928835dd2",
+                  "id": "30",
+                  "meta_info": {
+                     "power_bookmark_meta": ""
+                  },
+                  "name": "Variables – Hyprland Wiki",
+                  "type": "url",
+                  "url": "https://wiki.hypr.land/Configuring/Variables/"
                } ],
                "date_added": "13408456678832973",
                "date_last_used": "0",
-               "date_modified": "13408456688642967",
+               "date_modified": "13408533952868606",
                "guid": "a0d6fbde-7459-4278-940a-c7c2896e990e",
                "id": "28",
                "name": "sst_hld_notes",

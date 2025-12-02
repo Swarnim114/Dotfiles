@@ -1,0 +1,37 @@
+# === Caches & Temp ===
+GPUCache/
+Code Cache/
+ShaderCache/
+GrShaderCache/
+Service Worker/
+blob_storage/
+DawnGraphiteCache/
+DawnWebGPUCache/
+optimization_guide_hint_cache_store/
+parcel_tracking_db/
+DownloadMetadata/
+VideoDecodeStats/
+TransportSecurity/
+BudgetDatabase/
+SCT Auditing Pending Reports/
+WebrtcVideoStats/
+Heavy_ad_intervention_opt_out.db*
+LOG
+LOG.old
+LOCK
+
+# === SQLite temporary files ===
+*.journal
+*.wal
+*.tmp
+
+# === Backup files created by Chromium ===
+*.old
+
+# === Other non-essential runtime data ===
+# (auto regenerated)
+Safe Browsing Cookies*
+Network Persistent State
+Reporting and NEL*
+Feature Engagement Tracker/
+

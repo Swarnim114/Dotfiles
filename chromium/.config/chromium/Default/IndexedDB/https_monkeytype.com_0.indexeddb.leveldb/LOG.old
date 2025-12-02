@@ -1,10 +1,26 @@
-2025/11/11-13:03:30.941 152f Creating DB /home/kalon/.config/chromium/Default/IndexedDB/https_monkeytype.com_0.indexeddb.leveldb since it was missing.
-2025/11/11-13:03:30.945 152f Reusing MANIFEST /home/kalon/.config/chromium/Default/IndexedDB/https_monkeytype.com_0.indexeddb.leveldb/MANIFEST-000001
-2025/11/11-13:03:31.006 152f Level-0 table #5: started
-2025/11/11-13:03:31.008 152f Level-0 table #5: 1703 bytes OK
-2025/11/11-13:03:31.012 152f Delete type=0 #3
-2025/11/11-13:03:31.012 152d Manual compaction at level-0 from '\x00\x02\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x03\x00\x00\x00' @ 0 : 0; will stop at (end)
-2025/11/11-13:03:38.308 1541 Level-0 table #7: started
-2025/11/11-13:03:38.312 1541 Level-0 table #7: 1912 bytes OK
-2025/11/11-13:03:38.316 1541 Delete type=0 #4
-2025/11/11-13:03:38.316 152c Manual compaction at level-0 from '\x00\x05\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x06\x00\x00\x00' @ 0 : 0; will stop at (end)
+2025/11/26-15:09:32.337 1226b4 Reusing MANIFEST /home/kalon/.config/chromium/Default/IndexedDB/https_monkeytype.com_0.indexeddb.leveldb/MANIFEST-000001
+2025/11/26-15:09:32.337 1226b4 Recovering log #17
+2025/11/26-15:09:32.338 1226b4 Reusing old log /home/kalon/.config/chromium/Default/IndexedDB/https_monkeytype.com_0.indexeddb.leveldb/000017.log 
+2025/11/26-15:09:32.359 1226c6 Level-0 table #22: started
+2025/11/26-15:09:32.361 1226c6 Level-0 table #22: 10125 bytes OK
+2025/11/26-15:09:32.363 1226c6 Delete type=0 #17
+2025/11/26-15:09:32.363 1226c6 Manual compaction at level-0 from '\x00\x09\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x0a\x00\x00\x00' @ 0 : 0; will stop at (end)
+2025/11/26-15:09:38.486 1226b4 Level-0 table #24: started
+2025/11/26-15:09:38.488 1226b4 Level-0 table #24: 6178 bytes OK
+2025/11/26-15:09:38.490 1226b4 Delete type=0 #21
+2025/11/26-15:09:38.491 1226b4 Manual compaction at level-0 from (begin) .. (end); will stop at '\x00\x04\x01\x02\x013\x00[\x00D\x00E\x00F\x00A\x00U\x00L\x00T\x00]\x00!\x001\x00:\x007\x008\x009\x007\x008\x008\x004\x007\x001\x001\x004\x000\x00:\x00w\x00e\x00b\x00:\x007\x00e\x003\x001\x00b\x001\x005\x009\x005\x009\x00d\x006\x008\x00a\x00c\x000\x00a\x005\x001\x004\x007\x001' @ 478 : 1
+2025/11/26-15:09:38.491 1226b4 Compacting 1@0 + 1@1 files
+2025/11/26-15:09:38.492 1226b4 Generated table #25@0: 43 keys, 3481 bytes
+2025/11/26-15:09:38.492 1226b4 Compacted 1@0 + 1@1 files => 3481 bytes
+2025/11/26-15:09:38.494 1226b4 compacted to: files[ 0 1 1 0 0 0 0 ]
+2025/11/26-15:09:38.494 1226b4 Delete type=2 #22
+2025/11/26-15:09:38.494 1226b4 Delete type=2 #24
+2025/11/26-15:09:38.495 1226b4 Manual compaction at level-0 from '\x00\x04\x01\x02\x013\x00[\x00D\x00E\x00F\x00A\x00U\x00L\x00T\x00]\x00!\x001\x00:\x007\x008\x009\x007\x008\x008\x004\x007\x001\x001\x004\x000\x00:\x00w\x00e\x00b\x00:\x007\x00e\x003\x001\x00b\x001\x005\x009\x005\x009\x00d\x006\x008\x00a\x00c\x000\x00a\x005\x001\x004\x007\x001' @ 478 : 1 .. (end); will stop at (end)
+2025/11/26-15:09:38.495 1226b4 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x04\x01\x02\x013\x00[\x00D\x00E\x00F\x00A\x00U\x00L\x00T\x00]\x00!\x001\x00:\x007\x008\x009\x007\x008\x008\x004\x007\x001\x001\x004\x000\x00:\x00w\x00e\x00b\x00:\x007\x00e\x003\x001\x00b\x001\x005\x009\x005\x009\x00d\x006\x008\x00a\x00c\x000\x00a\x005\x001\x004\x007\x001' @ 490 : 1
+2025/11/26-15:09:38.495 1226b4 Compacting 1@1 + 1@2 files
+2025/11/26-15:09:38.496 1226b4 Generated table #26@1: 64 keys, 4531 bytes
+2025/11/26-15:09:38.496 1226b4 Compacted 1@1 + 1@2 files => 4531 bytes
+2025/11/26-15:09:38.499 1226b4 compacted to: files[ 0 0 1 0 0 0 0 ]
+2025/11/26-15:09:38.499 1226b4 Delete type=2 #19
+2025/11/26-15:09:38.499 1226b4 Delete type=2 #25
+2025/11/26-15:09:38.499 1226b4 Manual compaction at level-1 from '\x00\x04\x01\x02\x013\x00[\x00D\x00E\x00F\x00A\x00U\x00L\x00T\x00]\x00!\x001\x00:\x007\x008\x009\x007\x008\x008\x004\x007\x001\x001\x004\x000\x00:\x00w\x00e\x00b\x00:\x007\x00e\x003\x001\x00b\x001\x005\x009\x005\x009\x00d\x006\x008\x00a\x00c\x000\x00a\x005\x001\x004\x007\x001' @ 490 : 1 .. (end); will stop at (end)

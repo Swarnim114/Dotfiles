@@ -1,15 +1,3 @@
-2025/11/23-00:25:45.706 1ab4 Reusing MANIFEST /home/kalon/.config/chromium/Default/IndexedDB/https_www.instagram.com_0.indexeddb.leveldb/MANIFEST-000001
-2025/11/23-00:25:45.706 1ab4 Recovering log #4
-2025/11/23-00:25:45.707 1ab4 Reusing old log /home/kalon/.config/chromium/Default/IndexedDB/https_www.instagram.com_0.indexeddb.leveldb/000004.log 
-2025/11/23-00:25:47.966 1ab5 Level-0 table #8: started
-2025/11/23-00:25:47.968 1ab5 Level-0 table #8: 67464 bytes OK
-2025/11/23-00:25:47.971 1ab5 Delete type=0 #4
-2025/11/23-00:25:47.971 1ab5 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
-2025/11/23-00:25:47.971 1ab5 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x09\x09\x02\x01\x13\x00r\x00e\x00g\x00i\x00s\x00t\x00r\x00a\x00t\x00i\x00o\x00n\x00H\x00i\x00s\x00t\x00o\x00r\x00y' @ 5681 : 1
-2025/11/23-00:25:47.971 1ab5 Compacting 1@1 + 1@2 files
-2025/11/23-00:25:47.974 1ab5 Generated table #9@1: 2011 keys, 71181 bytes
-2025/11/23-00:25:47.974 1ab5 Compacted 1@1 + 1@2 files => 71181 bytes
-2025/11/23-00:25:47.976 1ab5 compacted to: files[ 0 0 1 0 0 0 0 ]
-2025/11/23-00:25:47.976 1ab5 Delete type=2 #5
-2025/11/23-00:25:47.976 1ab5 Delete type=2 #8
-2025/11/23-00:25:47.976 1ab5 Manual compaction at level-1 from '\x00\x09\x09\x02\x01\x13\x00r\x00e\x00g\x00i\x00s\x00t\x00r\x00a\x00t\x00i\x00o\x00n\x00H\x00i\x00s\x00t\x00o\x00r\x00y' @ 5681 : 1 .. (end); will stop at (end)
+2025/11/26-21:59:18.650 135f9d Reusing MANIFEST /home/kalon/.config/chromium/Default/IndexedDB/https_www.instagram.com_0.indexeddb.leveldb/MANIFEST-000001
+2025/11/26-21:59:18.650 135f9d Recovering log #7
+2025/11/26-21:59:18.652 135f9d Reusing old log /home/kalon/.config/chromium/Default/IndexedDB/https_www.instagram.com_0.indexeddb.leveldb/000007.log 

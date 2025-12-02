@@ -1,42 +1,25 @@
-2025/11/18-14:07:13.066 16b01 Reusing MANIFEST /home/kalon/.config/chromium/Default/IndexedDB/https_mail.google.com_0.indexeddb.leveldb/MANIFEST-000001
-2025/11/18-14:07:13.066 16b01 Recovering log #9
-2025/11/18-14:07:13.068 16b01 Reusing old log /home/kalon/.config/chromium/Default/IndexedDB/https_mail.google.com_0.indexeddb.leveldb/000009.log 
-2025/11/18-14:07:14.894 16b01 Compacting 1@0 + 1@1 files
-2025/11/18-14:07:14.919 16b01 Generated table #12@0: 1294 keys, 1560241 bytes
-2025/11/18-14:07:14.920 16b01 Compacted 1@0 + 1@1 files => 1560241 bytes
-2025/11/18-14:07:14.922 16b01 compacted to: files[ 0 1 1 0 0 0 0 ]
-2025/11/18-14:07:14.922 16b01 Delete type=2 #8
-2025/11/18-14:07:14.923 16b01 Delete type=2 #10
-2025/11/18-14:07:16.811 16b02 Compacting 1@1 + 1@2 files
-2025/11/18-14:07:16.823 16b02 Generated table #13@1: 138 keys, 116538 bytes
-2025/11/18-14:07:16.824 16b02 Compacted 1@1 + 1@2 files => 116538 bytes
-2025/11/18-14:07:16.826 16b02 compacted to: files[ 0 0 1 0 0 0 0 ]
-2025/11/18-14:07:16.826 16b02 Delete type=2 #5
-2025/11/18-14:07:16.826 16b02 Delete type=2 #12
-2025/11/18-14:07:34.628 16b02 Level-0 table #15: started
-2025/11/18-14:07:34.652 16b02 Level-0 table #15: 3134252 bytes OK
-2025/11/18-14:07:34.655 16b02 Delete type=0 #9
-2025/11/18-14:08:10.293 16b04 Compacting 1@1 + 1@2 files
-2025/11/18-14:08:10.308 16b04 Generated table #16@1: 293 keys, 1184908 bytes
-2025/11/18-14:08:10.308 16b04 Compacted 1@1 + 1@2 files => 1184908 bytes
-2025/11/18-14:08:10.311 16b04 compacted to: files[ 0 0 1 0 0 0 0 ]
-2025/11/18-14:08:10.311 16b04 Delete type=2 #13
-2025/11/18-14:08:10.311 16b04 Delete type=2 #15
-2025/11/18-14:08:23.032 16b02 Level-0 table #18: started
-2025/11/18-14:08:23.056 16b02 Level-0 table #18: 3186412 bytes OK
-2025/11/18-14:08:23.059 16b02 Delete type=0 #14
-2025/11/18-14:21:31.727 16b02 Compacting 1@1 + 1@2 files
-2025/11/18-14:21:31.750 16b02 Generated table #19@1: 269 keys, 984498 bytes
-2025/11/18-14:21:31.750 16b02 Compacted 1@1 + 1@2 files => 984498 bytes
-2025/11/18-14:21:31.752 16b02 compacted to: files[ 0 0 1 0 0 0 0 ]
-2025/11/18-14:21:31.753 16b02 Delete type=2 #16
-2025/11/18-14:21:31.753 16b02 Delete type=2 #18
-2025/11/18-14:21:47.077 16b02 Level-0 table #21: started
-2025/11/18-14:21:47.103 16b02 Level-0 table #21: 3208408 bytes OK
-2025/11/18-14:21:47.107 16b02 Delete type=0 #17
-2025/11/18-14:22:09.880 16b01 Compacting 1@1 + 1@2 files
-2025/11/18-14:22:09.892 16b01 Generated table #22@1: 257 keys, 850228 bytes
-2025/11/18-14:22:09.892 16b01 Compacted 1@1 + 1@2 files => 850228 bytes
-2025/11/18-14:22:09.894 16b01 compacted to: files[ 0 0 1 0 0 0 0 ]
-2025/11/18-14:22:09.894 16b01 Delete type=2 #19
-2025/11/18-14:22:09.894 16b01 Delete type=2 #21
+2025/11/30-17:46:29.055 95436 Reusing MANIFEST /home/kalon/.config/chromium/Default/IndexedDB/https_mail.google.com_0.indexeddb.leveldb/MANIFEST-000001
+2025/11/30-17:46:29.056 95436 Recovering log #49
+2025/11/30-17:46:29.061 95436 Reusing old log /home/kalon/.config/chromium/Default/IndexedDB/https_mail.google.com_0.indexeddb.leveldb/000049.log 
+2025/11/30-17:46:48.573 95438 Level-0 table #54: started
+2025/11/30-17:46:48.595 95438 Level-0 table #54: 3108540 bytes OK
+2025/11/30-17:46:48.598 95438 Delete type=0 #49
+2025/11/30-20:56:12.343 95438 Level-0 table #56: started
+2025/11/30-20:56:12.369 95438 Level-0 table #56: 3112103 bytes OK
+2025/11/30-20:56:12.372 95438 Delete type=0 #53
+2025/11/30-20:56:12.373 95438 Manual compaction at level-0 from (begin) .. (end); will stop at '\x00\x09\x01\x02\x01(\x00S\x00t\x00o\x00r\x00e\x00d\x00N\x00e\x00t\x00w\x00o\x00r\x00k\x00F\x00e\x00t\x00c\x00h\x00C\x00o\x00u\x00n\x00t\x00e\x00r\x00s\x00:\x00:\x00S\x00T\x00A\x00T\x00I\x00C\x00_\x00A\x00S\x00S\x00E\x00T' @ 24920 : 0
+2025/11/30-20:56:12.373 95438 Compacting 1@0 + 1@1 files
+2025/11/30-20:56:12.394 95438 Generated table #57@0: 1358 keys, 1758172 bytes
+2025/11/30-20:56:12.394 95438 Compacted 1@0 + 1@1 files => 1758172 bytes
+2025/11/30-20:56:12.397 95438 compacted to: files[ 0 1 1 0 0 0 0 ]
+2025/11/30-20:56:12.397 95438 Delete type=2 #54
+2025/11/30-20:56:12.397 95438 Delete type=2 #56
+2025/11/30-20:56:12.399 95438 Manual compaction at level-0 from '\x00\x09\x01\x02\x01(\x00S\x00t\x00o\x00r\x00e\x00d\x00N\x00e\x00t\x00w\x00o\x00r\x00k\x00F\x00e\x00t\x00c\x00h\x00C\x00o\x00u\x00n\x00t\x00e\x00r\x00s\x00:\x00:\x00S\x00T\x00A\x00T\x00I\x00C\x00_\x00A\x00S\x00S\x00E\x00T' @ 24920 : 0 .. (end); will stop at (end)
+2025/11/30-20:56:12.399 95438 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x09\x01\x02\x01(\x00S\x00t\x00o\x00r\x00e\x00d\x00N\x00e\x00t\x00w\x00o\x00r\x00k\x00F\x00e\x00t\x00c\x00h\x00C\x00o\x00u\x00n\x00t\x00e\x00r\x00s\x00:\x00:\x00S\x00T\x00A\x00T\x00I\x00C\x00_\x00A\x00S\x00S\x00E\x00T' @ 25138 : 1
+2025/11/30-20:56:12.399 95438 Compacting 1@1 + 1@2 files
+2025/11/30-20:56:12.405 95438 Generated table #58@1: 156 keys, 314179 bytes
+2025/11/30-20:56:12.405 95438 Compacted 1@1 + 1@2 files => 314179 bytes
+2025/11/30-20:56:12.407 95438 compacted to: files[ 0 0 1 0 0 0 0 ]
+2025/11/30-20:56:12.407 95438 Delete type=2 #51
+2025/11/30-20:56:12.407 95438 Delete type=2 #57
+2025/11/30-20:56:12.408 95438 Manual compaction at level-1 from '\x00\x09\x01\x02\x01(\x00S\x00t\x00o\x00r\x00e\x00d\x00N\x00e\x00t\x00w\x00o\x00r\x00k\x00F\x00e\x00t\x00c\x00h\x00C\x00o\x00u\x00n\x00t\x00e\x00r\x00s\x00:\x00:\x00S\x00T\x00A\x00T\x00I\x00C\x00_\x00A\x00S\x00S\x00E\x00T' @ 25138 : 1 .. (end); will stop at (end)

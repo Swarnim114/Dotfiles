@@ -1,10 +1,24 @@
-2025/11/19-14:08:34.256 60641 Creating DB /home/kalon/.config/chromium/Default/IndexedDB/https_sst-dashboard.netlify.app_0.indexeddb.leveldb since it was missing.
-2025/11/19-14:08:34.260 60641 Reusing MANIFEST /home/kalon/.config/chromium/Default/IndexedDB/https_sst-dashboard.netlify.app_0.indexeddb.leveldb/MANIFEST-000001
-2025/11/19-14:08:34.276 60644 Level-0 table #5: started
-2025/11/19-14:08:34.279 60644 Level-0 table #5: 1287 bytes OK
-2025/11/19-14:08:34.282 60644 Delete type=0 #3
-2025/11/19-14:08:34.282 60641 Manual compaction at level-0 from '\x00\x01\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x02\x00\x00\x00' @ 0 : 0; will stop at (end)
-2025/11/19-17:58:43.882 60656 Level-0 table #7: started
-2025/11/19-17:58:43.884 60656 Level-0 table #7: 5256 bytes OK
-2025/11/19-17:58:43.886 60656 Delete type=0 #4
-2025/11/19-17:58:43.886 60641 Manual compaction at level-0 from '\x00\x04\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x05\x00\x00\x00' @ 0 : 0; will stop at (end)
+2025/11/26-00:55:49.745 1226b2 Reusing MANIFEST /home/kalon/.config/chromium/Default/IndexedDB/https_sst-dashboard.netlify.app_0.indexeddb.leveldb/MANIFEST-000001
+2025/11/26-00:55:49.745 1226b2 Recovering log #12
+2025/11/26-00:55:49.745 1226b2 Reusing old log /home/kalon/.config/chromium/Default/IndexedDB/https_sst-dashboard.netlify.app_0.indexeddb.leveldb/000012.log 
+2025/11/26-00:55:49.766 1226b4 Level-0 table #18: started
+2025/11/26-00:55:49.768 1226b4 Level-0 table #18: 821 bytes OK
+2025/11/26-00:55:49.771 1226b4 Delete type=0 #12
+2025/11/26-00:55:49.771 1226b4 Manual compaction at level-0 from '\x00\x06\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x07\x00\x00\x00' @ 0 : 0; will stop at (end)
+2025/11/26-00:56:03.466 1226c6 Level-0 table #20: started
+2025/11/26-00:56:03.468 1226c6 Level-0 table #20: 6891 bytes OK
+2025/11/26-00:56:03.471 1226c6 Delete type=0 #17
+2025/11/26-00:56:03.472 1226b2 Manual compaction at level-0 from '\x00\x07\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x08\x00\x00\x00' @ 0 : 0; will stop at '\x00\x07\x00\x00\x05' @ 341 : 1
+2025/11/26-00:56:03.472 1226b2 Compacting 1@0 + 1@1 files
+2025/11/26-00:56:03.474 1226b2 Generated table #21@0: 39 keys, 3539 bytes
+2025/11/26-00:56:03.474 1226b2 Compacted 1@0 + 1@1 files => 3539 bytes
+2025/11/26-00:56:03.477 1226b2 compacted to: files[ 0 1 1 0 0 0 0 ]
+2025/11/26-00:56:03.477 1226b2 Delete type=2 #20
+2025/11/26-00:56:03.477 1226b2 Manual compaction at level-0 from '\x00\x07\x00\x00\x05' @ 341 : 1 .. '\x00\x08\x00\x00\x00' @ 0 : 0; will stop at (end)
+2025/11/26-00:57:23.080 1226b4 Compacting 1@1 + 1@2 files
+2025/11/26-00:57:23.105 1226b4 Generated table #22@1: 40 keys, 3599 bytes
+2025/11/26-00:57:23.106 1226b4 Compacted 1@1 + 1@2 files => 3599 bytes
+2025/11/26-00:57:23.108 1226b4 compacted to: files[ 0 0 1 0 0 0 0 ]
+2025/11/26-00:57:23.108 1226b4 Delete type=2 #15
+2025/11/26-00:57:23.108 1226b4 Delete type=2 #18
+2025/11/26-00:57:23.109 1226b4 Delete type=2 #21
