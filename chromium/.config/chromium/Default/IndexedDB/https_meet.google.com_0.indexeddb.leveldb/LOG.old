@@ -1,3 +1,15 @@
-2025/11/18-14:08:26.048 16b01 Reusing MANIFEST /home/kalon/.config/chromium/Default/IndexedDB/https_meet.google.com_0.indexeddb.leveldb/MANIFEST-000001
-2025/11/18-14:08:26.048 16b01 Recovering log #4
-2025/11/18-14:08:26.048 16b01 Reusing old log /home/kalon/.config/chromium/Default/IndexedDB/https_meet.google.com_0.indexeddb.leveldb/000004.log 
+2025/12/04-14:23:40.580 1325 Reusing MANIFEST /home/kalon/.config/chromium/Default/IndexedDB/https_meet.google.com_0.indexeddb.leveldb/MANIFEST-000001
+2025/12/04-14:23:40.580 1325 Recovering log #7
+2025/12/04-14:23:40.580 1325 Reusing old log /home/kalon/.config/chromium/Default/IndexedDB/https_meet.google.com_0.indexeddb.leveldb/000007.log 
+2025/12/04-14:24:12.729 1325 Level-0 table #12: started
+2025/12/04-14:24:12.731 1325 Level-0 table #12: 2529 bytes OK
+2025/12/04-14:24:12.734 1325 Delete type=0 #7
+2025/12/04-14:24:12.734 1325 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2025/12/04-14:24:12.734 1325 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x01\x01\x02\x01A\x00B\x00x\x00U\x00l\x00h\x00f\x00:\x00/\x00u\x00/\x002\x00/\x00_\x00/\x00M\x00e\x00e\x00t\x00i\x00n\x00g\x00s\x00U\x00i\x00:\x00b\x00o\x00q\x00-\x00r\x00t\x00c\x00.\x00M\x00e\x00e\x00t\x00i\x00n\x00g\x00s\x00U\x00i\x00.\x00e\x00n\x00.\x00t\x004\x00F\x00I\x00d\x00C\x00A\x00V\x003\x00h\x008\x00.\x002\x000\x002\x000\x00.\x00O' @ 105 : 1
+2025/12/04-14:24:12.734 1325 Compacting 1@1 + 1@2 files
+2025/12/04-14:24:12.736 1325 Generated table #13@1: 23 keys, 4401 bytes
+2025/12/04-14:24:12.736 1325 Compacted 1@1 + 1@2 files => 4401 bytes
+2025/12/04-14:24:12.738 1325 compacted to: files[ 0 0 1 0 0 0 0 ]
+2025/12/04-14:24:12.739 1325 Delete type=2 #9
+2025/12/04-14:24:12.739 1325 Delete type=2 #12
+2025/12/04-14:24:12.739 1325 Manual compaction at level-1 from '\x00\x01\x01\x02\x01A\x00B\x00x\x00U\x00l\x00h\x00f\x00:\x00/\x00u\x00/\x002\x00/\x00_\x00/\x00M\x00e\x00e\x00t\x00i\x00n\x00g\x00s\x00U\x00i\x00:\x00b\x00o\x00q\x00-\x00r\x00t\x00c\x00.\x00M\x00e\x00e\x00t\x00i\x00n\x00g\x00s\x00U\x00i\x00.\x00e\x00n\x00.\x00t\x004\x00F\x00I\x00d\x00C\x00A\x00V\x003\x00h\x008\x00.\x002\x000\x002\x000\x00.\x00O' @ 105 : 1 .. (end); will stop at (end)

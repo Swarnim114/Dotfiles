@@ -1,18 +1,6 @@
-2025/12/02-15:51:27.199 a38c Reusing MANIFEST /home/kalon/.config/chromium/Default/Extension State/MANIFEST-000001
-2025/12/02-15:51:27.199 a38c Recovering log #160
-2025/12/02-15:51:27.201 a38c Reusing old log /home/kalon/.config/chromium/Default/Extension State/000160.log 
-2025/12/02-16:41:18.759 a379 Level-0 table #164: started
-2025/12/02-16:41:18.774 a379 Level-0 table #164: 642529 bytes OK
-2025/12/02-16:41:18.778 a379 Delete type=0 #160
-2025/12/02-16:41:18.779 a379 Compacting 4@0 + 1@1 files
-2025/12/02-16:41:18.789 a379 Generated table #165@0: 8 keys, 5919 bytes
-2025/12/02-16:41:18.789 a379 Compacted 4@0 + 1@1 files => 5919 bytes
-2025/12/02-16:41:18.791 a379 compacted to: files[ 0 1 1 0 0 0 0 ]
-2025/12/02-16:41:18.791 a379 Delete type=2 #154
-2025/12/02-16:41:18.791 a379 Delete type=2 #156
-2025/12/02-16:41:18.791 a379 Delete type=2 #159
-2025/12/02-16:41:18.791 a379 Delete type=2 #161
-2025/12/02-16:41:18.791 a379 Delete type=2 #164
-2025/12/02-18:02:30.774 a379 Level-0 table #167: started
-2025/12/02-18:02:30.791 a379 Level-0 table #167: 638217 bytes OK
-2025/12/02-18:02:30.795 a379 Delete type=0 #163
+2025/12/11-17:33:03.980 110b Reusing MANIFEST /home/kalon/.config/chromium/Default/Extension State/MANIFEST-000001
+2025/12/11-17:33:03.981 110b Recovering log #235
+2025/12/11-17:33:03.993 110b Reusing old log /home/kalon/.config/chromium/Default/Extension State/000235.log 
+2025/12/11-17:49:11.993 110b Level-0 table #239: started
+2025/12/11-17:49:12.006 110b Level-0 table #239: 596496 bytes OK
+2025/12/11-17:49:12.009 110b Delete type=0 #235

@@ -1,3 +1,3 @@
-2025/12/02-15:51:26.878 a377 Reusing MANIFEST /home/kalon/.config/chromium/Default/Sync Data/LevelDB/MANIFEST-000001
-2025/12/02-15:51:26.879 a377 Recovering log #3
-2025/12/02-15:51:26.879 a377 Reusing old log /home/kalon/.config/chromium/Default/Sync Data/LevelDB/000003.log 
+2025/12/11-17:33:03.677 1109 Reusing MANIFEST /home/kalon/.config/chromium/Default/Sync Data/LevelDB/MANIFEST-000001
+2025/12/11-17:33:03.678 1109 Recovering log #3
+2025/12/11-17:33:03.678 1109 Reusing old log /home/kalon/.config/chromium/Default/Sync Data/LevelDB/000003.log 

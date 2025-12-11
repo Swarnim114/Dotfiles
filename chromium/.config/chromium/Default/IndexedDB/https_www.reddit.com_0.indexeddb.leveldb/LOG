@@ -1,3 +1,6 @@
-2025/12/02-18:40:16.017 a377 Reusing MANIFEST /home/kalon/.config/chromium/Default/IndexedDB/https_www.reddit.com_0.indexeddb.leveldb/MANIFEST-000001
-2025/12/02-18:40:16.017 a377 Recovering log #37
-2025/12/02-18:40:16.020 a377 Reusing old log /home/kalon/.config/chromium/Default/IndexedDB/https_www.reddit.com_0.indexeddb.leveldb/000037.log 
+2025/12/12-01:54:39.128 1109 Reusing MANIFEST /home/kalon/.config/chromium/Default/IndexedDB/https_www.reddit.com_0.indexeddb.leveldb/MANIFEST-000001
+2025/12/12-01:54:39.128 1109 Recovering log #49
+2025/12/12-01:54:39.136 1109 Reusing old log /home/kalon/.config/chromium/Default/IndexedDB/https_www.reddit.com_0.indexeddb.leveldb/000049.log 
+2025/12/12-02:06:04.235 111d Level-0 table #54: started
+2025/12/12-02:06:04.247 111d Level-0 table #54: 1012370 bytes OK
+2025/12/12-02:06:04.250 111d Delete type=0 #49

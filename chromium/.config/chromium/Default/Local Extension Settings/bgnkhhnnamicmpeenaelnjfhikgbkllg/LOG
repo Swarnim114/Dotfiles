@@ -1,93 +1,48 @@
-2025/12/02-15:51:27.304 a377 Reusing MANIFEST /home/kalon/.config/chromium/Default/Local Extension Settings/bgnkhhnnamicmpeenaelnjfhikgbkllg/MANIFEST-000001
-2025/12/02-15:51:27.305 a377 Recovering log #500
-2025/12/02-15:51:27.308 a377 Reusing old log /home/kalon/.config/chromium/Default/Local Extension Settings/bgnkhhnnamicmpeenaelnjfhikgbkllg/000500.log 
-2025/12/02-15:55:17.656 a377 Level-0 table #504: started
-2025/12/02-15:55:17.670 a377 Level-0 table #504: 947221 bytes OK
-2025/12/02-15:55:17.674 a377 Delete type=0 #500
-2025/12/02-16:02:50.222 a379 Level-0 table #506: started
-2025/12/02-16:02:50.234 a379 Level-0 table #506: 946578 bytes OK
-2025/12/02-16:02:50.238 a379 Delete type=0 #503
-2025/12/02-16:08:40.098 a379 Level-0 table #508: started
-2025/12/02-16:08:40.110 a379 Level-0 table #508: 947445 bytes OK
-2025/12/02-16:08:40.113 a379 Delete type=0 #505
-2025/12/02-16:08:40.114 a379 Compacting 4@0 + 1@1 files
-2025/12/02-16:08:40.130 a379 Generated table #509@0: 6 keys, 333504 bytes
-2025/12/02-16:08:40.130 a379 Compacted 4@0 + 1@1 files => 333504 bytes
-2025/12/02-16:08:40.132 a379 compacted to: files[ 0 1 1 0 0 0 0 ]
-2025/12/02-16:08:40.133 a379 Delete type=2 #499
-2025/12/02-16:08:40.133 a379 Delete type=2 #501
-2025/12/02-16:08:40.133 a379 Delete type=2 #504
-2025/12/02-16:08:40.133 a379 Delete type=2 #506
-2025/12/02-16:08:40.133 a379 Delete type=2 #508
-2025/12/02-16:18:35.654 a379 Level-0 table #511: started
-2025/12/02-16:18:35.667 a379 Level-0 table #511: 945532 bytes OK
-2025/12/02-16:18:35.675 a379 Delete type=0 #507
-2025/12/02-16:28:23.654 a38e Level-0 table #513: started
-2025/12/02-16:28:23.674 a38e Level-0 table #513: 935893 bytes OK
-2025/12/02-16:28:23.677 a38e Delete type=0 #510
-2025/12/02-16:38:23.657 a38c Level-0 table #515: started
-2025/12/02-16:38:23.678 a38c Level-0 table #515: 947255 bytes OK
-2025/12/02-16:38:23.681 a38c Delete type=0 #512
-2025/12/02-16:48:03.714 a38e Level-0 table #517: started
-2025/12/02-16:48:03.737 a38e Level-0 table #517: 938608 bytes OK
-2025/12/02-16:48:03.741 a38e Delete type=0 #514
-2025/12/02-16:48:03.743 a38e Compacting 4@0 + 1@1 files
-2025/12/02-16:48:03.760 a38e Generated table #518@0: 6 keys, 333518 bytes
-2025/12/02-16:48:03.761 a38e Compacted 4@0 + 1@1 files => 333518 bytes
-2025/12/02-16:48:03.763 a38e compacted to: files[ 0 1 1 0 0 0 0 ]
-2025/12/02-16:48:03.763 a38e Delete type=2 #509
-2025/12/02-16:48:03.763 a38e Delete type=2 #511
-2025/12/02-16:48:03.763 a38e Delete type=2 #513
-2025/12/02-16:48:03.763 a38e Delete type=2 #515
-2025/12/02-16:48:03.763 a38e Delete type=2 #517
-2025/12/02-16:56:29.657 a379 Level-0 table #520: started
-2025/12/02-16:56:29.677 a379 Level-0 table #520: 935515 bytes OK
-2025/12/02-16:56:29.681 a379 Delete type=0 #516
-2025/12/02-17:05:35.557 a38c Level-0 table #522: started
-2025/12/02-17:05:35.571 a38c Level-0 table #522: 939774 bytes OK
-2025/12/02-17:05:35.574 a38c Delete type=0 #519
-2025/12/02-17:14:47.656 a379 Level-0 table #524: started
-2025/12/02-17:14:47.671 a379 Level-0 table #524: 953220 bytes OK
-2025/12/02-17:14:47.674 a379 Delete type=0 #521
-2025/12/02-17:25:20.656 a377 Level-0 table #526: started
-2025/12/02-17:25:20.678 a377 Level-0 table #526: 952930 bytes OK
-2025/12/02-17:25:20.680 a377 Delete type=0 #523
-2025/12/02-17:25:20.681 a377 Compacting 4@0 + 1@1 files
-2025/12/02-17:25:20.695 a377 Generated table #527@0: 6 keys, 333531 bytes
-2025/12/02-17:25:20.695 a377 Compacted 4@0 + 1@1 files => 333531 bytes
-2025/12/02-17:25:20.697 a377 compacted to: files[ 0 1 1 0 0 0 0 ]
-2025/12/02-17:25:20.697 a377 Delete type=2 #518
-2025/12/02-17:25:20.697 a377 Delete type=2 #520
-2025/12/02-17:25:20.697 a377 Delete type=2 #522
-2025/12/02-17:25:20.697 a377 Delete type=2 #524
-2025/12/02-17:25:20.697 a377 Delete type=2 #526
-2025/12/02-17:35:59.655 a38c Level-0 table #529: started
-2025/12/02-17:35:59.671 a38c Level-0 table #529: 954650 bytes OK
-2025/12/02-17:35:59.673 a38c Delete type=0 #525
-2025/12/02-17:46:35.655 a38c Level-0 table #531: started
-2025/12/02-17:46:35.676 a38c Level-0 table #531: 955150 bytes OK
-2025/12/02-17:46:35.678 a38c Delete type=0 #528
-2025/12/02-17:57:08.655 a379 Level-0 table #533: started
-2025/12/02-17:57:08.676 a379 Level-0 table #533: 955213 bytes OK
-2025/12/02-17:57:08.679 a379 Delete type=0 #530
-2025/12/02-18:06:35.655 a38c Level-0 table #535: started
-2025/12/02-18:06:35.673 a38c Level-0 table #535: 952840 bytes OK
-2025/12/02-18:06:35.676 a38c Delete type=0 #532
-2025/12/02-18:06:35.677 a38c Compacting 4@0 + 1@1 files
-2025/12/02-18:06:35.691 a38c Generated table #536@0: 6 keys, 333517 bytes
-2025/12/02-18:06:35.691 a38c Compacted 4@0 + 1@1 files => 333517 bytes
-2025/12/02-18:06:35.693 a38c compacted to: files[ 0 1 1 0 0 0 0 ]
-2025/12/02-18:06:35.694 a38c Delete type=2 #527
-2025/12/02-18:06:35.694 a38c Delete type=2 #529
-2025/12/02-18:06:35.694 a38c Delete type=2 #531
-2025/12/02-18:06:35.694 a38c Delete type=2 #533
-2025/12/02-18:06:35.694 a38c Delete type=2 #535
-2025/12/02-18:15:26.655 a377 Level-0 table #538: started
-2025/12/02-18:15:26.667 a377 Level-0 table #538: 952264 bytes OK
-2025/12/02-18:15:26.670 a377 Delete type=0 #534
-2025/12/02-18:25:44.654 a38c Level-0 table #540: started
-2025/12/02-18:25:44.692 a38c Level-0 table #540: 940943 bytes OK
-2025/12/02-18:25:44.695 a38c Delete type=0 #537
-2025/12/02-18:44:47.343 a379 Level-0 table #542: started
-2025/12/02-18:44:47.355 a379 Level-0 table #542: 950660 bytes OK
-2025/12/02-18:44:47.359 a379 Delete type=0 #539
+2025/12/11-17:33:04.065 1109 Reusing MANIFEST /home/kalon/.config/chromium/Default/Local Extension Settings/bgnkhhnnamicmpeenaelnjfhikgbkllg/MANIFEST-000001
+2025/12/11-17:33:04.065 1109 Recovering log #848
+2025/12/11-17:33:04.071 1109 Reusing old log /home/kalon/.config/chromium/Default/Local Extension Settings/bgnkhhnnamicmpeenaelnjfhikgbkllg/000848.log 
+2025/12/11-17:33:06.159 110b Level-0 table #852: started
+2025/12/11-17:33:06.197 110b Level-0 table #852: 1956921 bytes OK
+2025/12/11-17:33:06.201 110b Delete type=0 #848
+2025/12/11-17:33:13.335 110b Level-0 table #854: started
+2025/12/11-17:33:13.343 110b Level-0 table #854: 950702 bytes OK
+2025/12/11-17:33:13.350 110b Delete type=0 #851
+2025/12/11-17:33:30.148 110b Level-0 table #856: started
+2025/12/11-17:33:30.167 110b Level-0 table #856: 957480 bytes OK
+2025/12/11-17:33:30.170 110b Delete type=0 #853
+2025/12/11-17:33:30.171 110b Compacting 4@0 + 1@1 files
+2025/12/11-17:33:30.187 110b Generated table #857@0: 6 keys, 333954 bytes
+2025/12/11-17:33:30.187 110b Compacted 4@0 + 1@1 files => 333954 bytes
+2025/12/11-17:33:30.189 110b compacted to: files[ 0 1 1 0 0 0 0 ]
+2025/12/11-17:33:30.189 110b Delete type=2 #847
+2025/12/11-17:33:30.189 110b Delete type=2 #849
+2025/12/11-17:33:30.189 110b Delete type=2 #852
+2025/12/11-17:33:30.189 110b Delete type=2 #854
+2025/12/11-17:33:30.189 110b Delete type=2 #856
+2025/12/11-17:34:49.455 110b Level-0 table #859: started
+2025/12/11-17:34:49.474 110b Level-0 table #859: 962131 bytes OK
+2025/12/11-17:34:49.476 110b Delete type=0 #855
+2025/12/11-17:45:01.064 110b Level-0 table #861: started
+2025/12/11-17:45:01.077 110b Level-0 table #861: 963586 bytes OK
+2025/12/11-17:45:01.080 110b Delete type=0 #858
+2025/12/11-18:24:56.353 110b Level-0 table #863: started
+2025/12/11-18:24:56.373 110b Level-0 table #863: 1141779 bytes OK
+2025/12/11-18:24:56.378 110b Delete type=0 #860
+2025/12/12-00:32:40.585 111d Level-0 table #865: started
+2025/12/12-00:32:40.602 111d Level-0 table #865: 960458 bytes OK
+2025/12/12-00:32:40.605 111d Delete type=0 #862
+2025/12/12-00:32:40.605 111d Compacting 4@0 + 1@1 files
+2025/12/12-00:32:40.620 111d Generated table #866@0: 6 keys, 333735 bytes
+2025/12/12-00:32:40.620 111d Compacted 4@0 + 1@1 files => 333735 bytes
+2025/12/12-00:32:40.622 111d compacted to: files[ 0 1 1 0 0 0 0 ]
+2025/12/12-00:32:40.622 111d Delete type=2 #857
+2025/12/12-00:32:40.622 111d Delete type=2 #859
+2025/12/12-00:32:40.623 111d Delete type=2 #861
+2025/12/12-00:32:40.623 111d Delete type=2 #863
+2025/12/12-00:32:40.623 111d Delete type=2 #865
+2025/12/12-00:52:53.975 110b Level-0 table #868: started
+2025/12/12-00:52:53.998 110b Level-0 table #868: 958545 bytes OK
+2025/12/12-00:52:54.001 110b Delete type=0 #864
+2025/12/12-01:54:31.254 110b Level-0 table #870: started
+2025/12/12-01:54:31.267 110b Level-0 table #870: 943454 bytes OK
+2025/12/12-01:54:31.270 110b Delete type=0 #867

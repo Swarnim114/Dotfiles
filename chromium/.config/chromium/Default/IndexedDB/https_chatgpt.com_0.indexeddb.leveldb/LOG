@@ -1,3 +1,3 @@
-2025/12/02-16:08:07.889 a377 Reusing MANIFEST /home/kalon/.config/chromium/Default/IndexedDB/https_chatgpt.com_0.indexeddb.leveldb/MANIFEST-000001
-2025/12/02-16:08:07.889 a377 Recovering log #11
-2025/12/02-16:08:07.889 a377 Reusing old log /home/kalon/.config/chromium/Default/IndexedDB/https_chatgpt.com_0.indexeddb.leveldb/000011.log 
+2025/12/11-17:33:07.876 110b Reusing MANIFEST /home/kalon/.config/chromium/Default/IndexedDB/https_chatgpt.com_0.indexeddb.leveldb/MANIFEST-000001
+2025/12/11-17:33:07.877 110b Recovering log #19
+2025/12/11-17:33:07.877 110b Reusing old log /home/kalon/.config/chromium/Default/IndexedDB/https_chatgpt.com_0.indexeddb.leveldb/000019.log 

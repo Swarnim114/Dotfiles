@@ -1,3 +1,15 @@
-2025/12/02-15:45:28.488 1f4d Reusing MANIFEST /home/kalon/.config/chromium/Default/IndexedDB/https_x.com_0.indexeddb.leveldb/MANIFEST-000001
-2025/12/02-15:45:28.488 1f4d Recovering log #15
-2025/12/02-15:45:28.488 1f4d Reusing old log /home/kalon/.config/chromium/Default/IndexedDB/https_x.com_0.indexeddb.leveldb/000015.log 
+2025/12/10-23:27:51.304 f47 Reusing MANIFEST /home/kalon/.config/chromium/Default/IndexedDB/https_x.com_0.indexeddb.leveldb/MANIFEST-000001
+2025/12/10-23:27:51.304 f47 Recovering log #19
+2025/12/10-23:27:51.308 f47 Reusing old log /home/kalon/.config/chromium/Default/IndexedDB/https_x.com_0.indexeddb.leveldb/000019.log 
+2025/12/10-23:31:58.108 f49 Level-0 table #24: started
+2025/12/10-23:31:58.117 f49 Level-0 table #24: 1799931 bytes OK
+2025/12/10-23:31:58.120 f49 Delete type=0 #19
+2025/12/10-23:31:58.120 f49 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2025/12/10-23:31:58.120 f49 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x03\x01\x03\x01\x0d\x001\x007\x006\x005\x003\x008\x009\x004\x007\x005\x000\x007\x000' @ 9994 : 1
+2025/12/10-23:31:58.120 f49 Compacting 1@1 + 1@2 files
+2025/12/10-23:31:58.124 f49 Generated table #25@1: 58 keys, 10967 bytes
+2025/12/10-23:31:58.124 f49 Compacted 1@1 + 1@2 files => 10967 bytes
+2025/12/10-23:31:58.126 f49 compacted to: files[ 0 0 1 0 0 0 0 ]
+2025/12/10-23:31:58.126 f49 Delete type=2 #21
+2025/12/10-23:31:58.126 f49 Delete type=2 #24
+2025/12/10-23:31:58.127 f49 Manual compaction at level-1 from '\x00\x03\x01\x03\x01\x0d\x001\x007\x006\x005\x003\x008\x009\x004\x007\x005\x000\x007\x000' @ 9994 : 1 .. (end); will stop at (end)

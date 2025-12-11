@@ -1,21 +1,12 @@
-2025/12/02-16:32:21.038 a379 Reusing MANIFEST /home/kalon/.config/chromium/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
-2025/12/02-16:32:21.038 a379 Recovering log #468
-2025/12/02-16:32:21.040 a379 Reusing old log /home/kalon/.config/chromium/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/000468.log 
-2025/12/02-17:05:45.847 a379 Level-0 table #473: started
-2025/12/02-17:05:45.865 a379 Level-0 table #473: 1461373 bytes OK
-2025/12/02-17:05:45.869 a379 Delete type=0 #468
-2025/12/02-17:12:33.359 a379 Compacting 1@1 + 1@2 files
-2025/12/02-17:12:33.373 a379 Generated table #474@1: 2724 keys, 140896 bytes
-2025/12/02-17:12:33.373 a379 Compacted 1@1 + 1@2 files => 140896 bytes
-2025/12/02-17:12:33.375 a379 compacted to: files[ 0 0 1 0 0 0 0 ]
-2025/12/02-17:12:33.375 a379 Delete type=2 #470
-2025/12/02-17:12:33.375 a379 Delete type=2 #473
-2025/12/02-18:06:54.064 a379 Level-0 table #476: started
-2025/12/02-18:06:54.073 a379 Level-0 table #476: 1513433 bytes OK
-2025/12/02-18:06:54.075 a379 Delete type=0 #472
-2025/12/02-18:07:18.844 a379 Compacting 1@1 + 1@2 files
-2025/12/02-18:07:18.851 a379 Generated table #477@1: 2753 keys, 139990 bytes
-2025/12/02-18:07:18.852 a379 Compacted 1@1 + 1@2 files => 139990 bytes
-2025/12/02-18:07:18.855 a379 compacted to: files[ 0 0 1 0 0 0 0 ]
-2025/12/02-18:07:18.855 a379 Delete type=2 #474
-2025/12/02-18:07:18.855 a379 Delete type=2 #476
+2025/12/10-23:31:30.807 f47 Reusing MANIFEST /home/kalon/.config/chromium/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
+2025/12/10-23:31:30.808 f47 Recovering log #714
+2025/12/10-23:31:30.809 f47 Reusing old log /home/kalon/.config/chromium/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/000714.log 
+2025/12/11-01:45:20.463 f49 Level-0 table #719: started
+2025/12/11-01:45:20.503 f49 Level-0 table #719: 1713721 bytes OK
+2025/12/11-01:45:20.506 f49 Delete type=0 #714
+2025/12/11-02:03:11.108 f49 Compacting 1@1 + 1@2 files
+2025/12/11-02:03:11.117 f49 Generated table #720@1: 4094 keys, 215085 bytes
+2025/12/11-02:03:11.117 f49 Compacted 1@1 + 1@2 files => 215085 bytes
+2025/12/11-02:03:11.120 f49 compacted to: files[ 0 0 1 0 0 0 0 ]
+2025/12/11-02:03:11.120 f49 Delete type=2 #716
+2025/12/11-02:03:11.120 f49 Delete type=2 #719

@@ -1,15 +1,15 @@
-2025/11/18-14:21:49.350 16b01 Reusing MANIFEST /home/kalon/.config/chromium/Default/IndexedDB/https_meet.google.com_0.indexeddb.leveldb/MANIFEST-000001
-2025/11/18-14:21:49.350 16b01 Recovering log #4
-2025/11/18-14:21:49.351 16b01 Reusing old log /home/kalon/.config/chromium/Default/IndexedDB/https_meet.google.com_0.indexeddb.leveldb/000004.log 
-2025/11/18-14:22:21.381 16b02 Level-0 table #8: started
-2025/11/18-14:22:21.383 16b02 Level-0 table #8: 4458 bytes OK
-2025/11/18-14:22:21.385 16b02 Delete type=0 #4
-2025/11/18-14:22:21.386 16b02 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
-2025/11/18-14:22:21.386 16b02 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x01\x01\x02\x01A\x00B\x00x\x00U\x00l\x00h\x00f\x00:\x00/\x00u\x00/\x002\x00/\x00_\x00/\x00M\x00e\x00e\x00t\x00i\x00n\x00g\x00s\x00U\x00i\x00:\x00b\x00o\x00q\x00-\x00r\x00t\x00c\x00.\x00M\x00e\x00e\x00t\x00i\x00n\x00g\x00s\x00U\x00i\x00.\x00e\x00n\x00.\x00h\x00G\x00u\x00j\x00h\x00v\x00X\x00T\x00S\x00O\x000\x00.\x002\x000\x002\x000\x00.\x00O' @ 90 : 1
-2025/11/18-14:22:21.386 16b02 Compacting 1@1 + 1@2 files
-2025/11/18-14:22:21.387 16b02 Generated table #9@1: 22 keys, 4336 bytes
-2025/11/18-14:22:21.387 16b02 Compacted 1@1 + 1@2 files => 4336 bytes
-2025/11/18-14:22:21.390 16b02 compacted to: files[ 0 0 1 0 0 0 0 ]
-2025/11/18-14:22:21.390 16b02 Delete type=2 #5
-2025/11/18-14:22:21.390 16b02 Delete type=2 #8
-2025/11/18-14:22:21.390 16b02 Manual compaction at level-1 from '\x00\x01\x01\x02\x01A\x00B\x00x\x00U\x00l\x00h\x00f\x00:\x00/\x00u\x00/\x002\x00/\x00_\x00/\x00M\x00e\x00e\x00t\x00i\x00n\x00g\x00s\x00U\x00i\x00:\x00b\x00o\x00q\x00-\x00r\x00t\x00c\x00.\x00M\x00e\x00e\x00t\x00i\x00n\x00g\x00s\x00U\x00i\x00.\x00e\x00n\x00.\x00h\x00G\x00u\x00j\x00h\x00v\x00X\x00T\x00S\x00O\x000\x00.\x002\x000\x002\x000\x00.\x00O' @ 90 : 1 .. (end); will stop at (end)
+2025/12/09-16:37:05.630 1a23 Reusing MANIFEST /home/kalon/.config/chromium/Default/IndexedDB/https_meet.google.com_0.indexeddb.leveldb/MANIFEST-000001
+2025/12/09-16:37:05.630 1a23 Recovering log #11
+2025/12/09-16:37:05.630 1a23 Reusing old log /home/kalon/.config/chromium/Default/IndexedDB/https_meet.google.com_0.indexeddb.leveldb/000011.log 
+2025/12/09-16:37:37.781 1a25 Level-0 table #16: started
+2025/12/09-16:37:37.782 1a25 Level-0 table #16: 2515 bytes OK
+2025/12/09-16:37:37.785 1a25 Delete type=0 #11
+2025/12/09-16:37:37.785 1a25 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2025/12/09-16:37:37.785 1a25 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x01\x01\x02\x01A\x00B\x00x\x00U\x00l\x00h\x00f\x00:\x00/\x00u\x00/\x002\x00/\x00_\x00/\x00M\x00e\x00e\x00t\x00i\x00n\x00g\x00s\x00U\x00i\x00:\x00b\x00o\x00q\x00-\x00r\x00t\x00c\x00.\x00M\x00e\x00e\x00t\x00i\x00n\x00g\x00s\x00U\x00i\x00.\x00e\x00n\x00.\x00t\x004\x00F\x00I\x00d\x00C\x00A\x00V\x003\x00h\x008\x00.\x002\x000\x002\x000\x00.\x00O' @ 115 : 0
+2025/12/09-16:37:37.785 1a25 Compacting 1@1 + 1@2 files
+2025/12/09-16:37:37.787 1a25 Generated table #17@1: 23 keys, 4399 bytes
+2025/12/09-16:37:37.787 1a25 Compacted 1@1 + 1@2 files => 4399 bytes
+2025/12/09-16:37:37.789 1a25 compacted to: files[ 0 0 1 0 0 0 0 ]
+2025/12/09-16:37:37.789 1a25 Delete type=2 #13
+2025/12/09-16:37:37.789 1a25 Delete type=2 #16
+2025/12/09-16:37:37.790 1a25 Manual compaction at level-1 from '\x00\x01\x01\x02\x01A\x00B\x00x\x00U\x00l\x00h\x00f\x00:\x00/\x00u\x00/\x002\x00/\x00_\x00/\x00M\x00e\x00e\x00t\x00i\x00n\x00g\x00s\x00U\x00i\x00:\x00b\x00o\x00q\x00-\x00r\x00t\x00c\x00.\x00M\x00e\x00e\x00t\x00i\x00n\x00g\x00s\x00U\x00i\x00.\x00e\x00n\x00.\x00t\x004\x00F\x00I\x00d\x00C\x00A\x00V\x003\x00h\x008\x00.\x002\x000\x002\x000\x00.\x00O' @ 115 : 0 .. (end); will stop at (end)

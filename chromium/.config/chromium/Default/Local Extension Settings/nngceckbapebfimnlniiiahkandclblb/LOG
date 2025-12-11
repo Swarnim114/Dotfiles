@@ -1,3 +1,12 @@
-2025/12/02-15:51:27.311 a377 Reusing MANIFEST /home/kalon/.config/chromium/Default/Local Extension Settings/nngceckbapebfimnlniiiahkandclblb/MANIFEST-000001
-2025/12/02-15:51:27.312 a377 Recovering log #49
-2025/12/02-15:51:27.314 a377 Reusing old log /home/kalon/.config/chromium/Default/Local Extension Settings/nngceckbapebfimnlniiiahkandclblb/000049.log 
+2025/12/11-17:33:04.055 1109 Reusing MANIFEST /home/kalon/.config/chromium/Default/Local Extension Settings/nngceckbapebfimnlniiiahkandclblb/MANIFEST-000001
+2025/12/11-17:33:04.056 1109 Recovering log #66
+2025/12/11-17:33:04.062 1109 Reusing old log /home/kalon/.config/chromium/Default/Local Extension Settings/nngceckbapebfimnlniiiahkandclblb/000066.log 
+2025/12/11-17:33:07.694 110b Level-0 table #71: started
+2025/12/11-17:33:07.705 110b Level-0 table #71: 3774940 bytes OK
+2025/12/11-17:33:07.708 110b Delete type=0 #66
+2025/12/11-18:25:01.258 1109 Compacting 1@1 + 1@2 files
+2025/12/11-18:25:01.271 1109 Generated table #72@1: 53 keys, 855042 bytes
+2025/12/11-18:25:01.271 1109 Compacted 1@1 + 1@2 files => 855042 bytes
+2025/12/11-18:25:01.273 1109 compacted to: files[ 0 0 1 0 0 0 0 ]
+2025/12/11-18:25:01.273 1109 Delete type=2 #68
+2025/12/11-18:25:01.274 1109 Delete type=2 #71

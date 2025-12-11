@@ -1,9 +1,24 @@
-2025/12/02-13:51:43.367 1f4d Reusing MANIFEST /home/kalon/.config/chromium/Default/Extension State/MANIFEST-000001
-2025/12/02-13:51:43.368 1f4d Recovering log #155
-2025/12/02-13:51:43.380 1f4d Reusing old log /home/kalon/.config/chromium/Default/Extension State/000155.log 
-2025/12/02-13:52:25.793 1f4d Level-0 table #159: started
-2025/12/02-13:52:25.804 1f4d Level-0 table #159: 577917 bytes OK
-2025/12/02-13:52:25.808 1f4d Delete type=0 #155
-2025/12/02-15:41:39.557 1f4d Level-0 table #161: started
-2025/12/02-15:41:39.581 1f4d Level-0 table #161: 631141 bytes OK
-2025/12/02-15:41:39.584 1f4d Delete type=0 #158
+2025/12/10-12:20:03.468 f49 Reusing MANIFEST /home/kalon/.config/chromium/Default/Extension State/MANIFEST-000001
+2025/12/10-12:20:03.469 f49 Recovering log #225
+2025/12/10-12:20:03.470 f49 Reusing old log /home/kalon/.config/chromium/Default/Extension State/000225.log 
+2025/12/10-13:48:11.101 f47 Level-0 table #229: started
+2025/12/10-13:48:11.120 f47 Level-0 table #229: 627113 bytes OK
+2025/12/10-13:48:11.123 f47 Delete type=0 #225
+2025/12/10-15:08:17.834 f49 Level-0 table #231: started
+2025/12/10-15:08:17.853 f49 Level-0 table #231: 640949 bytes OK
+2025/12/10-15:08:17.856 f49 Delete type=0 #228
+2025/12/10-15:08:17.857 f49 Compacting 4@0 + 1@1 files
+2025/12/10-15:08:17.869 f49 Generated table #232@0: 8 keys, 6769 bytes
+2025/12/10-15:08:17.869 f49 Compacted 4@0 + 1@1 files => 6769 bytes
+2025/12/10-15:08:17.871 f49 compacted to: files[ 0 1 1 0 0 0 0 ]
+2025/12/10-15:08:17.872 f49 Delete type=2 #222
+2025/12/10-15:08:17.872 f49 Delete type=2 #224
+2025/12/10-15:08:17.872 f49 Delete type=2 #226
+2025/12/10-15:08:17.872 f49 Delete type=2 #229
+2025/12/10-15:08:17.872 f49 Delete type=2 #231
+2025/12/10-16:36:53.835 f49 Level-0 table #234: started
+2025/12/10-16:36:53.849 f49 Level-0 table #234: 635809 bytes OK
+2025/12/10-16:36:53.852 f49 Delete type=0 #230
+2025/12/10-21:55:30.927 f47 Level-0 table #236: started
+2025/12/10-21:55:30.947 f47 Level-0 table #236: 605006 bytes OK
+2025/12/10-21:55:30.951 f47 Delete type=0 #233

@@ -1,3 +1,15 @@
-2025/12/02-15:52:30.329 a377 Reusing MANIFEST /home/kalon/.config/chromium/Default/IndexedDB/https_leetcode.com_0.indexeddb.leveldb/MANIFEST-000001
-2025/12/02-15:52:30.329 a377 Recovering log #10
-2025/12/02-15:52:30.353 a377 Reusing old log /home/kalon/.config/chromium/Default/IndexedDB/https_leetcode.com_0.indexeddb.leveldb/000010.log 
+2025/12/10-14:13:17.444 f49 Reusing MANIFEST /home/kalon/.config/chromium/Default/IndexedDB/https_leetcode.com_0.indexeddb.leveldb/MANIFEST-000001
+2025/12/10-14:13:17.444 f49 Recovering log #10
+2025/12/10-14:13:17.472 f49 Reusing old log /home/kalon/.config/chromium/Default/IndexedDB/https_leetcode.com_0.indexeddb.leveldb/000010.log 
+2025/12/10-22:14:51.472 f49 Level-0 table #15: started
+2025/12/10-22:14:51.482 f49 Level-0 table #15: 506238 bytes OK
+2025/12/10-22:14:51.485 f49 Delete type=0 #10
+2025/12/10-22:14:51.485 f49 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2025/12/10-22:14:51.486 f49 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x01\x01\x02\x01\x1c\x007\x000\x00_\x001\x001\x001\x008\x008\x005\x000\x006\x00_\x00c\x00p\x00p\x00-\x00u\x00p\x00d\x00a\x00t\x00e\x00d\x00-\x00t\x00i\x00m\x00e' @ 75144 : 1
+2025/12/10-22:14:51.486 f49 Compacting 1@1 + 1@2 files
+2025/12/10-22:14:51.490 f49 Generated table #16@1: 96 keys, 7914 bytes
+2025/12/10-22:14:51.490 f49 Compacted 1@1 + 1@2 files => 7914 bytes
+2025/12/10-22:14:51.492 f49 compacted to: files[ 0 0 1 0 0 0 0 ]
+2025/12/10-22:14:51.493 f49 Delete type=2 #12
+2025/12/10-22:14:51.493 f49 Delete type=2 #15
+2025/12/10-22:14:51.493 f49 Manual compaction at level-1 from '\x00\x01\x01\x02\x01\x1c\x007\x000\x00_\x001\x001\x001\x008\x008\x005\x000\x006\x00_\x00c\x00p\x00p\x00-\x00u\x00p\x00d\x00a\x00t\x00e\x00d\x00-\x00t\x00i\x00m\x00e' @ 75144 : 1 .. (end); will stop at (end)

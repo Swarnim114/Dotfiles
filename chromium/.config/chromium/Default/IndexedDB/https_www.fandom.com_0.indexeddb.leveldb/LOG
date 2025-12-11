@@ -1,6 +1,15 @@
-2025/11/19-14:43:37.989 60641 Creating DB /home/kalon/.config/chromium/Default/IndexedDB/https_www.fandom.com_0.indexeddb.leveldb since it was missing.
-2025/11/19-14:43:37.993 60641 Reusing MANIFEST /home/kalon/.config/chromium/Default/IndexedDB/https_www.fandom.com_0.indexeddb.leveldb/MANIFEST-000001
-2025/11/19-14:53:20.921 60642 Level-0 table #5: started
-2025/11/19-14:53:20.922 60642 Level-0 table #5: 3713 bytes OK
-2025/11/19-14:53:20.925 60642 Delete type=0 #3
-2025/11/19-14:53:20.925 60642 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2025/12/10-20:41:16.534 f47 Reusing MANIFEST /home/kalon/.config/chromium/Default/IndexedDB/https_www.fandom.com_0.indexeddb.leveldb/MANIFEST-000001
+2025/12/10-20:41:16.534 f47 Recovering log #4
+2025/12/10-20:41:16.534 f47 Reusing old log /home/kalon/.config/chromium/Default/IndexedDB/https_www.fandom.com_0.indexeddb.leveldb/000004.log 
+2025/12/10-20:41:24.851 f49 Level-0 table #8: started
+2025/12/10-20:41:24.852 f49 Level-0 table #8: 3591 bytes OK
+2025/12/10-20:41:24.855 f49 Delete type=0 #4
+2025/12/10-20:41:24.855 f49 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2025/12/10-20:41:24.855 f49 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x01\x01\x02\x01\x19\x005\x006\x006\x006\x009\x005\x00_\x006\x005\x005\x001\x00_\x001\x007\x006\x005\x002\x008\x006\x003\x006\x007\x008\x006\x001' @ 183 : 1
+2025/12/10-20:41:24.855 f49 Compacting 1@1 + 1@2 files
+2025/12/10-20:41:24.856 f49 Generated table #9@1: 67 keys, 4765 bytes
+2025/12/10-20:41:24.857 f49 Compacted 1@1 + 1@2 files => 4765 bytes
+2025/12/10-20:41:24.859 f49 compacted to: files[ 0 0 1 0 0 0 0 ]
+2025/12/10-20:41:24.859 f49 Delete type=2 #5
+2025/12/10-20:41:24.859 f49 Delete type=2 #8
+2025/12/10-20:41:24.859 f49 Manual compaction at level-1 from '\x00\x01\x01\x02\x01\x19\x005\x006\x006\x006\x009\x005\x00_\x006\x005\x005\x001\x00_\x001\x007\x006\x005\x002\x008\x006\x003\x006\x007\x008\x006\x001' @ 183 : 1 .. (end); will stop at (end)

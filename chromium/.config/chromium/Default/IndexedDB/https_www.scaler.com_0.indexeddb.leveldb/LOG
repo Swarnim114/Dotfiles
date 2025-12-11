@@ -1,3 +1,15 @@
-2025/12/02-18:35:57.623 a377 Reusing MANIFEST /home/kalon/.config/chromium/Default/IndexedDB/https_www.scaler.com_0.indexeddb.leveldb/MANIFEST-000001
-2025/12/02-18:35:57.623 a377 Recovering log #15
-2025/12/02-18:35:57.623 a377 Reusing old log /home/kalon/.config/chromium/Default/IndexedDB/https_www.scaler.com_0.indexeddb.leveldb/000015.log 
+2025/12/10-13:06:18.053 f47 Reusing MANIFEST /home/kalon/.config/chromium/Default/IndexedDB/https_www.scaler.com_0.indexeddb.leveldb/MANIFEST-000001
+2025/12/10-13:06:18.053 f47 Recovering log #23
+2025/12/10-13:06:18.055 f47 Reusing old log /home/kalon/.config/chromium/Default/IndexedDB/https_www.scaler.com_0.indexeddb.leveldb/000023.log 
+2025/12/10-18:43:54.121 f5b Level-0 table #28: started
+2025/12/10-18:43:54.127 f5b Level-0 table #28: 228735 bytes OK
+2025/12/10-18:43:54.130 f5b Delete type=0 #23
+2025/12/10-18:43:54.130 f5b Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2025/12/10-18:43:54.130 f5b Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x01\x01\x02\x01\x0d\x00_\x00_\x00u\x00s\x00e\x00r\x00_\x00t\x00r\x00a\x00i\x00t\x00s' @ 43351 : 1
+2025/12/10-18:43:54.130 f5b Compacting 1@1 + 1@2 files
+2025/12/10-18:43:54.133 f5b Generated table #29@1: 34 keys, 1479 bytes
+2025/12/10-18:43:54.133 f5b Compacted 1@1 + 1@2 files => 1479 bytes
+2025/12/10-18:43:54.135 f5b compacted to: files[ 0 0 1 0 0 0 0 ]
+2025/12/10-18:43:54.135 f5b Delete type=2 #25
+2025/12/10-18:43:54.135 f5b Delete type=2 #28
+2025/12/10-18:43:54.136 f47 Manual compaction at level-1 from '\x00\x01\x01\x02\x01\x0d\x00_\x00_\x00u\x00s\x00e\x00r\x00_\x00t\x00r\x00a\x00i\x00t\x00s' @ 43351 : 1 .. (end); will stop at (end)

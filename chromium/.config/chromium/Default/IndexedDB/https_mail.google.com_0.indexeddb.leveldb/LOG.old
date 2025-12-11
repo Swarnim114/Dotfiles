@@ -1,48 +1,9 @@
-2025/11/26-22:02:53.337 135f9d Reusing MANIFEST /home/kalon/.config/chromium/Default/IndexedDB/https_mail.google.com_0.indexeddb.leveldb/MANIFEST-000001
-2025/11/26-22:02:53.337 135f9d Recovering log #32
-2025/11/26-22:02:53.337 135f9d Reusing old log /home/kalon/.config/chromium/Default/IndexedDB/https_mail.google.com_0.indexeddb.leveldb/000032.log 
-2025/11/26-22:03:12.418 135f9f Level-0 table #38: started
-2025/11/26-22:03:12.447 135f9f Level-0 table #38: 3154545 bytes OK
-2025/11/26-22:03:12.451 135f9f Delete type=0 #32
-2025/11/26-22:03:25.988 135f9f Compacting 1@1 + 1@2 files
-2025/11/26-22:03:26.002 135f9f Generated table #39@1: 279 keys, 1021531 bytes
-2025/11/26-22:03:26.003 135f9f Compacted 1@1 + 1@2 files => 1021531 bytes
-2025/11/26-22:03:26.005 135f9f compacted to: files[ 0 0 1 0 0 0 0 ]
-2025/11/26-22:03:26.005 135f9f Delete type=2 #35
-2025/11/26-22:03:26.005 135f9f Delete type=2 #38
-2025/11/26-22:03:51.704 135f9f Level-0 table #41: started
-2025/11/26-22:03:51.733 135f9f Level-0 table #41: 3131238 bytes OK
-2025/11/26-22:03:51.737 135f9f Delete type=0 #37
-2025/11/26-22:04:15.268 135f9f Level-0 table #43: started
-2025/11/26-22:04:15.300 135f9f Level-0 table #43: 3152888 bytes OK
-2025/11/26-22:04:15.306 135f9f Delete type=0 #40
-2025/11/26-22:05:35.646 135f9d Compacting 1@0 + 1@1 files
-2025/11/26-22:05:35.677 135f9d Generated table #44@0: 1278 keys, 1752013 bytes
-2025/11/26-22:05:35.677 135f9d Compacted 1@0 + 1@1 files => 1752013 bytes
-2025/11/26-22:05:35.680 135f9d compacted to: files[ 0 1 1 0 0 0 0 ]
-2025/11/26-22:05:35.680 135f9d Delete type=2 #41
-2025/11/26-22:05:35.680 135f9d Delete type=2 #43
-2025/11/26-22:05:50.217 135f9f Compacting 1@1 + 1@2 files
-2025/11/26-22:05:50.229 135f9f Generated table #45@1: 207 keys, 512306 bytes
-2025/11/26-22:05:50.229 135f9f Compacted 1@1 + 1@2 files => 512306 bytes
-2025/11/26-22:05:50.232 135f9f compacted to: files[ 0 0 1 0 0 0 0 ]
-2025/11/26-22:05:50.233 135f9f Delete type=2 #39
-2025/11/26-22:05:50.233 135f9f Delete type=2 #44
-2025/11/26-22:05:50.249 135f9f Level-0 table #47: started
-2025/11/26-22:05:50.276 135f9f Level-0 table #47: 3121133 bytes OK
-2025/11/26-22:05:50.281 135f9f Delete type=0 #42
-2025/11/26-22:07:18.187 135f9d Compacting 1@1 + 1@2 files
-2025/11/26-22:07:18.205 135f9d Generated table #48@1: 275 keys, 983167 bytes
-2025/11/26-22:07:18.205 135f9d Compacted 1@1 + 1@2 files => 983167 bytes
-2025/11/26-22:07:18.208 135f9d compacted to: files[ 0 0 1 0 0 0 0 ]
-2025/11/26-22:07:18.208 135f9d Delete type=2 #45
-2025/11/26-22:07:18.209 135f9d Delete type=2 #47
-2025/11/26-22:07:32.624 135f9f Level-0 table #50: started
-2025/11/26-22:07:32.654 135f9f Level-0 table #50: 3151617 bytes OK
-2025/11/26-22:07:32.657 135f9f Delete type=0 #46
-2025/11/26-22:22:02.365 135f9d Compacting 1@1 + 1@2 files
-2025/11/26-22:22:02.402 135f9d Generated table #51@1: 257 keys, 923504 bytes
-2025/11/26-22:22:02.402 135f9d Compacted 1@1 + 1@2 files => 923504 bytes
-2025/11/26-22:22:02.405 135f9d compacted to: files[ 0 0 1 0 0 0 0 ]
-2025/11/26-22:22:02.405 135f9d Delete type=2 #48
-2025/11/26-22:22:02.406 135f9d Delete type=2 #50
+2025/12/09-16:36:33.481 1a23 Reusing MANIFEST /home/kalon/.config/chromium/Default/IndexedDB/https_mail.google.com_0.indexeddb.leveldb/MANIFEST-000001
+2025/12/09-16:36:33.482 1a23 Recovering log #71
+2025/12/09-16:36:33.482 1a23 Reusing old log /home/kalon/.config/chromium/Default/IndexedDB/https_mail.google.com_0.indexeddb.leveldb/000071.log 
+2025/12/09-16:36:54.389 1a25 Level-0 table #77: started
+2025/12/09-16:36:54.412 1a25 Level-0 table #77: 3155869 bytes OK
+2025/12/09-16:36:54.415 1a25 Delete type=0 #71
+2025/12/09-16:36:54.421 1a25 Level-0 table #79: started
+2025/12/09-16:36:54.443 1a25 Level-0 table #79: 3244367 bytes OK
+2025/12/09-16:36:54.446 1a25 Delete type=0 #76

@@ -1,37 +1,83 @@
-2025/12/02-13:51:43.550 1f5f Reusing MANIFEST /home/kalon/.config/chromium/Default/IndexedDB/chrome-extension_bgnkhhnnamicmpeenaelnjfhikgbkllg_0.indexeddb.leveldb/MANIFEST-000001
-2025/12/02-13:51:43.551 1f5f Recovering log #246
-2025/12/02-13:51:43.551 1f5f Reusing old log /home/kalon/.config/chromium/Default/IndexedDB/chrome-extension_bgnkhhnnamicmpeenaelnjfhikgbkllg_0.indexeddb.leveldb/000246.log 
-2025/12/02-13:51:43.551 1f5f Delete type=2 #241
-2025/12/02-13:51:43.551 1f5f Delete type=2 #242
-2025/12/02-13:51:43.551 1f5f Delete type=2 #243
-2025/12/02-13:51:43.551 1f5f Delete type=2 #244
-2025/12/02-13:51:43.558 1f5f Level-0 table #254: started
-2025/12/02-13:51:43.559 1f5f Level-0 table #254: 622 bytes OK
-2025/12/02-13:51:43.561 1f5f Delete type=0 #246
-2025/12/02-13:51:43.562 1f5f Manual compaction at level-0 from '\x00\x1c\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x1d\x00\x00\x00' @ 0 : 0; will stop at '\x00\x1c\x00\x00\x05' @ 51532 : 1
-2025/12/02-13:51:43.562 1f5f Compacting 1@0 + 4@1 files
-2025/12/02-13:51:43.576 1f5f Generated table #255@0: 8590 keys, 2141304 bytes
-2025/12/02-13:51:43.590 1f5f Generated table #256@0: 577 keys, 2108830 bytes
-2025/12/02-13:51:43.601 1f5f Generated table #257@0: 486 keys, 2110633 bytes
-2025/12/02-13:51:43.604 1f5f Generated table #258@0: 329 keys, 95321 bytes
-2025/12/02-13:51:43.604 1f5f Compacted 1@0 + 4@1 files => 6456088 bytes
-2025/12/02-13:51:43.606 1f5f compacted to: files[ 0 4 1 0 0 0 0 ]
-2025/12/02-13:51:43.606 1f5f Delete type=2 #254
-2025/12/02-13:51:43.607 1f5f Manual compaction at level-0 from '\x00\x1c\x00\x00\x05' @ 51532 : 1 .. '\x00\x1d\x00\x00\x00' @ 0 : 0; will stop at (end)
-2025/12/02-15:01:24.104 1f4d Level-0 table #260: started
-2025/12/02-15:01:24.105 1f4d Level-0 table #260: 628 bytes OK
-2025/12/02-15:01:24.108 1f4d Delete type=2 #248
-2025/12/02-15:01:24.108 1f4d Delete type=2 #249
-2025/12/02-15:01:24.108 1f4d Delete type=2 #250
-2025/12/02-15:01:24.108 1f4d Delete type=2 #251
-2025/12/02-15:01:24.108 1f4d Delete type=0 #253
-2025/12/02-15:01:24.109 1f4d Manual compaction at level-0 from '\x00\x1d\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x1e\x00\x00\x00' @ 0 : 0; will stop at '\x00\x1d\x00\x00\x05' @ 51551 : 1
-2025/12/02-15:01:24.109 1f4d Compacting 1@0 + 4@1 files
-2025/12/02-15:01:24.120 1f4d Generated table #261@0: 8591 keys, 2141338 bytes
-2025/12/02-15:01:24.132 1f4d Generated table #262@0: 577 keys, 2108830 bytes
-2025/12/02-15:01:24.140 1f4d Generated table #263@0: 486 keys, 2110633 bytes
-2025/12/02-15:01:24.142 1f4d Generated table #264@0: 329 keys, 95321 bytes
-2025/12/02-15:01:24.143 1f4d Compacted 1@0 + 4@1 files => 6456122 bytes
-2025/12/02-15:01:24.145 1f4d compacted to: files[ 0 4 1 0 0 0 0 ]
-2025/12/02-15:01:24.145 1f4d Delete type=2 #260
-2025/12/02-15:01:24.145 1f4d Manual compaction at level-0 from '\x00\x1d\x00\x00\x05' @ 51551 : 1 .. '\x00\x1e\x00\x00\x00' @ 0 : 0; will stop at (end)
+2025/12/10-12:20:03.955 f49 Reusing MANIFEST /home/kalon/.config/chromium/Default/IndexedDB/chrome-extension_bgnkhhnnamicmpeenaelnjfhikgbkllg_0.indexeddb.leveldb/MANIFEST-000001
+2025/12/10-12:20:03.956 f49 Recovering log #320
+2025/12/10-12:20:03.958 f49 Reusing old log /home/kalon/.config/chromium/Default/IndexedDB/chrome-extension_bgnkhhnnamicmpeenaelnjfhikgbkllg_0.indexeddb.leveldb/000320.log 
+2025/12/10-12:20:03.966 f47 Level-0 table #327: started
+2025/12/10-12:20:03.972 f47 Level-0 table #327: 1254027 bytes OK
+2025/12/10-12:20:03.975 f47 Delete type=0 #320
+2025/12/10-12:20:03.975 f47 Manual compaction at level-0 from '\x00&\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00'\x00\x00\x00' @ 0 : 0; will stop at '\x00&\x00\x00\x05' @ 55482 : 1
+2025/12/10-12:20:03.975 f47 Compacting 1@0 + 5@1 files
+2025/12/10-12:20:03.988 f47 Generated table #328@0: 8693 keys, 2142266 bytes
+2025/12/10-12:20:04.002 f47 Generated table #329@0: 577 keys, 2108756 bytes
+2025/12/10-12:20:04.011 f47 Generated table #330@0: 486 keys, 2110633 bytes
+2025/12/10-12:20:04.013 f47 Generated table #331@0: 329 keys, 95321 bytes
+2025/12/10-12:20:04.013 f47 Compacted 1@0 + 5@1 files => 6456976 bytes
+2025/12/10-12:20:04.015 f47 compacted to: files[ 0 4 1 0 0 0 0 ]
+2025/12/10-12:20:04.016 f47 Delete type=2 #327
+2025/12/10-12:20:04.016 f47 Manual compaction at level-0 from '\x00&\x00\x00\x05' @ 55482 : 1 .. '\x00'\x00\x00\x00' @ 0 : 0; will stop at (end)
+2025/12/11-01:28:39.855 f47 Level-0 table #333: started
+2025/12/11-01:28:39.857 f47 Level-0 table #333: 625 bytes OK
+2025/12/11-01:28:39.859 f47 Delete type=2 #318
+2025/12/11-01:28:39.859 f47 Delete type=2 #319
+2025/12/11-01:28:39.859 f47 Delete type=2 #322
+2025/12/11-01:28:39.859 f47 Delete type=2 #323
+2025/12/11-01:28:39.859 f47 Delete type=2 #324
+2025/12/11-01:28:39.859 f47 Delete type=0 #326
+2025/12/11-01:28:39.860 f47 Manual compaction at level-0 from '\x00'\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00(\x00\x00\x00' @ 0 : 0; will stop at '\x00'\x00\x00\x05' @ 55501 : 1
+2025/12/11-01:28:39.860 f47 Compacting 1@0 + 4@1 files
+2025/12/11-01:28:39.870 f47 Generated table #334@0: 8694 keys, 2142309 bytes
+2025/12/11-01:28:39.883 f47 Generated table #335@0: 577 keys, 2108756 bytes
+2025/12/11-01:28:39.891 f47 Generated table #336@0: 486 keys, 2110633 bytes
+2025/12/11-01:28:39.895 f47 Generated table #337@0: 329 keys, 95321 bytes
+2025/12/11-01:28:39.896 f47 Compacted 1@0 + 4@1 files => 6457019 bytes
+2025/12/11-01:28:39.898 f47 compacted to: files[ 0 4 1 0 0 0 0 ]
+2025/12/11-01:28:39.898 f47 Delete type=2 #333
+2025/12/11-01:28:39.898 f47 Manual compaction at level-0 from '\x00'\x00\x00\x05' @ 55501 : 1 .. '\x00(\x00\x00\x00' @ 0 : 0; will stop at (end)
+2025/12/11-01:28:43.311 f49 Level-0 table #339: started
+2025/12/11-01:28:43.323 f49 Level-0 table #339: 2942503 bytes OK
+2025/12/11-01:28:43.326 f49 Delete type=2 #328
+2025/12/11-01:28:43.326 f49 Delete type=2 #329
+2025/12/11-01:28:43.326 f49 Delete type=2 #330
+2025/12/11-01:28:43.326 f49 Delete type=2 #331
+2025/12/11-01:28:43.326 f49 Delete type=0 #332
+2025/12/11-01:28:43.594 f5b Compacting 1@0 + 4@1 files
+2025/12/11-01:28:43.606 f5b Generated table #340@0: 8727 keys, 2156336 bytes
+2025/12/11-01:28:43.619 f5b Generated table #341@0: 568 keys, 2105648 bytes
+2025/12/11-01:28:43.627 f5b Generated table #342@0: 488 keys, 2114250 bytes
+2025/12/11-01:28:43.630 f5b Generated table #343@0: 337 keys, 172775 bytes
+2025/12/11-01:28:43.630 f5b Compacted 1@0 + 4@1 files => 6549009 bytes
+2025/12/11-01:28:43.632 f5b compacted to: files[ 0 4 1 0 0 0 0 ]
+2025/12/11-01:28:43.632 f5b Delete type=2 #334
+2025/12/11-01:28:43.632 f5b Delete type=2 #335
+2025/12/11-01:28:43.632 f5b Delete type=2 #336
+2025/12/11-01:28:43.632 f5b Delete type=2 #337
+2025/12/11-01:28:43.632 f5b Delete type=2 #339
+2025/12/11-01:28:44.562 f49 Level-0 table #345: started
+2025/12/11-01:28:44.585 f49 Level-0 table #345: 3092392 bytes OK
+2025/12/11-01:28:44.588 f49 Delete type=0 #338
+2025/12/11-01:28:45.429 f49 Compacting 1@0 + 4@1 files
+2025/12/11-01:28:45.440 f49 Generated table #346@0: 8749 keys, 2143291 bytes
+2025/12/11-01:28:45.455 f49 Generated table #347@0: 578 keys, 2129013 bytes
+2025/12/11-01:28:45.463 f49 Generated table #348@0: 494 keys, 2138854 bytes
+2025/12/11-01:28:45.464 f49 Generated table #349@0: 320 keys, 5835 bytes
+2025/12/11-01:28:45.464 f49 Compacted 1@0 + 4@1 files => 6416993 bytes
+2025/12/11-01:28:45.466 f49 compacted to: files[ 0 4 1 0 0 0 0 ]
+2025/12/11-01:28:45.467 f49 Delete type=2 #340
+2025/12/11-01:28:45.467 f49 Delete type=2 #341
+2025/12/11-01:28:45.467 f49 Delete type=2 #342
+2025/12/11-01:28:45.467 f49 Delete type=2 #343
+2025/12/11-01:28:45.467 f49 Delete type=2 #345
+2025/12/11-01:28:47.478 f49 Level-0 table #351: started
+2025/12/11-01:28:47.493 f49 Level-0 table #351: 3711806 bytes OK
+2025/12/11-01:28:47.496 f49 Delete type=0 #344
+2025/12/11-01:28:49.138 f5b Compacting 1@0 + 4@1 files
+2025/12/11-01:28:49.151 f5b Generated table #352@0: 8922 keys, 2156960 bytes
+2025/12/11-01:28:49.163 f5b Generated table #353@0: 578 keys, 2131148 bytes
+2025/12/11-01:28:49.171 f5b Generated table #354@0: 494 keys, 2136712 bytes
+2025/12/11-01:28:49.173 f5b Generated table #355@0: 318 keys, 5769 bytes
+2025/12/11-01:28:49.173 f5b Compacted 1@0 + 4@1 files => 6430589 bytes
+2025/12/11-01:28:49.175 f5b compacted to: files[ 0 4 1 0 0 0 0 ]
+2025/12/11-01:28:49.175 f5b Delete type=2 #346
+2025/12/11-01:28:49.175 f5b Delete type=2 #347
+2025/12/11-01:28:49.175 f5b Delete type=2 #348
+2025/12/11-01:28:49.175 f5b Delete type=2 #349
+2025/12/11-01:28:49.175 f5b Delete type=2 #351
