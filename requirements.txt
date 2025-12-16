@@ -1,0 +1,13 @@
+# List of applications managed in this dotfiles repository
+
+- alacritty
+- fastfetch
+- hypr
+- mako
+- micro
+- neofetch
+- rofi
+- waybar
+- wezterm
+- wlogout
+- zshrc

@@ -1,0 +1,64 @@
+@import "../themes/current/waybar.css";
+
+* {
+    background-color: @background;
+    color: @foreground;
+
+    border: none;
+    border-radius: 0;
+    min-height: 0;
+    font-family: "Cascadia Mono", "Cascadia Mono NF", monospace;
+    font-size: 14px;
+}
+
+.modules-left {
+    margin-left: 12px;
+}
+
+.modules-right {
+    margin-right: 8px;
+}
+
+#workspaces button {
+    all: initial;
+    padding: 0 6px;
+    margin: 0 1.5px;
+    min-width: 9px;
+}
+
+#workspaces button.empty {
+    opacity: 0.5;
+}
+
+#workspaces button.active {
+    font-weight: bolder;
+}
+
+#tray,
+#cpu,
+#battery,
+#network,
+#bluetooth,
+#pulseaudio,
+#expand-icon,
+#backlight {
+    min-width: 14px;
+    font-size: 24px;
+    margin: 0 7.5px;
+}
+
+#network {
+    font-size: 28px;
+}
+
+tooltip {
+    padding: 2px;
+}
+
+#clock {
+    margin-left: 8.75px;
+}
+
+.hidden {
+    opacity: 0;
+}

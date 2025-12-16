@@ -1,0 +1,75 @@
+configuration {
+    scroll-method: 1;
+    scrollbar: false;
+    show-icons: true;
+    drun-display-format: "{icon} {name}";
+    modi: "drun";
+    matching: "fuzzy";
+    sort: true;
+    case-sensitive: false;
+}
+
+@import "~/.config/themes/current/rofi.rasi"
+
+window {
+    background-color: @background;
+    border:           3px;
+    border-color:     @border;
+    border-radius:    0px;
+    padding:          20;
+    width:            500px;
+}
+
+listview {
+    lines:        5;
+    fixed-height: true;
+    border:       0px;
+    spacing:      4px;
+    padding:      10px 0px 0px;
+    scrollbar:    false;
+}
+
+element {
+    border:        0;
+    border-radius: 0px;
+    padding:       8px 12px;
+}
+
+element.normal.normal {
+    background-color: transparent;
+    text-color:       @foreground;
+}
+element.alternate.normal {
+    background-color: transparent;
+    text-color:       @foreground;
+}
+element.selected.normal {
+    background-color : none;
+    text-color:       @selected-text;
+}
+
+element-text, element-icon {
+    size:             26px;
+    background-color: inherit;
+    text-color:       inherit;
+    font: "Cascadia Mono SemiBold 16";   /* Change to Bold if you want thicker */
+}
+
+inputbar {
+    children:   [ entry ];
+    spacing:       0;
+    padding:       12px;
+    border:        0px;
+    border-radius: 0px;
+    border-color:  @border;
+    background-color: transparent;
+    color : @foreground;
+}
+
+entry {
+    spacing:           0;
+    text-color:        @foreground;
+    placeholder-color: @foreground;
+    placeholder:       "Search applications...";
+    font: "Cascadia Mono SemiBold 16";   /* slightly smaller for search */
+}

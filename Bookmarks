@@ -1,0 +1,195 @@
+{
+   "checksum": "29c172319f8b9c63f389c103843a3e5a",
+   "roots": {
+      "bookmark_bar": {
+         "children": [ {
+            "date_added": "13402394233000000",
+            "date_last_used": "13408530194766385",
+            "guid": "a54f2a4a-320e-4985-b1db-45c15fcffc50",
+            "id": "5",
+            "name": "Daily Tasks",
+            "type": "url",
+            "url": "https://www.notion.so/Daily-Tasks-260afd3279a880afba8bf1511e7dce37"
+         }, {
+            "children": [ {
+               "date_added": "13402394215000000",
+               "date_last_used": "0",
+               "guid": "5328d6ed-c819-4043-aa7f-0699f3f592ad",
+               "id": "15",
+               "name": "SST 2027 Batch Term 9 Syllabus - Google Sheets",
+               "type": "url",
+               "url": "https://docs.google.com/spreadsheets/d/1dLUcWutr5b6Q2sgXm6laE9ye0h8xpJD24sMRs6CZs38/edit?gid=1083311221#gid=1083311221"
+            }, {
+               "date_added": "13402398812000000",
+               "date_last_used": "0",
+               "guid": "8da5482f-4b97-4109-bb33-01f86b5e8ad2",
+               "id": "16",
+               "name": "SST Policies_2023 - Google Docs",
+               "type": "url",
+               "url": "https://docs.google.com/document/d/1LRqd0GaedE4fC_RyyI1YIpU31f6nGaEk9UQbm6CX20E/edit?tab=t.u19n41g8pi0j#heading=h.i1eubknyx83"
+            }, {
+               "date_added": "13403356377000000",
+               "date_last_used": "0",
+               "guid": "94999fad-8d98-4f3b-9a11-4580535545f5",
+               "id": "17",
+               "name": "Solved all dynamic programming (dp) problems in 7 months. - Discuss - LeetCode",
+               "type": "url",
+               "url": "https://leetcode.com/discuss/post/1000929/solved-all-dynamic-programming-dp-proble-8m82/"
+            }, {
+               "date_added": "13403363391000000",
+               "date_last_used": "0",
+               "guid": "7049913a-82bc-43b8-ad8b-6d0f1e4e1a94",
+               "id": "18",
+               "name": "Tasks - Educational DP Contest",
+               "type": "url",
+               "url": "https://atcoder.jp/contests/dp/tasks"
+            }, {
+               "date_added": "13403706618000000",
+               "date_last_used": "0",
+               "guid": "82841745-f87a-4596-afd4-71c12411c739",
+               "id": "20",
+               "name": "Exam Handbook Batch'27 End Term October 2025 - Google Docs",
+               "type": "url",
+               "url": "https://docs.google.com/document/d/1l8wuKo5Bu5cQ7EyDyM7t-1Tw5It-TsjccHLiJnMNZ0w/edit?tab=t.0#heading=h.5gkav8yrvvi8"
+            }, {
+               "date_added": "13404420117000000",
+               "date_last_used": "0",
+               "guid": "93679014-dd95-4c73-bb64-188e38a4f28e",
+               "id": "21",
+               "name": "Links - Links.pdf",
+               "type": "url",
+               "url": "https://scaler-production-new.s3.ap-southeast-1.amazonaws.com/attachments/attachments/000/361/718/original/Links.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIDNNIRGHAQUQRWYA%2F20251008%2Fap-southeast-1%2Fs3%2Faws4_request&X-Amz-Date=20251008T175851Z&X-Amz-Expires=561600&X-Amz-SignedHeaders=host&X-Amz-Signature=46496ac7e0506877944d6c82fab730e758ac85194229c09fa486a8b26834ab9e"
+            }, {
+               "date_added": "13408456401527417",
+               "date_last_used": "0",
+               "guid": "4d8b4854-c6a2-432c-b851-4c96787f783f",
+               "id": "26",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "Scaler HLD Curriculum & Notes (tentative) - Google Sheets",
+               "type": "url",
+               "url": "https://docs.google.com/spreadsheets/d/1Zed_C4BHrF2LFer1ZVpQivIU947KvWnRzR9EL1iNv_k/edit?gid=2034634504#gid=2034634504"
+            }, {
+               "date_added": "13407228341000000",
+               "date_last_used": "13407933664011170",
+               "guid": "3add57f4-2af6-4c3f-aee9-34743b9d9a5d",
+               "id": "6",
+               "name": "SST Policies_2023 - Google Docs",
+               "type": "url",
+               "url": "https://docs.google.com/document/d/1LRqd0GaedE4fC_RyyI1YIpU31f6nGaEk9UQbm6CX20E/edit?tab=t.12cxh9eqlhif#heading=h.mu6f0tl4dme"
+            }, {
+               "date_added": "13405618534000000",
+               "date_last_used": "13409400094239627",
+               "guid": "0b1227dd-47aa-4326-9d99-5525a3d68bc4",
+               "id": "22",
+               "name": "Academic Calendar 2025-2026 - All Batches - Google Sheets",
+               "type": "url",
+               "url": "https://docs.google.com/spreadsheets/d/1kAFYv_ctiXk8wq_4w5cXqrlLSZOCBq6fQjBoavHRMzY/edit?gid=1758545633#gid=1758545633"
+            }, {
+               "date_added": "13405796552000000",
+               "date_last_used": "13407325344837410",
+               "guid": "38a746f6-1592-4da8-b81f-ba9dba7ec1e8",
+               "id": "23",
+               "name": "SST 2027 Batch Term 10 Syllabus - Google Sheets",
+               "type": "url",
+               "url": "https://docs.google.com/spreadsheets/d/13MzTunGSTXAgp3gIXeNiaVtN6VzrY8j20eHwh8i0nH0/edit?gid=1752807431#gid=1752807431"
+            }, {
+               "children": [ {
+                  "date_added": "13408456685103173",
+                  "date_last_used": "0",
+                  "guid": "c96692bb-070a-409b-b60c-7c75668765c1",
+                  "id": "29",
+                  "meta_info": {
+                     "power_bookmark_meta": ""
+                  },
+                  "name": "SST - HLD 1 - System Design 101 - Google Docs",
+                  "type": "url",
+                  "url": "https://docs.google.com/document/d/1Q44IgCOtkcdV3d2z09vmMvdgMx70Pe6WK_KWf2SUlaM/edit?tab=t.0"
+               }, {
+                  "date_added": "13408533952868606",
+                  "date_last_used": "0",
+                  "guid": "76fb34be-56af-4669-a4f3-6d4928835dd2",
+                  "id": "30",
+                  "meta_info": {
+                     "power_bookmark_meta": ""
+                  },
+                  "name": "Variables – Hyprland Wiki",
+                  "type": "url",
+                  "url": "https://wiki.hypr.land/Configuring/Variables/"
+               }, {
+                  "date_added": "13409266426560495",
+                  "date_last_used": "0",
+                  "guid": "c44c2a6a-3b9b-4d5f-bb0e-e084e41433fd",
+                  "id": "32",
+                  "meta_info": {
+                     "power_bookmark_meta": ""
+                  },
+                  "name": "Site is not secure",
+                  "type": "url",
+                  "url": "http://mysedi.click/"
+               } ],
+               "date_added": "13408456678832973",
+               "date_last_used": "0",
+               "date_modified": "13409266426560495",
+               "guid": "a0d6fbde-7459-4278-940a-c7c2896e990e",
+               "id": "28",
+               "name": "sst_hld_notes",
+               "type": "folder"
+            } ],
+            "date_added": "13407251287525912",
+            "date_last_used": "0",
+            "date_modified": "13408456685103173",
+            "guid": "24a3cd5f-a942-4d6e-8cbb-ab2e8b2334ab",
+            "id": "14",
+            "name": "Study",
+            "type": "folder"
+         }, {
+            "children": [ {
+               "date_added": "13403474060000000",
+               "date_last_used": "0",
+               "guid": "2ca283bf-9f9d-42b0-ac27-f41bfe2edc43",
+               "id": "19",
+               "name": "AvengeMedia/DankMaterialShell: Quickshell optimized for niri & hyprland. Check out the niri community Discord below.",
+               "type": "url",
+               "url": "https://github.com/AvengeMedia/DankMaterialShell"
+            } ],
+            "date_added": "13408456589832255",
+            "date_last_used": "0",
+            "date_modified": "13408456600197684",
+            "guid": "c92ed51c-3a7c-4302-9442-395a3eb6ae94",
+            "id": "27",
+            "name": "Extra",
+            "type": "folder"
+         } ],
+         "date_added": "13407249561412269",
+         "date_last_used": "0",
+         "date_modified": "13408456589832459",
+         "guid": "0bc5d13f-2cba-5d74-951f-3f233fe6c908",
+         "id": "1",
+         "name": "Bookmarks bar",
+         "type": "folder"
+      },
+      "other": {
+         "children": [  ],
+         "date_added": "13407249561412269",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "82b081ec-3dd3-529c-8475-ab6c344590dd",
+         "id": "2",
+         "name": "Other bookmarks",
+         "type": "folder"
+      },
+      "synced": {
+         "children": [  ],
+         "date_added": "13407249561412269",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "4cf2e351-0e85-532b-bb37-df045d8f8d0f",
+         "id": "3",
+         "name": "Mobile bookmarks",
+         "type": "folder"
+      }
+   },
+   "version": 1
+}

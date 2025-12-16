@@ -1,0 +1,29 @@
+# ~/.config/rofi/theme-selector-config
+
+# --- Core Paths ---
+# The directory where all your theme folders are located.
+THEMES_DIR="$HOME/.config/themes"
+
+# The name of the directory for the currently active theme.
+CURRENT_THEME_DIR_NAME="current"
+
+# --- Behavior ---
+# Set to "true" or "false" to control which components are reloaded.
+RELOAD_WAYBAR="true"
+RELOAD_MAKO="true"
+RELOAD_HYPRLAND="true"
+
+# Set to "true" to manage GTK and Flatpak themes.
+SET_GTK_THEME="true"
+GTK_LIGHT_THEME_NAME="WhiteSur-Light"
+GTK_DARK_THEME_NAME="WhiteSur-Dark"
+
+# --- Theming ---
+# Point to your dedicated Rofi theme file for a consistent look.
+# THIS IS THE RECOMMENDED METHOD.
+ROFI_THEME_FILE="$HOME/.config/rofi/theme-selector.rasi"
+
+# --- (Optional) Theme Overrides ---
+# If ROFI_THEME_FILE is not found, the script will use these settings instead.
+ROFI_THEME_WINDOW='window { width: 300px; }'
+ROFI_THEME_LISTVIEW='listview { lines: 10; }'
