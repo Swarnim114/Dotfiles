@@ -1,0 +1,21 @@
+#!/usr/bin/env bash
+# Touchpad zoom script for Hyprland
+
+direction="$1"
+current=$(hyprctl -j getoption cursor:zoom_factor | jq '.float')
+
+if [ "$direction" = "in" ]; then
+    new=$(echo "$current + 0.25" | bc)
+elif [ "$direction" = "out" ]; then
+    new=$(echo "$current - 0.25" | bc)
+    # Don't go below 1.0
+    if (( $(echo "$new < 1.0" | bc -l) )); then
+        new=1.0
+    fi
+elif [ "$direction" = "reset" ]; then
+    new=1.0
+else
+    exit 1
+fi
+
+hyprctl keyword cursor:zoom_factor "$new"
