@@ -1,0 +1,41 @@
+id = "java"
+name = "Java"
+version = "6.8.3"
+schema_version = 1
+description = "Java support."
+repository = "https://github.com/zed-extensions/java"
+authors = ["Valentine Briese <valentinegb@icloud.com>", "Samuser107 L.Longheval <samuser107@gmail.com>", "Yury Abykhodau <abehodau@gmail.com>"]
+themes = []
+icon_themes = []
+languages = ["languages/java", "languages/properties"]
+
+[lib]
+kind = "Rust"
+version = "0.7.0"
+
+[grammars.java]
+repository = "https://github.com/tree-sitter/tree-sitter-java"
+rev = "94703d5a6bed02b98e438d7cad1136c01a60ba2c"
+
+[grammars.properties]
+repository = "https://github.com/tree-sitter-grammars/tree-sitter-properties"
+rev = "579b62f5ad8d96c2bb331f07d1408c92767531d9"
+
+[language_servers.jdtls]
+language = "Java"
+languages = []
+
+[language_servers.jdtls.language_ids]
+
+[context_servers]
+
+[agent_servers]
+
+[slash_commands]
+
+[[capabilities]]
+kind = "process:exec"
+command = "*"
+args = ["-version"]
+
+[debug_adapters.Java]

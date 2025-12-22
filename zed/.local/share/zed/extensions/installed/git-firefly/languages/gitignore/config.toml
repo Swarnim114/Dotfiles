@@ -1,0 +1,22 @@
+path_suffixes = [
+  # https://github.com/neovim/neovim/blob/master/runtime/lua/vim/filetype.lua
+  ".containerignore",
+  ".cursorignore",
+  ".dockerignore",
+  ".eslintignore",
+  ".fdignore",        # https://github.com/sharkdp/fd
+  ".gitignore",
+  ".git-blame-ignore-revs",
+  ".ignore",          # https://github.com/BurntSushi/ripgrep
+  ".npmignore",
+  ".prettierignore",
+  ".rgignore",        # https://github.com/BurntSushi/ripgrep
+  ".vscodeignore",
+]
+name = "Git Ignore"
+grammar = "gitignore"
+line_comments = ["#"]
+autoclose_before = "]"
+brackets = [
+  { start = "[", end = "]", close = true, newline = false },
+]

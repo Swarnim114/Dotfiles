@@ -1,0 +1,31 @@
+id = "hyprlang"
+name = "Hyprlang"
+version = "0.0.4"
+schema_version = 1
+description = "Hyprlang language server and syntax highlighting"
+repository = "https://github.com/WhySoBad/zed-hyprlang-extension"
+authors = ["WhySoBad <git@wysbd.dev>"]
+themes = []
+icon_themes = []
+languages = ["languages/hyprland", "languages/hyprlang"]
+capabilities = []
+
+[lib]
+kind = "Rust"
+version = "0.2.0"
+
+[grammars.hyprlang]
+repository = "https://github.com/tree-sitter-grammars/tree-sitter-hyprlang"
+rev = "22723f25f3faf329863d952c9601b492afd971c9"
+
+[language_servers.hyprland]
+language = "Hyprland Config"
+languages = []
+
+[language_servers.hyprland.language_ids]
+
+[context_servers]
+
+[agent_servers]
+
+[slash_commands]

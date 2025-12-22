@@ -1,0 +1,35 @@
+id = "latex"
+name = "LaTeX"
+version = "0.2.3"
+schema_version = 1
+description = "LaTeX language server and syntax highlighting for Zed. See wiki on GitHub for help."
+repository = "https://github.com/rzukic/zed-latex"
+authors = ["Ruben Zukic <ruben@zukic.net>", "Oli Callaghan <me@olicallaghan.com>", "Luke Naylor <luke.naylr@gmail.com>", "Jan Solanti <jhs@psonet.com>"]
+themes = []
+icon_themes = []
+languages = ["languages/bibtex", "languages/latex"]
+capabilities = []
+
+[lib]
+kind = "Rust"
+version = "0.1.0"
+
+[grammars.bibtex]
+repository = "https://github.com/latex-lsp/tree-sitter-bibtex"
+rev = "ccfd77db0ed799b6c22c214fe9d2937f47bc8b34"
+
+[grammars.latex]
+repository = "https://github.com/497e0bdf29873/tree-sitter-latex"
+rev = "858af2c24547c8ab9386281ece6ead6936dbc8d1"
+
+[language_servers.texlab]
+language = "LaTeX"
+languages = []
+
+[language_servers.texlab.language_ids]
+
+[context_servers]
+
+[slash_commands]
+
+[indexed_docs_providers]
