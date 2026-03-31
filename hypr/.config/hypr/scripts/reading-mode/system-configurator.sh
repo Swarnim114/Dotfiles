@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+usr/bin/env bash
 # ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
 # ┃              Reading Mode - System Configurator             ┃
 # ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
@@ -19,13 +19,13 @@ apply_eink_settings() {
     # We maintain the function structure for future extensibility
     local batch_commands=(
     )
-    
+
     # Only run if there are commands
     if [ ${#batch_commands[@]} -gt 0 ]; then
         local batch_cmd=$(IFS=';'; echo "${batch_commands[*]}")
         hyprctl --batch "$batch_cmd" &>/dev/null
     fi
-    
+
     return 0
 }
 
