@@ -1,0 +1,14 @@
+{
+  "menu.connect": "接続",
+  "menu.disconnect": "切断",
+  "menu.refresh": "ステータスを更新",
+  "toast.connected": "WARP に接続しました",
+  "toast.disconnected": "WARP から切断しました",
+  "toast.connectError": "WARP の接続に失敗しました",
+  "toast.disconnectError": "WARP の切断に失敗しました",
+  "status.connected": "接続済み",
+  "status.disconnected": "切断済み",
+  "status.connecting": "接続中...",
+  "status.disconnecting": "切断中...",
+  "status.unknown": "不明"
+}

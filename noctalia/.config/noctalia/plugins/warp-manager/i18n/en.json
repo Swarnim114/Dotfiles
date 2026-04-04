@@ -1,0 +1,14 @@
+{
+  "menu.connect": "Connect",
+  "menu.disconnect": "Disconnect",
+  "menu.refresh": "Refresh Status",
+  "toast.connected": "WARP Connected",
+  "toast.disconnected": "WARP Disconnected",
+  "toast.connectError": "Failed to connect WARP",
+  "toast.disconnectError": "Failed to disconnect WARP",
+  "status.connected": "Connected",
+  "status.disconnected": "Disconnected",
+  "status.connecting": "Connecting...",
+  "status.disconnecting": "Disconnecting...",
+  "status.unknown": "Unknown"
+}

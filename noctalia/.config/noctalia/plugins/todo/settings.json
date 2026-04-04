@@ -1,0 +1,142 @@
+{
+  "todos": [
+    {
+      "id": 1775128090957,
+      "text": "Grid DP",
+      "completed": false,
+      "createdAt": "2026-04-02T11:08:10.957Z",
+      "pageId": 0,
+      "priority": "medium",
+      "details": ""
+    },
+    {
+      "id": 1775127982134,
+      "text": "1 D DP",
+      "completed": false,
+      "createdAt": "2026-04-02T11:06:22.134Z",
+      "pageId": 0,
+      "priority": "medium",
+      "details": ""
+    },
+    {
+      "id": 1775068106043,
+      "text": "fix resume",
+      "completed": false,
+      "createdAt": "2026-04-01T18:28:26.043Z",
+      "pageId": 0,
+      "priority": "medium",
+      "details": ""
+    },
+    {
+      "id": 1775106648246,
+      "text": "Leetcode daily",
+      "completed": true,
+      "createdAt": "2026-04-02T05:10:48.246Z",
+      "pageId": 0,
+      "priority": "medium",
+      "details": ""
+    },
+    {
+      "id": 1775106891256,
+      "text": "Frequency + sliding window",
+      "completed": true,
+      "createdAt": "2026-04-02T05:14:51.256Z",
+      "pageId": 0,
+      "priority": "medium",
+      "details": ""
+    },
+    {
+      "id": 1775106901290,
+      "text": "Frequency + Prefix sum",
+      "completed": true,
+      "createdAt": "2026-04-02T05:15:01.290Z",
+      "pageId": 0,
+      "priority": "medium",
+      "details": ""
+    },
+    {
+      "id": 1775120196119,
+      "text": "Freq + sorting",
+      "completed": true,
+      "createdAt": "2026-04-02T08:56:36.119Z",
+      "pageId": 0,
+      "priority": "medium",
+      "details": ""
+    },
+    {
+      "id": 1775120200851,
+      "text": "Freq + Heap",
+      "completed": true,
+      "createdAt": "2026-04-02T08:56:40.851Z",
+      "pageId": 0,
+      "priority": "medium",
+      "details": ""
+    },
+    {
+      "id": 1775120221451,
+      "text": "Freq + set",
+      "completed": true,
+      "createdAt": "2026-04-02T08:57:01.451Z",
+      "pageId": 0,
+      "priority": "medium",
+      "details": ""
+    }
+  ],
+  "pages": [
+    {
+      "id": 0,
+      "name": "General"
+    }
+  ],
+  "current_page_id": 0,
+  "count": 9,
+  "completedCount": 6,
+  "showCompleted": true,
+  "showBackground": true,
+  "isExpanded": false,
+  "useCustomColors": false,
+  "priorityColors": {
+    "high": {
+      "r": 1,
+      "g": 0.7058823704719543,
+      "b": 0.6705882549285889,
+      "a": 1,
+      "hsvHue": 0.01786111108958721,
+      "hsvSaturation": 0.3294117748737335,
+      "hsvValue": 1,
+      "hslHue": 0.01786111108958721,
+      "hslSaturation": 1,
+      "hslLightness": 0.8352941274642944,
+      "valid": true
+    },
+    "medium": {
+      "r": 0.7686274647712708,
+      "g": 0.7686274647712708,
+      "b": 0.8941176533699036,
+      "a": 1,
+      "hsvHue": 0.6666666865348816,
+      "hsvSaturation": 0.14035248756408691,
+      "hsvValue": 0.8941176533699036,
+      "hslHue": 0.6666666865348816,
+      "hslSaturation": 0.37209126353263855,
+      "hslLightness": 0.8313725590705872,
+      "valid": true
+    },
+    "low": {
+      "r": 0.7843137383460999,
+      "g": 0.772549033164978,
+      "b": 0.8078431487083435,
+      "a": 1,
+      "hsvHue": 0.7222222089767456,
+      "hsvSaturation": 0.043686579912900925,
+      "hsvValue": 0.8078431487083435,
+      "hslHue": 0.7222222089767456,
+      "hslSaturation": 0.08410772681236267,
+      "hslLightness": 0.7902036905288696,
+      "valid": true
+    }
+  },
+  "exportPath": "~/Documents",
+  "exportFormat": "markdown",
+  "exportEmptySections": false
+}

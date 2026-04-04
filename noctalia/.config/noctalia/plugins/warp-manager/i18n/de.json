@@ -1,0 +1,14 @@
+{
+  "menu.connect": "Verbinden",
+  "menu.disconnect": "Trennen",
+  "menu.refresh": "Status aktualisieren",
+  "toast.connected": "WARP Verbunden",
+  "toast.disconnected": "WARP Getrennt",
+  "toast.connectError": "WARP-Verbindung fehlgeschlagen",
+  "toast.disconnectError": "WARP-Trennung fehlgeschlagen",
+  "status.connected": "Verbunden",
+  "status.disconnected": "Getrennt",
+  "status.connecting": "Verbinde...",
+  "status.disconnecting": "Trenne...",
+  "status.unknown": "Unbekannt"
+}
