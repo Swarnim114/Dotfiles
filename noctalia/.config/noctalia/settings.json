@@ -45,7 +45,7 @@
         "autoHideDelay": 500,
         "autoShowDelay": 150,
         "backgroundOpacity": 1,
-        "barType": "floating",
+        "barType": "simple",
         "capsuleColorKey": "none",
         "capsuleOpacity": 1,
         "contentPadding": 0,
@@ -123,13 +123,6 @@
                     "id": "plugin:weather-indicator"
                 },
                 {
-                    "id": "plugin:weekly-calendar"
-                },
-                {
-                    "iconColor": "none",
-                    "id": "WallpaperSelector"
-                },
-                {
                     "defaultSettings": {
                         "activeAnimFile": "",
                         "activeBorderFile": "",
@@ -164,6 +157,10 @@
                         "screenshotEditor": "swappy"
                     },
                     "id": "plugin:screen-shot-and-record"
+                },
+                {
+                    "iconColor": "none",
+                    "id": "WallpaperSelector"
                 }
             ],
             "right": [
@@ -179,20 +176,7 @@
                     ]
                 },
                 {
-                    "defaultSettings": {
-                        "connectedColor": "primary",
-                        "disconnectedColor": "none",
-                        "displayMode": "onhover"
-                    },
-                    "id": "plugin:network-manager-vpn"
-                },
-                {
-                    "defaultSettings": {
-                        "connectedColor": "primary",
-                        "disconnectedColor": "none",
-                        "displayMode": "alwaysShow"
-                    },
-                    "id": "plugin:warp-manager"
+                    "id": "plugin:cloudflare-warp"
                 },
                 {
                     "defaultSettings": {
@@ -264,9 +248,9 @@
                     "colorizeSystemIcon": "secondary",
                     "customIconPath": "",
                     "enableColorization": true,
-                    "icon": "adjustments-horizontal",
+                    "icon": "settings",
                     "id": "ControlCenter",
-                    "useDistroLogo": true
+                    "useDistroLogo": false
                 }
             ]
         }
@@ -295,15 +279,15 @@
         ]
     },
     "colorSchemes": {
-        "darkMode": true,
-        "generationMethod": "rainbow",
+        "darkMode": false,
+        "generationMethod": "vibrant",
         "manualSunrise": "06:30",
         "manualSunset": "18:30",
         "monitorForColors": "eDP-1",
-        "predefinedScheme": "Catppuccin Lavender",
+        "predefinedScheme": "GitHub Dark",
         "schedulingMode": "off",
         "syncGsettings": true,
-        "useWallpaperColors": false
+        "useWallpaperColors": true
     },
     "controlCenter": {
         "cards": [
@@ -442,7 +426,7 @@
         "animationDisabled": false,
         "animationSpeed": 1.2,
         "autoStartAuth": true,
-        "avatarImage": "/home/kalon/Wallpapers/Others/Anime-eyes.png",
+        "avatarImage": "/home/kalon/Wallpapers/Anime-eyes.png",
         "boxRadiusRatio": 1,
         "clockFormat": "h:mm AP ",
         "clockStyle": "custom",
@@ -487,7 +471,7 @@
         ],
         "lockScreenTint": 0.06,
         "passwordChars": true,
-        "radiusRatio": 0.34,
+        "radiusRatio": 0.98,
         "reverseScroll": false,
         "scaleRatio": 1.1,
         "screenRadiusRatio": 1,
@@ -502,7 +486,7 @@
         "telemetryEnabled": true
     },
     "hooks": {
-        "colorGeneration": "/home/kalon/.config/hypr/scripts/colloid-noctalia-hook.sh $1 ; /home/kalon/.config/hypr/scripts/sioyek-noctalia-hook.sh $1",
+        "colorGeneration": "/home/kalon/.config/hypr/scripts/colloid-noctalia-hook.sh $1 ; /home/kalon/.config/hypr/scripts/sioyek-noctalia-hook.sh $1 ; /home/kalon/.config/hypr/scripts/obsidian_matugen.sh $1 ;  /home/kalon/.config/hypr/scripts/spotify_matugen.sh $1",
         "darkModeChange": "",
         "enabled": true,
         "performanceModeDisabled": "",
@@ -557,7 +541,7 @@
         "autoSchedule": true,
         "dayTemp": "5148",
         "enabled": true,
-        "forced": true,
+        "forced": false,
         "manualSunrise": "06:30",
         "manualSunset": "07:00",
         "nightTemp": "4567"
@@ -743,10 +727,6 @@
             },
             {
                 "enabled": true,
-                "id": "code"
-            },
-            {
-                "enabled": true,
                 "id": "hyprtoolkit"
             },
             {
@@ -784,6 +764,14 @@
             {
                 "enabled": true,
                 "id": "qt"
+            },
+            {
+                "enabled": true,
+                "id": "code"
+            },
+            {
+                "enabled": true,
+                "id": "spicetify"
             }
         ],
         "enableUserTheming": false
@@ -797,7 +785,7 @@
         "panelBackgroundOpacity": 1,
         "panelsAttachedToBar": true,
         "scrollbarAlwaysVisible": true,
-        "settingsPanelMode": "attached",
+        "settingsPanelMode": "window",
         "settingsPanelSideBarCardStyle": false,
         "tooltipsEnabled": true,
         "translucentWidgets": true
@@ -812,7 +800,7 @@
         "fillColor": "#000000",
         "fillMode": "crop",
         "hideWallpaperFilenames": false,
-        "linkLightAndDarkWallpapers": true,
+        "linkLightAndDarkWallpapers": false,
         "monitorDirectories": [
         ],
         "overviewBlur": 0.4,
@@ -821,7 +809,7 @@
         "panelPosition": "follow_bar",
         "randomIntervalSec": 300,
         "setWallpaperOnAllMonitors": true,
-        "showHiddenFiles": true,
+        "showHiddenFiles": false,
         "skipStartupTransition": false,
         "solidColor": "#34495e",
         "sortOrder": "date_asc",
@@ -833,7 +821,7 @@
         "useOriginalImages": false,
         "useSolidColor": false,
         "useWallhaven": false,
-        "viewMode": "recursive",
+        "viewMode": "browse",
         "wallhavenApiKey": "",
         "wallhavenCategories": "111",
         "wallhavenOrder": "desc",

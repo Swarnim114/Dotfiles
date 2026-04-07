@@ -1,0 +1,25 @@
+{
+  "id": "manga-reader",
+  "name": "Manga Reader",
+  "version": "1.0.0",
+  "minNoctaliaVersion": "4.4.4",
+  "author": "GitHub Copilot",
+  "official": false,
+  "license": "MIT",
+  "description": "A quickshell plugin to search and read manga.",
+  "tags": [
+    "Entertainment",
+    "Reader"
+  ],
+  "entryPoints": {
+    "main": "Main.qml",
+    "panel": "Panel.qml"
+  },
+  "dependencies": {
+    "plugins": []
+  },
+  "metadata": {
+    "defaultSettings": {
+    }
+  }
+}

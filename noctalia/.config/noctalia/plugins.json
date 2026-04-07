@@ -11,11 +11,19 @@
             "enabled": true,
             "sourceUrl": "https://github.com/noctalia-dev/noctalia-plugins"
         },
+        "cloudflare-warp": {
+            "enabled": true,
+            "sourceUrl": "https://github.com/noctalia-dev/noctalia-plugins"
+        },
         "dns-switcher": {
             "enabled": true,
             "sourceUrl": "https://github.com/noctalia-dev/noctalia-plugins"
         },
         "file-search": {
+            "enabled": true,
+            "sourceUrl": "https://github.com/noctalia-dev/noctalia-plugins"
+        },
+        "giphy-search": {
             "enabled": true,
             "sourceUrl": "https://github.com/noctalia-dev/noctalia-plugins"
         },
@@ -30,6 +38,10 @@
         "kde-connect": {
             "enabled": true,
             "sourceUrl": "https://github.com/noctalia-dev/noctalia-plugins"
+        },
+        "manga-reader": {
+            "enabled": true,
+            "sourceUrl": "local"
         },
         "mimeapp-gui": {
             "enabled": true,
@@ -75,9 +87,9 @@
             "enabled": true,
             "sourceUrl": "https://github.com/noctalia-dev/noctalia-plugins"
         },
-        "warp-manager": {
+        "wallcards": {
             "enabled": true,
-            "sourceUrl": "local"
+            "sourceUrl": "https://github.com/noctalia-dev/noctalia-plugins"
         },
         "weather-indicator": {
             "enabled": true,
