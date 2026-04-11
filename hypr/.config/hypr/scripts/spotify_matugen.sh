@@ -141,4 +141,3 @@ li .main-playButton-PlayButton {
 }
 CSS_EOF
 
-spicetify apply

@@ -4,14 +4,15 @@
             "enabled": true,
             "name": "Noctalia Plugins",
             "url": "https://github.com/noctalia-dev/noctalia-plugins"
+        },
+        {
+            "enabled": false,
+            "name": "A",
+            "url": "https://github.com/rukh-debug/noctalia-unofficial-plugins.git"
         }
     ],
     "states": {
         "clipper": {
-            "enabled": true,
-            "sourceUrl": "https://github.com/noctalia-dev/noctalia-plugins"
-        },
-        "cloudflare-warp": {
             "enabled": true,
             "sourceUrl": "https://github.com/noctalia-dev/noctalia-plugins"
         },
@@ -28,7 +29,7 @@
             "sourceUrl": "https://github.com/noctalia-dev/noctalia-plugins"
         },
         "hyprland-visual-editor": {
-            "enabled": true,
+            "enabled": false,
             "sourceUrl": "https://github.com/noctalia-dev/noctalia-plugins"
         },
         "kaomoji-provider": {

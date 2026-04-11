@@ -1,118 +1,55 @@
 {
   "todos": [
     {
-      "id": 1775371662596,
-      "text": "Graph all pattern",
+      "id": 1775898800646,
+      "text": "de 9",
       "completed": false,
-      "createdAt": "2026-04-05T06:47:42.596Z",
+      "createdAt": "2026-04-11T09:13:20.646Z",
       "pageId": 0,
       "priority": "medium",
       "details": ""
     },
     {
-      "id": 1775371652027,
-      "text": "DP all patterns",
+      "id": 1775898799277,
+      "text": "de 8",
       "completed": false,
-      "createdAt": "2026-04-05T06:47:32.027Z",
+      "createdAt": "2026-04-11T09:13:19.277Z",
       "pageId": 0,
       "priority": "medium",
       "details": ""
     },
     {
-      "id": 1775371633129,
-      "text": "lec 6 de",
+      "id": 1775898797632,
+      "text": "de 7",
       "completed": false,
-      "createdAt": "2026-04-05T06:47:13.129Z",
+      "createdAt": "2026-04-11T09:13:17.632Z",
       "pageId": 0,
       "priority": "medium",
       "details": ""
     },
     {
-      "id": 1775371629414,
-      "text": "lec 5 de",
+      "id": 1775898795636,
+      "text": "de  6",
       "completed": false,
-      "createdAt": "2026-04-05T06:47:09.414Z",
+      "createdAt": "2026-04-11T09:13:15.636Z",
       "pageId": 0,
       "priority": "medium",
       "details": ""
     },
     {
-      "id": 1775371626447,
-      "text": "Lec 4 de",
+      "id": 1775898793891,
+      "text": "de 5",
       "completed": false,
-      "createdAt": "2026-04-05T06:47:06.447Z",
+      "createdAt": "2026-04-11T09:13:13.891Z",
       "pageId": 0,
       "priority": "medium",
       "details": ""
     },
     {
-      "id": 1775068106043,
-      "text": "fix resume",
+      "id": 1775898791534,
+      "text": "de 4",
       "completed": false,
-      "createdAt": "2026-04-01T18:28:26.043Z",
-      "pageId": 0,
-      "priority": "medium",
-      "details": ""
-    },
-    {
-      "id": 1775106648246,
-      "text": "Leetcode daily",
-      "completed": true,
-      "createdAt": "2026-04-02T05:10:48.246Z",
-      "pageId": 0,
-      "priority": "medium",
-      "details": ""
-    },
-    {
-      "id": 1775106891256,
-      "text": "Frequency + sliding window",
-      "completed": true,
-      "createdAt": "2026-04-02T05:14:51.256Z",
-      "pageId": 0,
-      "priority": "medium",
-      "details": ""
-    },
-    {
-      "id": 1775106901290,
-      "text": "Frequency + Prefix sum",
-      "completed": true,
-      "createdAt": "2026-04-02T05:15:01.290Z",
-      "pageId": 0,
-      "priority": "medium",
-      "details": ""
-    },
-    {
-      "id": 1775120196119,
-      "text": "Freq + sorting",
-      "completed": true,
-      "createdAt": "2026-04-02T08:56:36.119Z",
-      "pageId": 0,
-      "priority": "medium",
-      "details": ""
-    },
-    {
-      "id": 1775120200851,
-      "text": "Freq + Heap",
-      "completed": true,
-      "createdAt": "2026-04-02T08:56:40.851Z",
-      "pageId": 0,
-      "priority": "medium",
-      "details": ""
-    },
-    {
-      "id": 1775120221451,
-      "text": "Freq + set",
-      "completed": true,
-      "createdAt": "2026-04-02T08:57:01.451Z",
-      "pageId": 0,
-      "priority": "medium",
-      "details": ""
-    },
-    {
-      "id": 1775371643919,
-      "text": "10 DSA question",
-      "completed": true,
-      "createdAt": "2026-04-05T06:47:23.919Z",
+      "createdAt": "2026-04-11T09:13:11.534Z",
       "pageId": 0,
       "priority": "medium",
       "details": ""
@@ -125,8 +62,8 @@
     }
   ],
   "current_page_id": 0,
-  "count": 13,
-  "completedCount": 7,
+  "count": 6,
+  "completedCount": 0,
   "showCompleted": true,
   "showBackground": true,
   "isExpanded": false,

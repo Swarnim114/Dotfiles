@@ -486,7 +486,7 @@
         "telemetryEnabled": true
     },
     "hooks": {
-        "colorGeneration": "/home/kalon/.config/hypr/scripts/colloid-noctalia-hook.sh $1 ; /home/kalon/.config/hypr/scripts/sioyek-noctalia-hook.sh $1 ; /home/kalon/.config/hypr/scripts/obsidian_matugen.sh $1 ;  /home/kalon/.config/hypr/scripts/spotify_matugen.sh $1",
+        "colorGeneration": "/home/kalon/.config/hypr/scripts/colloid-noctalia-hook.sh $1 ; /home/kalon/.config/hypr/scripts/sioyek-noctalia-hook.sh $1 ; /home/kalon/.config/hypr/scripts/obsidian_matugen.sh $1 ;  /home/kalon/.config/hypr/scripts/spotify_matugen.sh $1 ; /home/kalon/.config/hypr/scripts/micro_matugen.sh",
         "darkModeChange": "",
         "enabled": true,
         "performanceModeDisabled": "",

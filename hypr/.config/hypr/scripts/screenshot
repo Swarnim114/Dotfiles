@@ -8,10 +8,10 @@ fi
 
 FILENAME="$OUTPUT_DIR/screenshot-$(date +'%Y-%m-%d_%H-%M-%S').png"
 
-pkill slurp || hyprshot -m ${1:-region} --raw | \
-  DBUS_SESSION_BUS_ADDRESS=/dev/null satty --filename - \
-    --output-filename "$FILENAME" \
+pkill slurp || hyprshot -m ${1:-region} --raw | tee "$FILENAME" | \
+  satty --filename - \
     --early-exit \
+    --disable-notifications \
     --actions-on-enter save-to-clipboard \
-    --save-after-copy \
     --copy-command 'wl-copy'
+
