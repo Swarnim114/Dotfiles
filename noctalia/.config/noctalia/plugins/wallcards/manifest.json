@@ -1,10 +1,9 @@
 {
   "id": "wallcards",
   "name": "Wallcards",
-  "version": "0.0.3",
+  "version": "0.0.5",
   "minNoctaliaVersion": "4.7.0",
   "author": "tonigineer",
-  "official": false,
   "license": "MIT",
   "repository": "https://github.com/noctalia-dev/noctalia-plugins",
   "description": "A `lively` wallpaper selector.",
@@ -14,7 +13,8 @@
   ],
   "entryPoints": {
     "main": "Main.qml",
-    "barWidget": "BarWidget.qml"
+    "barWidget": "BarWidget.qml",
+    "settings": "Settings.qml"
   },
   "dependencies": {
     "plugins": []
@@ -44,7 +44,10 @@
       "selected_filter": "images",
       "shear_factor": -0.25,
       "top_bar_height": 35,
-      "top_bar_radius": 10
+      "top_bar_radius": 10,
+      "show_image_type": true,
+      "show_image_name": true,
+      "show_top_bar": true
     }
   }
 }

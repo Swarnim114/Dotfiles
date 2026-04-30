@@ -6,9 +6,15 @@ uniform sampler2D tex;
 out vec4 fragColor;
 
 void main() {
-    vec4 c = texture(tex, v_texcoord);
-    c.r *= 1.0;
-    c.g *= 0.85;
-    c.b *= 0.65;
-    fragColor = c;
+  vec4 c = texture(tex, v_texcoord);
+
+  // Better balanced warm tone (no green cast)
+  c.r *= 1.04; // slight red boost
+  c.g *= 0.96; // reduce green a bit (important)
+  c.b *= 0.75; // stronger blue cut
+
+  // soften contrast slightly (easier on eyes)
+  c.rgb = mix(vec3(0.5), c.rgb, 0.97);
+
+  fragColor = c;
 }

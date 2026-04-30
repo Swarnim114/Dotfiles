@@ -1,55 +1,82 @@
 {
   "todos": [
     {
-      "id": 1775898800646,
-      "text": "de 9",
+      "id": 1777541102644,
+      "text": "VIVA prep",
       "completed": false,
-      "createdAt": "2026-04-11T09:13:20.646Z",
+      "createdAt": "2026-04-30T09:25:02.644Z",
       "pageId": 0,
       "priority": "medium",
       "details": ""
     },
     {
-      "id": 1775898799277,
-      "text": "de 8",
+      "id": 1777541089568,
+      "text": "class and homework",
       "completed": false,
-      "createdAt": "2026-04-11T09:13:19.277Z",
+      "createdAt": "2026-04-30T09:24:49.568Z",
       "pageId": 0,
       "priority": "medium",
       "details": ""
     },
     {
-      "id": 1775898797632,
-      "text": "de 7",
+      "id": 1777541082204,
+      "text": "bit manipulation 10 question and basics",
       "completed": false,
-      "createdAt": "2026-04-11T09:13:17.632Z",
+      "createdAt": "2026-04-30T09:24:42.204Z",
       "pageId": 0,
       "priority": "medium",
       "details": ""
     },
     {
-      "id": 1775898795636,
-      "text": "de  6",
+      "id": 1777458336643,
+      "text": "10 SQL problems",
       "completed": false,
-      "createdAt": "2026-04-11T09:13:15.636Z",
+      "createdAt": "2026-04-29T10:25:36.643Z",
       "pageId": 0,
       "priority": "medium",
       "details": ""
     },
     {
-      "id": 1775898793891,
-      "text": "de 5",
+      "id": 1777368407119,
+      "text": "Databases lec 1",
       "completed": false,
-      "createdAt": "2026-04-11T09:13:13.891Z",
+      "createdAt": "2026-04-28T09:26:47.119Z",
       "pageId": 0,
       "priority": "medium",
       "details": ""
     },
     {
-      "id": 1775898791534,
-      "text": "de 4",
-      "completed": false,
-      "createdAt": "2026-04-11T09:13:11.534Z",
+      "id": 1777458379153,
+      "text": "Leetcode 1 contest",
+      "completed": true,
+      "createdAt": "2026-04-29T10:26:19.153Z",
+      "pageId": 0,
+      "priority": "medium",
+      "details": ""
+    },
+    {
+      "id": 1777458368986,
+      "text": "Class 1",
+      "completed": true,
+      "createdAt": "2026-04-29T10:26:08.986Z",
+      "pageId": 0,
+      "priority": "medium",
+      "details": ""
+    },
+    {
+      "id": 1777458371001,
+      "text": "Class 2",
+      "completed": true,
+      "createdAt": "2026-04-29T10:26:11.001Z",
+      "pageId": 0,
+      "priority": "medium",
+      "details": ""
+    },
+    {
+      "id": 1777459438259,
+      "text": "refine hyprland",
+      "completed": true,
+      "createdAt": "2026-04-29T10:43:58.259Z",
       "pageId": 0,
       "priority": "medium",
       "details": ""
@@ -62,8 +89,8 @@
     }
   ],
   "current_page_id": 0,
-  "count": 6,
-  "completedCount": 0,
+  "count": 9,
+  "completedCount": 4,
   "showCompleted": true,
   "showBackground": true,
   "isExpanded": false,

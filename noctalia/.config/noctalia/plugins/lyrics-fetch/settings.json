@@ -1,0 +1,11 @@
+{
+  "widgetWidth": 301,
+  "scrollSpeed": 114,
+  "fontSize": 10,
+  "scrollMode": "always",
+  "hideWhenEmpty": false,
+  "adaptScrollSpeed": true,
+  "verticalRotationDirection": "auto",
+  "hideWhenPaused": false,
+  "fontFamily": "CaskaydiaCove Nerd Font"
+}

@@ -1,0 +1,151 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+########################################
+# Configuration
+########################################
+
+SCRIPT_DIR="$(dirname "$(realpath "$0")")"
+LOG_DIR="$SCRIPT_DIR/logs"
+
+TIMESTAMP="$(date +'%Y-%m-%d_%H-%M-%S')"
+LOG_FILE="$LOG_DIR/mcq_auto_$TIMESTAMP.log"
+
+IMG_FILE="/tmp/mcq_test_random.png"
+BEZIER_SCRIPT="/home/kalon/Dotfiles/hypr/.config/hypr/scripts/ai_enginnering/mouse_test.py"
+
+API_URL="http://13.206.144.87:9123/health"
+REQUEST_TIMEOUT=60
+
+########################################
+# Logging
+########################################
+
+mkdir -p "$LOG_DIR"
+
+log() {
+    echo "[$(date +'%Y-%m-%d %H:%M:%S')] $*" >> "$LOG_FILE"
+}
+
+fail() {
+    echo "❌ Error: $*" >&2
+    log "ERROR: $*"
+    exit 1
+}
+
+########################################
+# LED helpers
+########################################
+
+set_led() {
+    local path="$1"
+    local value="$2"
+
+    if [[ -w "$path" ]]; then
+        echo "$value" > "$path"
+    else
+        echo "$value" | sudo tee "$path" >/dev/null
+    fi
+}
+
+turn_off_all_leds() {
+    true
+}
+
+########################################
+# Cleanup
+########################################
+
+cleanup() {
+    rm -f "$IMG_FILE"
+}
+trap cleanup EXIT
+
+########################################
+# Start
+########################################
+
+log "Starting MCQ automation script"
+
+########################################
+# Screenshot using grim only
+########################################
+
+log "Taking screenshot using grim..."
+
+if ! grim "$IMG_FILE"; then
+    fail "grim screenshot failed"
+fi
+
+if [[ ! -f "$IMG_FILE" ]]; then
+    fail "Screenshot file not created"
+fi
+
+log "Screenshot saved to $IMG_FILE"
+
+########################################
+# Call API
+########################################
+
+log "Sending image to API"
+
+set +e
+API_RESPONSE=$(curl -s \
+    --max-time "$REQUEST_TIMEOUT" \
+    -X POST \
+    -F "file=@$IMG_FILE" \
+    "$API_URL")
+CURL_EXIT=$?
+set -e
+
+if [[ $CURL_EXIT -ne 0 ]]; then
+    fail "API request failed"
+fi
+
+if [[ -z "$API_RESPONSE" ]]; then
+    fail "Empty response from API"
+fi
+
+log "Raw API response: $API_RESPONSE"
+
+########################################
+# Parse answer
+########################################
+
+ANSWER=$(echo "$API_RESPONSE" | jq -r '.answer' | \
+    tr 'A-D' 'a-d' | \
+    grep -oE '[a-d](,[a-d])*' | \
+    head -n 1 || true)
+
+if [[ -z "$ANSWER" ]]; then
+    fail "Invalid answer format"
+fi
+
+log "Parsed answer: $ANSWER"
+
+########################################
+# Clipboard
+########################################
+
+if command -v wl-copy >/dev/null 2>&1; then
+    echo -n "$ANSWER" | wl-copy
+elif command -v xclip >/dev/null 2>&1; then
+    echo -n "$ANSWER" | xclip -selection clipboard
+else
+    fail "No clipboard utility found"
+fi
+
+########################################
+# Bezier signal
+########################################
+
+if [[ -f "$BEZIER_SCRIPT" ]]; then
+    log "Triggering mouse signal"
+    python "$BEZIER_SCRIPT" "$ANSWER" >>"$LOG_FILE" 2>&1
+else
+    log "Bezier script not found — skipping signal"
+fi
+
+echo "✅ Answer: $ANSWER"
+
+log "Script finished successfully"

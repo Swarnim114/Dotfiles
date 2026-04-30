@@ -1,0 +1,79 @@
+#!/bin/zsh
+
+# ==========================================
+# Full Auto Screenshot -> Qwen -> Parse MCQ
+# ==========================================
+
+# 1. Setup Logging
+SCRIPT_DIR="${0:a:h}"
+LOG_DIR="$SCRIPT_DIR/logs"
+mkdir -p "$LOG_DIR"
+
+TIMESTAMP=$(date +'%Y-%m-%d_%H-%M-%S')
+DEBUG_LOG="$LOG_DIR/debug_$TIMESTAMP.log"
+
+log_step() {
+    echo "[$(date +'%H:%M:%S')] $1" >> "$DEBUG_LOG"
+}
+
+echo "--- SESSION START: $TIMESTAMP ---" > "$DEBUG_LOG"
+
+# 2. Capture Screenshot
+FILENAME="/tmp/check-$TIMESTAMP.png"
+
+grim "$FILENAME"
+if [[ $? -ne 0 ]]; then
+    log_step "SCREENSHOT FAILED"
+    echo "❌ Failed to capture screenshot" > /dev/tty
+    exit 1
+fi
+
+log_step "IMAGE TAKEN"
+
+# Resize image for faster inference
+magick "$FILENAME" -resize 60% "$FILENAME"
+log_step "IMAGE RESIZED"
+
+# 3. Send to Qwen
+log_step "SENT TO QWEN"
+
+echo "⏳ Qwen is thinking..." > /dev/tty
+
+PROMPT="Read the MCQ from this image @$FILENAME
+Return ONLY final answer in exact format like {A} or {B} or {A,C}. No explanation."
+
+RAW_ANS=$(echo "$PROMPT" | qwen --model coder-model 2>>"$DEBUG_LOG")
+
+log_step "RESPONSE RECEIVED"
+
+echo "--- RAW QWEN RESPONSE ---" >> "$DEBUG_LOG"
+printf '%s\n' "$RAW_ANS" >> "$DEBUG_LOG"
+
+# 4. Validate Response
+if [[ -z "$RAW_ANS" || "$RAW_ANS" == "null" ]]; then
+    log_step "NO ANSWER RETURNED"
+    echo "❌ No answer returned by model" > /dev/tty
+    rm -f "$FILENAME"
+    exit 1
+fi
+
+# 5. Extract MCQ Answer Pattern
+FINAL_BLOCK=$(printf '%s' "$RAW_ANS" | grep -oE '\{[A-D](,[A-D])*\}' | tail -n 1)
+
+if [[ -z "$FINAL_BLOCK" ]]; then
+    log_step "ANSWER PARSE FAILED"
+    echo "❌ Could not parse valid answer format" > /dev/tty
+    rm -f "$FILENAME"
+    exit 1
+fi
+
+CLEAN_ANS=$(printf '%s' "$FINAL_BLOCK" | tr -d '{}')
+
+log_step "CLEANED ANSWER: $CLEAN_ANS"
+
+echo "✅ AI Answer: $CLEAN_ANS" > /dev/tty
+
+# 6. Cleanup
+rm -f "$FILENAME"
+
+echo "--- SESSION END ---" >> "$DEBUG_LOG"

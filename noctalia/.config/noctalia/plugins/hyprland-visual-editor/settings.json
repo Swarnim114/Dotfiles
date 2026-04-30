@@ -1,9 +1,0 @@
-{
-  "isSystemActive": true,
-  "borderSize": 2,
-  "overlayPath": "~/.cache/noctalia/HVE/overlay.conf",
-  "autoApply": true,
-  "activeAnimFile": "06_impacto_clasico.conf",
-  "activeBorderFile": "",
-  "activeShaderFile": ""
-}

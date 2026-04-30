@@ -1,0 +1,172 @@
+#!/bin/zsh
+
+# 1. Setup Absolute Logging
+SCRIPT_DIR="${0:a:h}"
+LOG_DIR="$SCRIPT_DIR/logs"
+mkdir -p "$LOG_DIR"
+TIMESTAMP=$(date +'%Y-%m-%d_%H-%M-%S')
+DEBUG_LOG="$LOG_DIR/debug_$TIMESTAMP.log"
+
+log_step() { echo "[$(date +'%H:%M:%S')] $1" >> "$DEBUG_LOG"; }
+echo "--- SESSION START: $TIMESTAMP ---" > "$DEBUG_LOG"
+
+# 2. Capture, Resize, and Encode
+FILENAME="/tmp/check-$TIMESTAMP.png"
+B64_TMP="/tmp/img_b64-$TIMESTAMP.txt"
+PAYLOAD_FILE="/tmp/payload-$TIMESTAMP.json"
+
+grim "$FILENAME"
+log_step "IMAGE TAKEN"
+
+magick "$FILENAME" -resize 60% "$FILENAME"
+log_step "IMAGE RESIZED"
+
+base64 -w 0 "$FILENAME" > "$B64_TMP"
+log_step "BASE64 GENERATED"
+
+# 3. LM Studio Vision Logic
+log_step "SENT TO LM STUDIO"
+echo "⏳ Gemma 4 is thinking..." > /dev/tty
+
+SYSTEM_PROMPT="Return ONLY final answer in exact format like {A} or {B} or {A,C}. No explanation."
+USER_PROMPT="Read the MCQ from image and return only correct option letters."
+
+jq -n \
+  --arg model "google/gemma-4-e4b" \
+  --arg system "$SYSTEM_PROMPT" \
+  --arg user "$USER_PROMPT" \
+  --rawfile img_data "$B64_TMP" \
+  '{
+    model: $model,
+    messages: [
+      { "role": "system", "content": $system },
+      { "role": "user", "content": [
+          { "type": "text", "text": $user },
+          { "type": "image_url", "image_url": { "url": ("data:image/png;base64," + $img_data) } }
+        ]
+      }
+    ],
+    temperature: 0.0,
+    max_tokens: 2048,
+    stream: false
+  }' > "$PAYLOAD_FILE"
+
+RAW_RESPONSE=$(curl -s --connect-timeout 5 --max-time 300 \
+    http://localhost:1234/v1/chat/completions \
+    -H "Content-Type: application/json" \
+    -d @"$PAYLOAD_FILE")
+
+log_step "RESPONSE RECEIVED"
+echo "--- RAW API RESPONSE ---" >> "$DEBUG_LOG"
+printf '%s\n' "$RAW_RESPONSE" >> "$DEBUG_LOG"
+
+# 4. Extract Answer
+RAW_ANS=$(printf '%s' "$RAW_RESPONSE" | jq -r '.choices[0].message.content // empty')
+
+if [[ -z "$RAW_ANS" || "$RAW_ANS" == "null" ]]; then
+    log_step "Content empty, checking reasoning_content..."
+    RAW_ANS=$(printf '%s' "$RAW_RESPONSE" | jq -r '.choices[0].message.reasoning_content // empty')
+fi
+
+if [[ -z "$RAW_ANS" || "$RAW_ANS" == "null" ]]; then
+    log_step "NO ANSWER RETURNED"
+    echo "❌ No answer returned by model" > /dev/tty
+    exit 1
+fi
+
+FINAL_BLOCK=$(printf '%s' "$RAW_ANS" | grep -oE '\{[A-D](,[A-D])*\}' | tail -n 1)
+
+if [[ -z "$FINAL_BLOCK" ]]; then
+    log_step "ANSWER PARSE FAILED"
+    echo "❌ Could not parse valid answer format" > /dev/tty
+    exit 1
+fi
+
+CLEAN_ANS=$(printf '%s' "$FINAL_BLOCK" | tr -d '{}')
+log_step "CLEANED ANSWER: $CLEAN_ANS"
+echo "✅ AI Answer: $CLEAN_ANS" > /dev/tty
+
+# 5. Bezier Mouse Logic
+if [[ -n "$CLEAN_ANS" ]]; then
+    log_step "MOUSE MOVEMENT BEGIN"
+
+python3 - "$CLEAN_ANS" << 'EOF'
+#!/usr/bin/env python3
+
+import sys
+import subprocess
+import time
+import random
+
+def get_cursor():
+    out = subprocess.check_output(
+        ["hyprctl", "cursorpos"],
+        text=True
+    ).strip()
+
+    x, y = out.split(", ")
+    return int(float(x)), int(float(y))
+
+def move_cursor(x, y):
+    subprocess.run(
+        ["hyprctl", "dispatch", "movecursor", str(x), str(y)],
+        stdout=subprocess.DEVNULL,
+        stderr=subprocess.DEVNULL
+    )
+
+def bezier_point(p0, p1, p2, t):
+    x = (1 - t) ** 2 * p0[0] + 2 * (1 - t) * t * p1[0] + t ** 2 * p2[0]
+    y = (1 - t) ** 2 * p0[1] + 2 * (1 - t) * t * p1[1] + t ** 2 * p2[1]
+    return x, y
+
+def bezier_move(x1, y1, x2, y2, duration=1.0, fps=144):
+    frames = int(duration * fps)
+
+    ctrl_x = (x1 + x2) / 2 + random.randint(-40, 40)
+    ctrl_y = (y1 + y2) / 2 + random.randint(-40, 40)
+
+    p0 = (x1, y1)
+    p1 = (ctrl_x, ctrl_y)
+    p2 = (x2, y2)
+
+    for i in range(frames + 1):
+        t = i / frames
+        x, y = bezier_point(p0, p1, p2, t)
+        move_cursor(round(x), round(y))
+        time.sleep(1 / fps)
+
+def signal(letter):
+    mapping = {
+        "A": (0, -250),
+        "B": (250, 0),
+        "C": (0, 250),
+        "D": (-250, 0)
+    }
+
+    if letter not in mapping:
+        return
+
+    dx, dy = mapping[letter]
+
+    cx, cy = get_cursor()
+    tx, ty = cx + dx, cy + dy
+
+    bezier_move(cx, cy, tx, ty, duration=1.0)
+    time.sleep(0.25)
+    bezier_move(tx, ty, cx, cy, duration=1.0)
+    time.sleep(0.3)
+
+if __name__ == "__main__":
+    raw = sys.argv[1].upper()
+    chars = [x.strip() for x in raw.split(",") if x.strip() in ["A", "B", "C", "D"]]
+
+    for ch in chars:
+        signal(ch)
+EOF
+
+    log_step "MOUSE MOVEMENT END"
+fi
+
+# Cleanup
+rm -f "$FILENAME" "$B64_TMP" "$PAYLOAD_FILE"
+echo "--- SESSION END ---" >> "$DEBUG_LOG"
