@@ -1,0 +1,76 @@
+{
+  "agent_buffer_font_size": 19.0,
+  "cli_default_open_behavior": "new_window",
+  "text_rendering_mode": "subpixel",
+  "proxy": "",
+  "project_panel": {
+    "dock": "left"
+  },
+  "outline_panel": {
+    "dock": "left"
+  },
+  "collaboration_panel": {
+    "dock": "left"
+  },
+  "git_panel": {
+    "dock": "left"
+  },
+  "agent": {
+    "tool_permissions": {
+      "tools": {
+        "search_web": {
+          "default": "allow"
+        }
+      }
+    },
+    "dock": "right",
+    "default_model": {
+      "effort": "low",
+      "provider": "zed.dev",
+      "model": "claude-sonnet-4-6",
+      "enable_thinking": true,
+    },
+    "favorite_models": [],
+    "model_parameters": [],
+  },
+  "vim_mode": false,
+  "autosave": "on_focus_change",
+  "session": {
+    "trust_all_worktrees": true,
+  },
+  "disable_ai": false,
+  "file_scan_exclusions": [
+    "**/.git",
+    "**/.svn",
+    "**/.hg",
+    "**/.jj",
+    "**/CVS",
+    "**/.DS_Store",
+    "**/Thumbs.db",
+    "**/.classpath",
+    "**/.settings",
+    "**/*.out",
+  ],
+  "icon_theme": {
+    "mode": "system",
+    "light": "Colored Zed Icons Theme Light",
+    "dark": "Material Icon Theme"
+  },
+  "agent_ui_font_size": 19.0,
+  "ui_font_family": "CaskaydiaCove Nerd Font Mono",
+  "buffer_font_family": "CaskaydiaCove Nerd Font Mono",
+  "ui_font_size": 18.0,
+  "buffer_font_size": 18.0,
+  "theme": "Ayu Light",
+  "format_on_save": "on",
+  "tab_size": 2,
+  "soft_wrap": "editor_width",
+  "languages": {
+    "JavaScript": {
+      "formatter": "prettier",
+    },
+    "TypeScript": {
+      "formatter": "prettier",
+    },
+  },
+}

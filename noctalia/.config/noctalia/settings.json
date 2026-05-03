@@ -130,6 +130,17 @@
                     "showBadge": true,
                     "showLabelsOnlyWhenOccupied": false,
                     "unfocusedIconsOpacity": 1
+                },
+                {
+                    "defaultSettings": {
+                        "autoStartBreaks": false,
+                        "autoStartWork": false,
+                        "longBreakDuration": 15,
+                        "sessionsBeforeLongBreak": 4,
+                        "shortBreakDuration": 5,
+                        "workDuration": 25
+                    },
+                    "id": "plugin:pomodoro"
                 }
             ],
             "left": [
@@ -216,7 +227,7 @@
                 },
                 {
                     "applyToAllMonitors": false,
-                    "displayMode": "onhover",
+                    "displayMode": "alwaysShow",
                     "iconColor": "none",
                     "id": "Brightness",
                     "textColor": "none"
@@ -229,7 +240,7 @@
                 },
                 {
                     "deviceNativePath": "BAT0",
-                    "displayMode": "icon-hover",
+                    "displayMode": "icon-always",
                     "hideIfIdle": false,
                     "hideIfNotDetected": true,
                     "id": "Battery",
@@ -278,7 +289,7 @@
     },
     "colorSchemes": {
         "darkMode": false,
-        "generationMethod": "vibrant",
+        "generationMethod": "tonal-spot",
         "manualSunrise": "06:30",
         "manualSunset": "18:30",
         "monitorForColors": "eDP-1",
@@ -373,7 +384,7 @@
         "deadOpacity": 1,
         "displayMode": "always_visible",
         "dockType": "attached",
-        "enabled": true,
+        "enabled": false,
         "floatingRatio": 0.79,
         "groupApps": true,
         "groupClickAction": "cycle",
@@ -763,6 +774,10 @@
             {
                 "enabled": true,
                 "id": "spicetify"
+            },
+            {
+                "enabled": true,
+                "id": "niri"
             }
         ],
         "enableUserTheming": false

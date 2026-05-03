@@ -1,0 +1,5 @@
+[2026-05-02 11:50:16] Starting MCQ automation script
+[2026-05-02 11:50:16] Taking screenshot using grim...
+[2026-05-02 11:50:17] Screenshot saved to /tmp/mcq_test_random.png
+[2026-05-02 11:50:17] Sending image to API
+[2026-05-02 11:51:17] ERROR: API request failed

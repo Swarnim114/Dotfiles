@@ -1,46 +1,10 @@
 {
   "todos": [
     {
-      "id": 1777541102644,
-      "text": "VIVA prep",
-      "completed": false,
-      "createdAt": "2026-04-30T09:25:02.644Z",
-      "pageId": 0,
-      "priority": "medium",
-      "details": ""
-    },
-    {
-      "id": 1777541089568,
-      "text": "class and homework",
-      "completed": false,
-      "createdAt": "2026-04-30T09:24:49.568Z",
-      "pageId": 0,
-      "priority": "medium",
-      "details": ""
-    },
-    {
       "id": 1777541082204,
       "text": "bit manipulation 10 question and basics",
       "completed": false,
       "createdAt": "2026-04-30T09:24:42.204Z",
-      "pageId": 0,
-      "priority": "medium",
-      "details": ""
-    },
-    {
-      "id": 1777458336643,
-      "text": "10 SQL problems",
-      "completed": false,
-      "createdAt": "2026-04-29T10:25:36.643Z",
-      "pageId": 0,
-      "priority": "medium",
-      "details": ""
-    },
-    {
-      "id": 1777368407119,
-      "text": "Databases lec 1",
-      "completed": false,
-      "createdAt": "2026-04-28T09:26:47.119Z",
       "pageId": 0,
       "priority": "medium",
       "details": ""
@@ -80,6 +44,33 @@
       "pageId": 0,
       "priority": "medium",
       "details": ""
+    },
+    {
+      "id": 1777541089568,
+      "text": "class and homework",
+      "completed": true,
+      "createdAt": "2026-04-30T09:24:49.568Z",
+      "pageId": 0,
+      "priority": "medium",
+      "details": ""
+    },
+    {
+      "id": 1777541102644,
+      "text": "VIVA prep",
+      "completed": true,
+      "createdAt": "2026-04-30T09:25:02.644Z",
+      "pageId": 0,
+      "priority": "medium",
+      "details": ""
+    },
+    {
+      "id": 1777543534759,
+      "text": "Train booking planning",
+      "completed": true,
+      "createdAt": "2026-04-30T10:05:34.759Z",
+      "pageId": 0,
+      "priority": "medium",
+      "details": ""
     }
   ],
   "pages": [
@@ -89,8 +80,8 @@
     }
   ],
   "current_page_id": 0,
-  "count": 9,
-  "completedCount": 4,
+  "count": 8,
+  "completedCount": 7,
   "showCompleted": true,
   "showBackground": true,
   "isExpanded": false,
