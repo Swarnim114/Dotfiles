@@ -3,7 +3,7 @@
 STATE_FILE="/tmp/hypr_focus_mode"
 
 toggle_bar() {
-    qs -c noctalia-shell ipc call bar toggle >/dev/null 2>&1 || true
+    noctalia msg bar-toggle
 }
 
 if [[ -f "$STATE_FILE" ]]; then

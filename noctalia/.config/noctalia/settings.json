@@ -184,18 +184,6 @@
                     "textColor": "none",
                     "useFixedWidth": false,
                     "visualizerType": "linear"
-                },
-                {
-                    "defaultSettings": {
-                        "adaptScrollSpeed": true,
-                        "fontSize": 10,
-                        "hideWhenEmpty": true,
-                        "scrollMode": "always",
-                        "scrollSpeed": 70,
-                        "verticalRotationDirection": "auto",
-                        "widgetWidth": 300
-                    },
-                    "id": "plugin:lyrics-fetch"
                 }
             ],
             "right": [
@@ -288,15 +276,15 @@
         ]
     },
     "colorSchemes": {
-        "darkMode": false,
-        "generationMethod": "tonal-spot",
+        "darkMode": true,
+        "generationMethod": "content",
         "manualSunrise": "06:30",
         "manualSunset": "18:30",
         "monitorForColors": "eDP-1",
-        "predefinedScheme": "Cream",
+        "predefinedScheme": "GruvboxAlt",
         "schedulingMode": "off",
         "syncGsettings": true,
-        "useWallpaperColors": true
+        "useWallpaperColors": false
     },
     "controlCenter": {
         "cards": [
@@ -424,10 +412,10 @@
     "general": {
         "allowPanelsOnScreenWithoutBar": true,
         "allowPasswordWithFprintd": true,
-        "animationDisabled": false,
+        "animationDisabled": true,
         "animationSpeed": 1.2,
         "autoStartAuth": true,
-        "avatarImage": "/home/kalon/Wallpapers/Anime-eyes.png",
+        "avatarImage": "/home/kalon/Wallpapers/NOUNS-giant-golf-ball.jpg",
         "boxRadiusRatio": 1,
         "clockFormat": "h:mm AP ",
         "clockStyle": "custom",
@@ -436,7 +424,7 @@
         "enableBlurBehind": true,
         "enableLockScreenCountdown": true,
         "enableLockScreenMediaControls": false,
-        "enableShadows": true,
+        "enableShadows": false,
         "forceBlackScreenCorners": false,
         "iRadiusRatio": 1.04,
         "keybinds": {
@@ -472,7 +460,7 @@
         ],
         "lockScreenTint": 0.06,
         "passwordChars": true,
-        "radiusRatio": 0.45,
+        "radiusRatio": 0.27,
         "reverseScroll": false,
         "scaleRatio": 1.05,
         "screenRadiusRatio": 0.16,
@@ -487,7 +475,7 @@
         "telemetryEnabled": true
     },
     "hooks": {
-        "colorGeneration": "/home/kalon/.config/hypr/scripts/matugen/files_matugen.sh $1 ; /home/kalon/.config/hypr/scripts/matugen/sioyek-matugen.sh $1 ; /home/kalon/.config/hypr/scripts/matugen/obsidian_matugen.sh $1 ;  /home/kalon/.config/hypr/scripts/matugen/spotify_matugen.sh $1 ; /home/kalon/.config/hypr/scripts/matugen/micro_matugen.sh",
+        "colorGeneration": "/home/kalon/.config/hypr/scripts/matugen/files_matugen.sh $1 ; /home/kalon/.config/hypr/scripts/matugen/sioyek-matugen.sh $1 ; /home/kalon/.config/hypr/scripts/matugen/obsidian_matugen.sh $1 ;  /home/kalon/.config/hypr/scripts/matugen/spotify_matugen.sh $1 ; /home/kalon/.config/hypr/scripts/matugen/micro_matugen.sh ; /home/kalon/.config/hypr/scripts/matugen/snappy-noctalia.sh $1",
         "darkModeChange": "",
         "enabled": true,
         "performanceModeDisabled": "",
@@ -500,7 +488,7 @@
     },
     "idle": {
         "customCommands": "[]",
-        "enabled": true,
+        "enabled": false,
         "fadeDuration": 5,
         "lockCommand": "",
         "lockTimeout": 660,
@@ -540,12 +528,12 @@
     },
     "nightLight": {
         "autoSchedule": false,
-        "dayTemp": "4117",
+        "dayTemp": "4543",
         "enabled": false,
-        "forced": false,
-        "manualSunrise": "06:30",
+        "forced": true,
+        "manualSunrise": "07:00",
         "manualSunset": "07:00",
-        "nightTemp": "3558"
+        "nightTemp": "4043"
     },
     "noctaliaPerformance": {
         "disableDesktopWidgets": true,

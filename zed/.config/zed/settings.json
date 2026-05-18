@@ -16,8 +16,15 @@
     "dock": "left"
   },
   "agent": {
+    "default_profile": "write",
     "tool_permissions": {
       "tools": {
+        "fetch": {
+          "default": "allow"
+        },
+        "terminal": {
+          "default": "allow"
+        },
         "search_web": {
           "default": "allow"
         }
@@ -25,7 +32,7 @@
     },
     "dock": "right",
     "default_model": {
-      "effort": "low",
+      "effort": "medium",
       "provider": "zed.dev",
       "model": "claude-sonnet-4-6",
       "enable_thinking": true,
@@ -61,7 +68,7 @@
   "buffer_font_family": "CaskaydiaCove Nerd Font Mono",
   "ui_font_size": 18.0,
   "buffer_font_size": 18.0,
-  "theme": "Ayu Light",
+  "theme": "Noctalia Dark",
   "format_on_save": "on",
   "tab_size": 2,
   "soft_wrap": "editor_width",

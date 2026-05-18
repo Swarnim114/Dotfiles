@@ -1,7 +1,7 @@
 {
-  "workDuration": 40,
-  "shortBreakDuration": 5,
-  "longBreakDuration": 15,
+  "workDuration": 180,
+  "shortBreakDuration": 20,
+  "longBreakDuration": 40,
   "sessionsBeforeLongBreak": 4,
   "autoStartBreaks": false,
   "autoStartWork": false,

@@ -1,73 +1,37 @@
 {
   "todos": [
     {
-      "id": 1777541082204,
-      "text": "bit manipulation 10 question and basics",
-      "completed": false,
-      "createdAt": "2026-04-30T09:24:42.204Z",
+      "id": 1778878351072,
+      "text": "Tree finish",
+      "completed": true,
+      "createdAt": "2026-05-15T20:52:31.072Z",
       "pageId": 0,
       "priority": "medium",
       "details": ""
     },
     {
-      "id": 1777458379153,
-      "text": "Leetcode 1 contest",
+      "id": 1778878391516,
+      "text": "2 topo sort hard question making 1 review",
       "completed": true,
-      "createdAt": "2026-04-29T10:26:19.153Z",
+      "createdAt": "2026-05-15T20:53:11.516Z",
       "pageId": 0,
       "priority": "medium",
       "details": ""
     },
     {
-      "id": 1777458368986,
-      "text": "Class 1",
+      "id": 1778878380105,
+      "text": "1 very hard question MUTLISOURCE BFS",
       "completed": true,
-      "createdAt": "2026-04-29T10:26:08.986Z",
+      "createdAt": "2026-05-15T20:53:00.105Z",
       "pageId": 0,
       "priority": "medium",
       "details": ""
     },
     {
-      "id": 1777458371001,
-      "text": "Class 2",
+      "id": 1778878361691,
+      "text": "2 question DFS BFS each",
       "completed": true,
-      "createdAt": "2026-04-29T10:26:11.001Z",
-      "pageId": 0,
-      "priority": "medium",
-      "details": ""
-    },
-    {
-      "id": 1777459438259,
-      "text": "refine hyprland",
-      "completed": true,
-      "createdAt": "2026-04-29T10:43:58.259Z",
-      "pageId": 0,
-      "priority": "medium",
-      "details": ""
-    },
-    {
-      "id": 1777541089568,
-      "text": "class and homework",
-      "completed": true,
-      "createdAt": "2026-04-30T09:24:49.568Z",
-      "pageId": 0,
-      "priority": "medium",
-      "details": ""
-    },
-    {
-      "id": 1777541102644,
-      "text": "VIVA prep",
-      "completed": true,
-      "createdAt": "2026-04-30T09:25:02.644Z",
-      "pageId": 0,
-      "priority": "medium",
-      "details": ""
-    },
-    {
-      "id": 1777543534759,
-      "text": "Train booking planning",
-      "completed": true,
-      "createdAt": "2026-04-30T10:05:34.759Z",
+      "createdAt": "2026-05-15T20:52:41.691Z",
       "pageId": 0,
       "priority": "medium",
       "details": ""
@@ -80,8 +44,8 @@
     }
   ],
   "current_page_id": 0,
-  "count": 8,
-  "completedCount": 7,
+  "count": 4,
+  "completedCount": 4,
   "showCompleted": true,
   "showBackground": true,
   "isExpanded": false,
