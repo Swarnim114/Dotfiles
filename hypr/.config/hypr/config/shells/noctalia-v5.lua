@@ -1,5 +1,6 @@
 _G.shell_daemon = "noctalia -d"
 _G.shell_launcher = "noctalia msg panel-toggle launcher"
+_G.shell_overview = "noctalia msg panel-toggle overview"
 _G.shell_settings = "noctalia msg settings-toggle"
 _G.shell_theme_toggle = "noctalia msg theme-mode-toggle"
 _G.shell_clipboard = "noctalia msg panel-toggle clipboard"
