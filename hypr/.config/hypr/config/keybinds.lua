@@ -30,10 +30,9 @@ hl.bind(mainMod .. " + SHIFT + P", hl.dsp.exec_cmd("gnome-calculator"))
 hl.bind(mainMod .. " + SHIFT + C", hl.dsp.exec_cmd("code ~/.config/"))
 
 -- ======= System & Power =======
-hl.bind(mainMod .. " + SHIFT + SPACE", hl.dsp.exec_cmd(_G.shell_powermenu))
+hl.bind(mainMod .. " + SHIFT + W", hl.dsp.exec_cmd(_G.shell_powermenu))
 hl.bind(mainMod .. " + SHIFT + Q", hl.dsp.exec_cmd(_G.shell_lock))
-hl.bind(mainMod .. " + CTRL + R", hl.dsp.exec_cmd("bash -c 'pkill waybar; sleep 0.5; waybar &'"))
-hl.bind(mainMod .. " + SHIFT + R", hl.dsp.exec_cmd("pkill qs; " .. _G.shell_daemon))
+hl.bind(mainMod .. " + SHIFT + R", hl.dsp.exec_cmd("pkill noctalia; " .. _G.shell_daemon))
 hl.bind(mainMod .. " + SHIFT + W", hl.dsp.exec_cmd("qs -c noctalia-shell ipc call plugin:wallcards toggle"))
 
 -- ======= Screenshot =======

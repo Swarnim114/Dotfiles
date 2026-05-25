@@ -8,10 +8,8 @@ fi
 
 FILENAME="$OUTPUT_DIR/screenshot-$(date +'%Y-%m-%d_%H-%M-%S').png"
 
-pkill slurp || hyprshot -m ${1:-region} --raw | tee "$FILENAME" | \
-  satty --filename - \
-    --early-exit \
-    --disable-notifications \
-    --actions-on-enter save-to-clipboard \
-    --copy-command 'wl-copy'
+# Kill any existing selection tool instances
+pkill slurp
 
+# Take screenshot, save to file, and send directly to clipboard
+hyprshot -m "${1:-region}" --raw | tee "$FILENAME" | wl-copy --type image/png
