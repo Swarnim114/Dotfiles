@@ -16,7 +16,7 @@
     "dock": "left"
   },
   "agent": {
-    "default_profile": "write",
+    "default_profile": "ask",
     "tool_permissions": {
       "tools": {
         "fetch": {
@@ -32,7 +32,7 @@
     },
     "dock": "right",
     "default_model": {
-      "effort": "low",
+      "effort": "high",
       "provider": "copilot_chat",
       "model": "gemini-3.1-pro-preview",
       "enable_thinking": true,
@@ -45,7 +45,7 @@
   "session": {
     "trust_all_worktrees": true,
   },
-  "disable_ai": true,
+  "disable_ai": false,
   "file_scan_exclusions": [
     "**/.git",
     "**/.svn",
@@ -69,7 +69,7 @@
   "ui_font_size": 18.0,
   "buffer_font_size": 18.0,
   "theme": "Noctalia Dark",
-  "format_on_save": "on",
+  "format_on_save": "off",
   "tab_size": 2,
   "soft_wrap": "editor_width",
   "languages": {
