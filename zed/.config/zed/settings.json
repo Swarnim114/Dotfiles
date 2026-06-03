@@ -45,7 +45,7 @@
   "session": {
     "trust_all_worktrees": true,
   },
-  "disable_ai": false,
+  "disable_ai": true,
   "file_scan_exclusions": [
     "**/.git",
     "**/.svn",
