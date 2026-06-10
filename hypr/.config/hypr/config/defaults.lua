@@ -11,8 +11,8 @@ _G.wallpaper = "~/.config/themes/current/background"
 
 -- Focus mode variables
 _G.normal_gaps_in = 6
-_G.normal_gaps_out = 8
-_G.normal_border_size = 3
+_G.normal_gaps_out = 6
+_G.normal_border_size = 1
 _G.normal_rounding = 0
 _G.normal_shadow = true
 
@@ -22,3 +22,7 @@ _G.focus_border_size = 1
 _G.focus_shadow = false
 
 require("config.shells.noctalia-v5")
+require("config.utils")
+require("config.matugen")
+
+
