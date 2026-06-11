@@ -23,7 +23,7 @@ hl.bind(mainMod .. " + S", hl.dsp.exec_cmd(_G.shell_settings))
 hl.bind(mainMod .. " + SHIFT + T", hl.dsp.exec_cmd(_G.shell_theme_toggle))
 hl.bind(mainMod .. " + P", hl.dsp.exec_cmd(_G.shell_processlist))
 hl.bind(mainMod .. " + D", hl.dsp.exec_cmd(_G.shell_launcher))
-hl.bind(mainMod .. " + TAB", hl.dsp.workspace.toggle_special("magic"))
+hl.bind( "ALT + TAB", hl.dsp.workspace.toggle_special("magic"))
 hl.bind(mainMod .. " + SHIFT + F", function() _G.toggle_focus_mode() end)
 hl.bind(mainMod .. " + V", hl.dsp.exec_cmd(_G.shell_clipboard))
 hl.bind(mainMod .. " + SHIFT + P", hl.dsp.exec_cmd("gnome-calculator"))
@@ -56,36 +56,16 @@ hl.bind(mainMod .. " + X", hl.dsp.layout("togglesplit"))
 hl.bind(mainMod .. " + mouse:272", hl.dsp.window.drag(), { mouse = true })
 hl.bind(mainMod .. " + mouse:273", hl.dsp.window.resize(), { mouse = true })
 
--- switcher
-hl.bind("ALT + Tab", hl.dsp.exec_cmd("snappy-switcher prev"))
 
 
--- Zoom
-local MAX_ZOOM = 5.0
-local MIN_ZOOM = 1
-local ZOOM_TOGGLE_FACTOR = 3.0
-
----@param offset number
----@return nil
-
-local function zoom(offset)
-    local current = hl.get_config("cursor.zoom_factor")
-    if offset ~= nil then
-        current = current + offset
-    elseif current ~= MIN_ZOOM then
-        current = MIN_ZOOM
-    else
-        current = ZOOM_TOGGLE_FACTOR
-    end
-    current = math.max(MIN_ZOOM, math.min(MAX_ZOOM, current))
-    hl.config({ cursor = { zoom_factor = current } })
-end
 
 
-hl.bind("SUPER + ALT + SPACE", function() zoom() end)
-hl.bind("SUPER +  ALT + mouse:272", function() zoom(0.5) end)
-hl.bind("SUPER + ALT +  mouse:273", function() zoom(-0.5) end)
 
+hl.bind("SUPER + ALT + SPACE", function() _G.zoom() end)
+hl.bind("SUPER + ALT + mouse:272", function() _G.zoom(0.5) end)
+hl.bind("SUPER + ALT +  mouse:273", function() _G.zoom(-0.5) end)
+hl.bind("SUPER +equal", function() _G.zoom(0.5) end)
+hl.bind("SUPER +minus", function() _G.zoom(-0.5) end)
 
 
 

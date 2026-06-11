@@ -73,3 +73,80 @@ _G.restart_trackpad = function()
     hl.exec_cmd("sudo modprobe -r i2c_hid_acpi && sudo modprobe i2c_hid_acpi")
 end
 
+-- ============================================================================
+-- Zoom Module (SOLID Principles)
+-- ============================================================================
+
+_G.ZOOM_CONFIG = {
+  min = 1.0,
+  max = 5.0,
+  toggle_factor = 3.0,
+  duration = 0.4,       -- seconds
+  steps = 30,           -- interpolation steps
+  easing = function(t)  -- easeOutCubic
+    local t2 = t - 1
+    return t2 * t2 * t2 + 1
+  end
+}
+
+-- Track zoom state ourselves — hl.get_config() returns the STATIC initial value,
+-- not the runtime value set by hl.config(), so we can't rely on it for toggle logic.
+local _current_zoom = _G.ZOOM_CONFIG.min
+local active_timer  = nil
+
+_G.animate_zoom = function(target_zoom)
+  -- Cancel any running animation
+  if active_timer then
+    active_timer:set_enabled(false)
+    active_timer = nil
+  end
+
+  if math.abs(_current_zoom - target_zoom) < 0.001 then
+    return
+  end
+
+  local start_zoom      = _current_zoom
+  local step            = 0
+  local step_delay_ms   = math.floor((_G.ZOOM_CONFIG.duration / _G.ZOOM_CONFIG.steps) * 1000)
+  local this_timer
+
+  this_timer = hl.timer(function()
+    step = step + 1
+    local t = step / _G.ZOOM_CONFIG.steps
+
+    if t >= 1 then
+      _current_zoom = target_zoom
+      hl.config({ cursor = { zoom_factor = _current_zoom } })
+      this_timer:set_enabled(false)
+      if active_timer == this_timer then
+        active_timer = nil
+      end
+      return
+    end
+
+    local eased = _G.ZOOM_CONFIG.easing(t)
+    _current_zoom = start_zoom + (target_zoom - start_zoom) * eased
+    hl.config({ cursor = { zoom_factor = _current_zoom } })
+  end, { timeout = step_delay_ms, type = "repeat" })
+
+  active_timer = this_timer
+end
+
+_G.zoom = function(offset)
+  local target
+
+  if offset ~= nil then
+    target = _current_zoom + offset
+  elseif math.abs(_current_zoom - _G.ZOOM_CONFIG.min) > 0.05 then
+    -- Currently zoomed in → zoom out
+    target = _G.ZOOM_CONFIG.min
+  else
+    -- Currently at min → zoom in
+    target = _G.ZOOM_CONFIG.toggle_factor
+  end
+
+  target = math.max(_G.ZOOM_CONFIG.min, math.min(_G.ZOOM_CONFIG.max, target))
+  _G.animate_zoom(target)
+end
+
+

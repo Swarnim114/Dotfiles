@@ -21,8 +21,8 @@ _G.focus_gaps_out = 0
 _G.focus_border_size = 1
 _G.focus_shadow = false
 
+
+
 require("config.shells.noctalia-v5")
 require("config.utils")
 require("config.matugen")
-
-
