@@ -1,3 +1,7 @@
+-- hl.workspace_rule({ workspace = "5", layout = "scrolling" })
+-- hl.workspace_rule({ workspace = "6", layout = "scrolling" })
+
+-- Your existing configuration
 hl.config({
   general = {
     layout = "dwindle"
@@ -13,17 +17,3 @@ hl.config({
     follow_focus = true
   }
 })
-
--- hl.gesture({
---   fingers = 4,
---   direction = "left",
---   action = "exec",
---   exec = "hyprctl dispatch layoutmsg 'move +col'"
--- })
-
--- hl.gesture({
---   fingers = 4,
---   direction = "right",
---   action = "exec",
---   exec = "hyprctl dispatch layoutmsg 'move -col'"
--- })

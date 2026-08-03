@@ -18,16 +18,22 @@ hl.bind(mainMod .. " + RETURN", hl.dsp.exec_cmd(_G.browser))
 hl.bind(mainMod .. " + F", hl.dsp.exec_cmd(_G.filemanager))
 hl.bind(mainMod .. " + M", hl.dsp.exec_cmd(_G.music))
 hl.bind(mainMod .. " + E", hl.dsp.exec_cmd(_G.editor))
+hl.bind(mainMod .. " + SHIFT + E", hl.dsp.exec_cmd(_G.draw))
 hl.bind(mainMod .. " + N", hl.dsp.exec_cmd(_G.notetaking))
 hl.bind(mainMod .. " + S", hl.dsp.exec_cmd(_G.shell_settings))
 hl.bind(mainMod .. " + SHIFT + T", hl.dsp.exec_cmd(_G.shell_theme_toggle))
 hl.bind(mainMod .. " + P", hl.dsp.exec_cmd(_G.shell_processlist))
 hl.bind(mainMod .. " + D", hl.dsp.exec_cmd(_G.shell_launcher))
-hl.bind( "ALT + TAB", hl.dsp.workspace.toggle_special("magic"))
+hl.bind("CTRL + TAB", hl.dsp.workspace.toggle_special("magic"))
+hl.bind("SUPER + TAB", function()
+    hl.plugin.scrolloverview.overview("toggle")
+end)
+hl.bind("ALT + Tab", hl.dsp.exec_cmd("noctalia msg window-switcher"))
 hl.bind(mainMod .. " + SHIFT + F", function() _G.toggle_focus_mode() end)
 hl.bind(mainMod .. " + V", hl.dsp.exec_cmd(_G.shell_clipboard))
 hl.bind(mainMod .. " + SHIFT + P", hl.dsp.exec_cmd("gnome-calculator"))
 hl.bind(mainMod .. " + SHIFT + C", hl.dsp.exec_cmd("zed ~/.config/hypr"))
+hl.bind(mainMod .. " + SHIFT + D", hl.dsp.exec_cmd("wayscriber --daemon-toggle"))
 
 -- ======= System & Power =======
 hl.bind(mainMod .. " + SHIFT + W", hl.dsp.exec_cmd(_G.shell_powermenu))
@@ -35,8 +41,9 @@ hl.bind(mainMod .. " + SHIFT + Q", hl.dsp.exec_cmd(_G.shell_lock))
 hl.bind(mainMod .. " + SHIFT + R", hl.dsp.exec_cmd("pkill noctalia; " .. _G.shell_daemon))
 
 -- ======= Screenshot =======
-hl.bind(mainMod .. " + A", function() _G.take_screenshot("region") end)
-hl.bind(mainMod .. " + SHIFT + A", function() _G.take_screenshot("full") end)
+hl.bind(mainMod .. " + A", hl.dsp.exec_cmd(_G.shell_screenshot_area))
+hl.bind(mainMod .. " + SHIFT + A", hl.dsp.exec_cmd(_G.shell_screenshot_full))
+hl.bind(mainMod .. " + CTRL + A", hl.dsp.exec_cmd("~/.config/hypr/scripts/test_api.sh"))
 
 -- ======= Window Actions =======
 hl.bind(mainMod .. " + Q", hl.dsp.window.close())
@@ -128,6 +135,7 @@ hl.bind(mainMod .. " + ALT + SHIFT + F1", hl.dsp.window.move({ workspace = "spec
 
 -- ======= Multimedia =======
 hl.bind("Print", function() _G.take_screenshot("full") end, { locked = true })
+hl.bind("SHIFT + Print", function() _G.take_screenshot_with_name() end, { locked = true })
 hl.bind("SUPER + SHIFT + S", hl.dsp.exec_cmd("hyprctl dispatch global caelestia:screenshotFreeze"))
 
 hl.bind("XF86AudioRaiseVolume", hl.dsp.exec_cmd(_G.shell_volume_up), { locked = true })
@@ -139,3 +147,5 @@ hl.bind("XF86MonBrightnessUp", hl.dsp.exec_cmd(_G.shell_brightness_up), { locked
 hl.bind("XF86MonBrightnessDown", hl.dsp.exec_cmd(_G.shell_brightness_down), { locked = true })
 
 hl.bind(mainMod .. " + B", hl.dsp.exec_cmd(_G.shell_wallpaper_next), { locked = true })
+
+-- hl.bind(mainMod .. "+ R", hl.dsp.exec_cmd("woomer"))

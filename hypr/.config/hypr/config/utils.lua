@@ -1,5 +1,9 @@
 local state_file = "/tmp/hypr_focus_mode"
 
+local function shell_quote(value)
+  return "'" .. tostring(value):gsub("'", "'\\''") .. "'"
+end
+
 local function file_exists(path)
   local f = io.open(path, "r")
   if f then
@@ -67,6 +71,62 @@ _G.take_screenshot = function(mode)
     local m = mode or "region"
     hl.exec_cmd("hyprshot -m " .. m .. " --raw | tee " .. filename .. " | wl-copy --type image/png")
   end
+end
+
+_G.take_screenshot_with_name = function()
+  local output_dir = os.getenv("HOME") .. "/Pictures/Screenshots"
+  local timestamp = os.date("%Y-%m-%d_%H-%M-%S")
+  local default_file = output_dir .. "/screenshot-" .. timestamp .. ".png"
+  local tmp_file = "/tmp/hypr-screenshot-" .. timestamp .. ".png"
+
+  local script = [[
+set -eu
+
+output_dir=$1
+default_file=$2
+tmp_file=$3
+
+mkdir -p "$output_dir"
+
+pkill slurp 2>/dev/null || true
+hyprshot -m region --raw > "$tmp_file"
+
+if [ ! -s "$tmp_file" ]; then
+  rm -f "$tmp_file"
+  exit 0
+fi
+
+name=$(zenity \
+  --entry \
+  --title="Name screenshot" \
+  --text="Screenshot name" \
+  --entry-text="$(basename "$default_file" .png)" 2>/dev/null || true)
+
+if [ -z "$name" ]; then
+  target="$default_file"
+else
+  case "$name" in
+    */*) target="$name" ;;
+    *) target="$output_dir/$name" ;;
+  esac
+fi
+
+case "$target" in
+  *.png) ;;
+  *) target="${target}.png" ;;
+esac
+
+cp "$tmp_file" "$target"
+wl-copy --type image/png < "$target"
+rm -f "$tmp_file"
+]]
+
+  hl.exec_cmd(
+    "sh -c " .. shell_quote(script) ..
+    " -- " .. shell_quote(output_dir) ..
+    " " .. shell_quote(default_file) ..
+    " " .. shell_quote(tmp_file)
+  )
 end
 
 _G.restart_trackpad = function()
@@ -148,5 +208,3 @@ _G.zoom = function(offset)
   target = math.max(_G.ZOOM_CONFIG.min, math.min(_G.ZOOM_CONFIG.max, target))
   _G.animate_zoom(target)
 end
-
-

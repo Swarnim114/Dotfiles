@@ -37,7 +37,7 @@ hl.window_rule({
   name = "windowrule-8",
   float = true,
   center = true,
-  match = { title = "^(imv|mpv|danmufloat|termfloat|nemo|ncmpcpp|Calculator|Volume Control|WebApp Installer|Proton VPN|Installer|satty|org.gnome.Nautilus|Blanket|Nautilus)$" }
+  match = { title = "^(imv|mpv|danmufloat|termfloat|nemo|ncmpcpp|Volume Control|WebApp Installer|Proton VPN|Installer|satty|org.gnome.Nautilus|Blanket|Nautilus)$" }
 })
 
 hl.window_rule({
