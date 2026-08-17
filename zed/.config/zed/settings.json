@@ -1,13 +1,92 @@
 {
+  "terminal": {
+    "dock": "bottom"
+  },
+  "use_system_window_tabs": false,
+  "bottom_dock_layout": "left_aligned",
+  "tabs": {
+    "file_icons": true,
+    "git_status": false
+  },
+  "tab_bar": {
+    "show": true
+  },
+  "title_bar": {
+    "show_project_items": true,
+    "show_branch_name": false,
+    "show_onboarding_banner": false,
+    "show_user_picture": false,
+    "show_user_menu": false,
+    "show_sign_in": false,
+    "show_branch_status_icon": false
+  },
+  "diagnostics": {
+    "button": true
+  },
+  "status_bar": {
+    "line_endings_button": false,
+    "cursor_position_button": false,
+    "active_language_button": true
+  },
+  "relative_line_numbers": "disabled",
+  "context_servers": {
+    "mcp-server-markitdown": {
+      "enabled": true,
+      "remote": false,
+      "settings": {
+        "package_version": "latest"
+      }
+    },
+    "mcp-server-github": {
+      "enabled": true,
+      "remote": false,
+      "settings": {}
+    },
+    "code-review-graph": {
+      "command": "/home/kalon/.local/share/pipx/venvs/code-review-graph/bin/python",
+      "args": [
+        "-m",
+        "code_review_graph",
+        "serve"
+      ],
+      "cwd": "/home/kalon/OpenSource/noctalia"
+    }
+  },
+  "show_edit_predictions": false,
+  "helix_mode": false,
+  "agent_servers": {
+    "claude-acp": {
+      "type": "registry"
+    },
+    "gemini": {
+      "type": "registry"
+    },
+    "codex-acp": {
+      "default_config_options": {
+        "reasoning_effort": "medium",
+        "model": "gpt-5.6-luna",
+        "mode": "agent-full-access"
+      },
+      "type": "registry"
+    },
+    "github-copilot-cli": {
+      "default_config_options": {
+        "model": "gpt-5.4-mini"
+      },
+      "type": "registry"
+    }
+  },
   "agent_buffer_font_size": 19.0,
   "cli_default_open_behavior": "new_window",
   "text_rendering_mode": "subpixel",
   "proxy": "",
   "project_panel": {
+    "button": true,
     "indent_size": 24.0,
     "dock": "left"
   },
   "outline_panel": {
+    "button": true,
     "indent_size": 24.0,
     "dock": "left"
   },
@@ -35,20 +114,19 @@
     },
     "dock": "right",
     "default_model": {
-      "effort": "low",
-      "provider": "copilot_chat",
-      "model": "gemini-3.1-pro-preview",
-      "enable_thinking": true,
+      "provider": "zed.dev",
+      "model": "gpt-5-mini",
+      "enable_thinking": false
     },
     "favorite_models": [],
-    "model_parameters": [],
+    "model_parameters": []
   },
   "vim_mode": false,
   "autosave": "on_focus_change",
   "session": {
-    "trust_all_worktrees": true,
+    "trust_all_worktrees": true
   },
-  "disable_ai": true,
+  "disable_ai": false,
   "file_scan_exclusions": [
     "**/.git",
     "**/.svn",
@@ -59,10 +137,10 @@
     "**/Thumbs.db",
     "**/.classpath",
     "**/.settings",
-    "**/*.out",
+    "**/*.out"
   ],
   "icon_theme": {
-    "mode": "light",
+    "mode": "dark",
     "light": "Colored Zed Icons Theme Light",
     "dark": "Colored Zed Icons Theme Dark"
   },
@@ -72,19 +150,22 @@
   "ui_font_size": 18.0,
   "buffer_font_size": 18.0,
   "theme": {
-    "mode": "system",
+    "mode": "dark",
     "light": "One Light",
-    "dark": "Colorizer"
+    "dark": "cendre"
   },
   "format_on_save": "off",
   "tab_size": 2,
   "soft_wrap": "editor_width",
   "languages": {
     "JavaScript": {
-      "formatter": "prettier",
+      "formatter": "prettier"
     },
     "TypeScript": {
-      "formatter": "prettier",
+      "formatter": "prettier"
     },
-  },
+    "Markdown": {
+      "enable_language_server": false
+    }
+  }
 }
