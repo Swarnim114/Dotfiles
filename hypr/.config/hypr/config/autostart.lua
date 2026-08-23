@@ -3,7 +3,6 @@ require("config.defaults")
 hl.on("hyprland.start", function()
   hl.exec_cmd(_G.shell_daemon)
   hl.exec_cmd("snappy-switcher --daemon")
-  
   hl.exec_cmd("fcitx5 -d &")
   hl.exec_cmd("bash -c 'wl-paste --watch cliphist store &'")
   hl.exec_cmd("/usr/lib/mate-polkit/polkit-mate-authentication-agent-1")

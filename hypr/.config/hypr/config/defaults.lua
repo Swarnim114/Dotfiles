@@ -12,7 +12,7 @@ _G.wallpaper = "~/.config/themes/current/background"
 
 -- Focus mode variables
 _G.normal_gaps_in = 4
-_G.normal_gaps_out = 8
+_G.normal_gaps_out = 6
 _G.normal_border_size = 2
 _G.normal_rounding = 0
 _G.normal_shadow = true
