@@ -1,0 +1,5 @@
+[statusBar]
+showAppNames = false
+showWorkspaceName = false
+useWorkspaceId = false
+

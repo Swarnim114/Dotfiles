@@ -1,0 +1,45 @@
+[workspaceBar]
+backgroundOpacity = 0.0
+deduplicateAppIcons = true
+enabled = false
+excludedBundleIDs = [
+  "com.openai.codex",
+  "com.eltima.cmd1.pro.mas",
+  "com.google.Chrome",
+  "dev.zed.Zed",
+  "com.apple.Safari",
+  "app.zen-browser.zen",
+  "org.mozilla.firefox",
+  "company.thebrowser.dia",
+  "com.spotify.client",
+  "com.hnc.Discord",
+  "com.mitchellh.ghostty",
+  "com.microsoft.Outlook",
+  "com.apple.MobileSMS",
+  "com.apple.systempreferences",
+  "net.imput.helium",
+  "net.kovidgoyal.kitty",
+  "com.anthropic.claudefordesktop"
+]
+height = 18.0
+hideEmptyWorkspaces = true
+hideInNativeFullscreen = false
+inactiveIconOpacity = 0.0
+notchActiveZoneWidth = 120.0
+notchMode = "splitActiveLeft"
+position = "overlappingMenuBar"
+reserveLayoutSpace = false
+revealHoldMilliseconds = 200.0
+revealModifier = "off"
+showAccentHighlights = true
+showFloatingWindows = false
+showItemBackgrounds = false
+showLabels = false
+solidBlackBackground = false
+systemStatsButton = false
+transparentBackground = true
+windowLevel = "status"
+xOffset = 0.0
+yOffset = 0.0
+
+[workspaceBar.iconOverrides]

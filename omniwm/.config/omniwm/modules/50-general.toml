@@ -1,0 +1,10 @@
+[general]
+animationsEnabled = false
+defaultLayoutType = "dwindle"
+hotkeysEnabled = true
+hyperKeyModifiers = "Control+Option+Shift+Command"
+ipcEnabled = true
+preventSleepEnabled = false
+systemHyperTrigger = "None"
+updateChecksEnabled = true
+

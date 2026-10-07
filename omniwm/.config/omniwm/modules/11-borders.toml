@@ -1,0 +1,9 @@
+[borders]
+enabled = false
+width = 2.0
+
+[borders.color]
+alpha = 1.0
+blue = 1.0
+green = 1.0
+red = 1.0

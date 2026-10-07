@@ -1,0 +1,9 @@
+[focus]
+crossesMonitorAtEdge = false
+followsMouse = true
+followsWindowToMonitor = false
+lockModifier = "off"
+moveCrossesMonitorAtEdge = false
+moveMouseToFocusedWindow = false
+raiseOnMouseFocus = false
+

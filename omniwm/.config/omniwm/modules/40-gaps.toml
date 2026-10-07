@@ -1,0 +1,9 @@
+[gaps]
+fullscreenUsesOuterGaps = true
+size = 4.0
+
+[gaps.outer]
+bottom = 8.0
+left = 8.0
+right = 8.0
+top = 6.0
